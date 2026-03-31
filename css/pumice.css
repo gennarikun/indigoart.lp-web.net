@@ -1,0 +1,1298 @@
+/* ==========================================
+   ワイン染め（パミス）ページ専用CSS
+   pumice/index.html で使用
+   ========================================== */
+
+/* Utilities */
+.pc-only { display: block; }
+.sp-only { display: none; }
+@media (max-width: 768px) {
+  .pc-only { display: none; }
+  .sp-only { display: block; }
+}
+
+/* 幅固定と余白削除 */
+.page-id-1810 .section.siteContent .container {
+	max-width: none !important;
+	padding: 0 !important;
+}
+
+.page-id-1810 .section.siteContent {
+	padding: 0;
+}
+
+.page-id-1810 {
+	margin: 0;
+}
+
+/* スマホでの意図せぬ横揺れ・右側の余白を【完全に】防ぐための記述 */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden !important;
+  max-width: 100vw;
+  width: 100vw;
+}
+
+/* ==========================================
+   1. Theme Reset & Dual Container Setup (必須)
+   ========================================== */
+.lp-wine-wrapper {
+  all: revert;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, "Hiragino Mincho ProN", "Yu Mincho", serif;
+  color: #333;
+  background-color: #FCFAF8;
+  /* Gentle: オフホワイトの背景 */
+
+  /* フルブリード強制拡張 */
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+  line-height: 2;
+  /* 行間を広めに */
+  position: relative;
+}
+
+/* Atmosphere Localized Bleed Effect */
+.lp-wine-section {
+  position: relative;
+  /* contained bleed - overflow hidden removed so it bleeds across sections naturally */
+}
+
+/* Ensure container content sits above the bleed */
+.lp-wine-section .lp-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Base style for bleeding blobs */
+.lp-wine-section::before,
+.lp-wine-section::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(50px);
+  pointer-events: none;
+  z-index: 0;
+  /* Force HW acceleration */
+  transform: translate3d(0, 0, 0);
+  opacity: 0.6;
+}
+
+/* Odd sections (e.g., Concept, Voice) */
+.lp-wine-section:nth-of-type(odd)::before {
+  top: 10%;
+  left: -5vw;
+  width: 50vw;
+  height: 50vw;
+  max-width: 400px;
+  max-height: 400px;
+  background: radial-gradient(circle, rgba(160, 60, 70, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lp-wine-section:nth-of-type(odd)::after {
+  bottom: 0%;
+  right: -5vw;
+  width: 60vw;
+  height: 60vw;
+  max-width: 500px;
+  max-height: 350px;
+  background: radial-gradient(circle, rgba(207, 169, 114, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+/* Even sections (e.g., Flow, FAQ) */
+.lp-wine-section:nth-of-type(even)::before {
+  top: -5%;
+  right: -5vw;
+  width: 55vw;
+  height: 55vw;
+  max-width: 450px;
+  max-height: 450px;
+  background: radial-gradient(circle, rgba(160, 60, 70, 0.35) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lp-wine-section:nth-of-type(even)::after {
+  bottom: 10%;
+  left: -5vw;
+  width: 40vw;
+  height: 40vw;
+  max-width: 300px;
+  max-height: 300px;
+  background: radial-gradient(circle, rgba(220, 190, 150, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lp-wine-wrapper {
+  overflow-x: hidden;
+  /* 横揺れ・スクロールの引っかかりを防止する最重要プロパティ */
+  position: relative;
+  width: 100%;
+}
+
+.lp-wine-wrapper * {
+  box-sizing: border-box;
+  position: relative;
+  /* 背景ブロブの上にコンテンツが来るように */
+  z-index: 1;
+}
+
+/* 要素のリセット */
+.lp-wine-wrapper h1,
+.lp-wine-wrapper h2,
+.lp-wine-wrapper h3,
+.lp-wine-wrapper h4,
+.lp-wine-wrapper ul,
+.lp-wine-wrapper ol,
+.lp-wine-wrapper li,
+.lp-wine-wrapper p {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  list-style: none;
+  font-weight: normal;
+}
+
+.lp-wine-wrapper p:empty {
+  display: none;
+}
+
+.lp-wine-wrapper h3::after {
+	display: none;
+}
+
+.lp-wine-wrapper a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.lp-wine-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.lp-wine-img-fluid {
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+/* Atmosphere: やわらかな角 */
+
+
+/* インナーコンテナ（コンテンツ幅制限） */
+.lp-wine-wrapper .lp-container {
+  max-width: 1300px;
+  /* 大余白を作るため少し狭める */
+  margin: 0 auto;
+  width: 100%;
+	padding: 0 16px;
+}
+
+/* ==========================================
+   2. Base Variables & Typography
+   ========================================== */
+:root {
+  --wine-primary: #722F37;
+  /* 深みのあるワインレッド */
+  --wine-dark: #3a1c1d;
+  --wine-accent: #cfa972;
+  /* シャンパンゴールド */
+  --text-main: #3a3a3a;
+  --text-light: #777777;
+  --white: #ffffff;
+
+  /* Spacing System (Gentle) */
+  --spacing-sm: 24px;
+  --spacing-md: 48px;
+  --spacing-lg: 80px;
+  --spacing-xl: 120px;
+  --spacing-xxl: 160px;
+}
+
+.lp-wine-wrapper .lp-wine-text {
+  font-size: 15px;
+  color: var(--text-main);
+  margin-bottom: var(--spacing-sm);
+  letter-spacing: 0.08em;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  /* 本文は読みやすいゴシック */
+}
+
+/* Typography Utility for Japanese line-breaking */
+.text-nowrap {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* Clean & Minimal: フォントサイズのジャンプ率を高く */
+.lp-wine-wrapper .lp-wine-concept-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--wine-primary);
+  margin-bottom: var(--spacing-md);
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}
+
+.lp-wine-wrapper .lp-wine-section-title-en {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  color: var(--wine-dark);
+  letter-spacing: 0.2em;
+  margin-bottom: 8px;
+}
+
+.lp-wine-wrapper .lp-wine-section-subtitle {
+  font-size: 14px;
+  text-align: center;
+  color: var(--text-light);
+  letter-spacing: 0.15em;
+  margin-bottom: var(--spacing-lg);
+}
+
+@media (min-width: 769px) {
+  .lp-wine-wrapper .lp-wine-text {
+    font-size: 16px;
+  }
+
+  .lp-wine-wrapper .lp-wine-concept-title {
+    font-size: 36px;
+  }
+
+  .lp-wine-wrapper .lp-wine-section-title-en {
+    font-size: 48px;
+  }
+}
+
+.lp-wine-wrapper .lp-wine-section {
+  padding: var(--spacing-xl) 0;
+  position: relative;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-wrapper .lp-wine-section {
+    padding: var(--spacing-xxl) 0;
+  }
+}
+
+/* ==========================================
+   3. Buttons (Vivid & Uniqueエッセンス: 押したくなる実体感)
+   ========================================== */
+.lp-wine-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 16px 36px;
+  border-radius: 4px;
+  /* Clean & Minimal */
+  font-size: 15px;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  letter-spacing: 0.1em;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  text-align: center;
+}
+
+.lp-wine-btn-primary {
+  background: var(--wine-primary);
+  color: var(--white);
+  border: 1px solid var(--wine-primary);
+  box-shadow: 0 10px 20px rgba(114, 47, 55, 0.15);
+  /* Vivid: 物理的な影 */
+  margin-top: var(--spacing-md);
+}
+
+.lp-wine-btn-primary:hover {
+  background: var(--white);
+  color: var(--wine-primary);
+  transform: translateY(-4px);
+  /* Vivid: 浮き上がる感覚 */
+  box-shadow: 0 15px 25px rgba(114, 47, 55, 0.25);
+}
+
+.lp-wine-btn-massive {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 480px;
+  background: var(--wine-primary);
+  color: #ffffff;
+  /* 強制的に白 */
+  padding: 24px 32px;
+  border-radius: 8px;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  transition: all 0.4s ease;
+  box-shadow: 0 8px 30px rgba(114, 47, 55, 0.4);
+  /* 背景に負けない影 */
+  text-decoration: none !important;
+}
+
+.lp-wine-btn-massive span,
+.lp-wine-btn-massive .btn-text,
+.lp-wine-btn-massive .btn-arrow {
+  color: #ffffff !important;
+  /* 子要素が継承しないように強制 */
+}
+
+.lp-wine-btn-massive .btn-arrow {
+  transition: transform 0.4s ease;
+}
+
+.lp-wine-btn-massive:hover {
+  background: var(--wine-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(114, 47, 55, 0.6);
+}
+
+.lp-wine-btn-massive:hover .btn-arrow {
+  transform: translateX(8px);
+}
+
+/* ==========================================
+   4. Hero Section (POWERFUL Typography + Atmosphere)
+   ========================================== */
+.lp-wine-hero {
+  position: relative;
+  min-height: max(100vh, 650px);
+  /* コンテンツ量が多いスマホでも背景が途切れないよう最小高さを保証 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.lp-wine-hero-bg {
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 110%;
+  /* アニメーションの余白を確保しつつ背景を確実に全域へ */
+  height: 110%;
+  background: url('../assets/shunta0044_wine_making_process_red_wine_-ar_169_-v_6.1_5999d954-d696-4f38-bfb5-25c16efb7387_1-e1732941628896.png') center/cover no-repeat;
+  z-index: 1;
+  /* Atmosphere: ゆっくり自然に動くKen Burnsエフェクト */
+  animation: wineHeroKenBurns 25s ease-in-out infinite alternate;
+}
+
+@keyframes wineHeroKenBurns {
+  0% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.08);
+    /* はみ出した110%の中でスケール */
+  }
+}
+
+.lp-wine-hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* モバイルでも文字がはっきり読めるようオーバーレイを暗めに調整 */
+  background: linear-gradient(180deg, rgba(58, 28, 29, 0.4) 0%, rgba(58, 28, 29, 0.7) 100%);
+  z-index: 2;
+}
+
+.lp-wine-hero .lp-container {
+  position: relative;
+  z-index: 3;
+}
+
+.lp-wine-hero-content {
+  text-align: center;
+}
+
+.lp-wine-hero-catch {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  margin-bottom: var(--spacing-sm);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* POWERFUL: 超巨大な英字タイポグラフィと日本語のコントラスト */
+.lp-wine-hero-title {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 11vw;
+  /* 画面幅に応じて巨大化 */
+  font-weight: 200;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: var(--spacing-lg);
+  color: var(--white);
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+.lp-wine-hero-title span {
+  display: block;
+  font-family: "Hiragino Mincho ProN", "Yu Mincho", serif;
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.1em;
+  margin-top: var(--spacing-md);
+  line-height: 1.6;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-hero-title {
+    font-size: 80px;
+  }
+
+  .lp-wine-hero-title span {
+    font-size: 28px;
+  }
+}
+
+/* Hero Info (Minimal) */
+.lp-wine-hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 40px;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.lp-wine-hero-info-divider {
+	width: 2px;
+	height: 80px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.lp-wine-hero-info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lp-wine-hero-info-note {
+  font-size: 14px;
+  /* スマホで確実に「読ませる」ための大きなサイズに変更 */
+  font-weight: 500;
+  opacity: 0.95;
+  margin-top: 8px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+}
+
+.lp-wine-hero-info-value {
+  font-size: 24px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.lp-wine-hero-info-value .tax {
+  font-size: 12px;
+}
+
+.lp-wine-hero-info-note {
+  font-family: 'Hiragino Kaku Gothic ProN', sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.05em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-hero-info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .lp-wine-hero-info-item {
+    align-items: flex-start;
+  }
+
+  .lp-wine-hero-info-note {
+    font-size: 14px;
+    text-align: left;
+  }
+}
+
+/* Scroll Indicator */
+.lp-wine-scroll-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.lp-wine-scroll-indicator span {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #fff;
+}
+
+.lp-wine-scroll-line {
+  width: 1px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.lp-wine-scroll-line::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  animation: scrollLine 2s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+}
+
+@keyframes scrollLine {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+
+/* ==========================================
+   5. Concept Section (Gentle Space + Fade in)
+   ========================================== */
+.lp-wine-concept-flex {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.lp-wine-concept-flex.lp-wine-concept-reverse {
+  position: relative;
+}
+
+/* 2枚目のコンセプトエリアにさらに背景の滲みを足す */
+.lp-wine-concept-flex.lp-wine-concept-reverse::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 80vw;
+  max-width: 600px;
+  max-height: 600px;
+  background: radial-gradient(circle, rgba(160, 60, 70, 0.35) 0%, rgba(207, 169, 114, 0.2) 40%, rgba(255, 255, 255, 0) 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* ご要望による「さらに足す」強い背景の滲み（右側から大きく被せる） */
+.lp-wine-concept-flex.lp-wine-concept-reverse::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: -30vw;
+  width: 100vw;
+  height: 100vw;
+  max-width: 800px;
+  max-height: 800px;
+  background: radial-gradient(circle, rgba(114, 47, 55, 0.45) 0%, rgba(207, 169, 114, 0.2) 50%, rgba(255, 255, 255, 0) 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.lp-wine-concept-image-area img {
+  border-radius: 8px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+  /* 柔らかい影 */
+}
+
+@media (min-width: 769px) {
+  .lp-wine-concept-flex {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-xxl);
+  }
+
+  .lp-wine-concept-flex.lp-wine-concept-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .lp-wine-concept-text-area {
+    flex: 1;
+    padding-right: 40px;
+  }
+
+  .lp-wine-concept-flex.lp-wine-concept-reverse .lp-wine-concept-text-area {
+    padding-right: 0;
+    padding-left: 40px;
+  }
+
+  .lp-wine-concept-image-area {
+    flex: 1;
+  }
+
+  /* Atmosphere: 画像を少しずらすアシンメトリー配置 */
+  .lp-wine-concept-image-area {
+    transform: translateY(40px);
+  }
+
+  .lp-wine-concept-flex.lp-wine-concept-reverse .lp-wine-concept-image-area {
+    transform: translateY(-40px);
+  }
+}
+
+
+/* ==========================================
+   6. Flow Section (Atmosphere Asymmetry Layout)
+   ========================================== */
+.lp-wine-flow-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  /* ステップ間に大余白 */
+  margin-top: var(--spacing-xl);
+}
+
+/* 3枚目（体験の流れ）にもさらに大きな滲み（Bleed）を被せて世界観を濃くする */
+.lp-wine-flow::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: -20vw;
+  width: 100vw;
+  height: 100vw;
+  max-width: 800px;
+  max-height: 800px;
+  background: radial-gradient(circle, rgba(160, 60, 70, 0.4) 0%, rgba(207, 169, 114, 0.2) 50%, rgba(255, 255, 255, 0) 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.lp-wine-flow::after {
+  content: '';
+  position: absolute;
+  bottom: 20%;
+  right: -20vw;
+  width: 120vw;
+  height: 120vw;
+  max-width: 900px;
+  max-height: 900px;
+  background: radial-gradient(circle, rgba(114, 47, 55, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.lp-wine-flow-row {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.lp-wine-flow-visual {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  /* 画像をはみ出させない（Clean） */
+}
+
+.lp-wine-flow-visual img {
+  aspect-ratio: 4/3;
+}
+
+.lp-wine-flow-step-num {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #fff;
+  /* Vivid: ちょっとしたノイズとしてのタグデザイン */
+  background: rgba(114, 47, 55, 0.8);
+  backdrop-filter: blur(4px);
+  padding: 4px 12px;
+  border-radius: 20px;
+}
+
+.lp-wine-flow-content {
+  padding-top: 16px;
+}
+
+.lp-wine-flow-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--wine-primary);
+  margin-bottom: 4px;
+}
+
+.lp-wine-flow-en {
+  display: block;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  color: var(--wine-accent);
+  letter-spacing: 0.15em;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-flow-row {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-lg);
+  }
+
+  .lp-wine-flow-row-reverse {
+    flex-direction: row-reverse;
+    /* アシンメトリーなZ型配置 */
+  }
+
+  .lp-wine-flow-visual {
+    flex: 6;
+  }
+
+  .lp-wine-flow-content {
+    flex: 4;
+    padding: 0 40px;
+  }
+
+  .lp-wine-flow-title {
+    font-size: 28px;
+  }
+
+  .lp-wine-flow-en {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+}
+
+
+/* ==========================================
+   7. Details & FAQ Section
+   ========================================== */
+.lp-wine-details-box {
+  background: #fff;
+  border: 1px solid rgba(114, 47, 55, 0.1);
+  padding: 40px 24px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.lp-wine-details-title {
+  font-size: 18px;
+  color: var(--wine-primary);
+  margin-bottom: 24px;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-details-box {
+    padding: 80px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .lp-wine-details-title {
+    font-size: 24px;
+  }
+}
+
+
+/* ==========================================
+   7. Voice / Review Section
+   ========================================== */
+.lp-wine-voice-grid {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-lg);
+  /* 画面端までのスワイプ領域を確保するテクニック */
+  margin-inline: -24px;
+  padding-inline: 24px;
+  padding-bottom: 32px;
+  /* スクロールバー＆影・フロート用の余白 */
+  /* スクロールバー非表示（Webkit） */
+  scrollbar-width: none;
+}
+
+.lp-wine-voice-grid::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-voice-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow-x: visible;
+    margin-inline: 0;
+    padding-inline: 0;
+  }
+}
+
+.lp-wine-voice-card {
+  scroll-snap-align: center;
+  width: 85vw;
+  /* スマホで確実な横幅を確保 */
+  max-width: 380px;
+  flex: 0 0 auto;
+  /* 潰れを防ぐ絶対指定 */
+  /* ガラスのように透けるリッチな「Atmosphere」デザイン */
+  background: rgba(255, 255, 255, 0.45);
+  padding: 32px;
+  /* スマホでもPCでも潰れない適切な余白に修正 */
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(114, 47, 55, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-voice-card {
+    min-width: auto;
+    width: auto;
+    max-width: none;
+    flex: none;
+    padding: 40px;
+    /* PCはある程度大きくても潰れない */
+  }
+
+  .lp-wine-voice-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(114, 47, 55, 0.12);
+  }
+}
+
+.lp-wine-voice-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lp-wine-voice-meta .stars {
+  color: #cfa972;
+  /* Champagne Gold */
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.lp-wine-voice-meta .age {
+  font-size: 13px;
+  color: var(--wine-dark);
+  font-weight: bold;
+}
+
+.lp-wine-voice-text {
+  margin-bottom: 0 !important;
+  font-style: italic;
+}
+
+
+/* ==========================================
+   8. FAQ & Access (Added Content)
+   ========================================== */
+.lp-wine-faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.lp-wine-faq-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: var(--spacing-sm) 0;
+}
+
+.lp-wine-faq-item:last-child {
+  border-bottom: none;
+}
+
+.lp-wine-faq-q {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--wine-primary);
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+	margin-left: 20px !important;
+	text-indent: -18px;
+}
+
+.lp-wine-wrapper .lp-wine-faq-a {
+    margin: 10px 0 0 20px !important;
+    text-indent: -18px;
+}
+
+.lp-wine-access-box {
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03);
+  padding: var(--spacing-md);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  /* Atmosphere: 背景のぼかし効果 */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.lp-wine-access-name {
+  font-size: 20px;
+  color: var(--wine-dark);
+  margin-bottom: 16px;
+}
+
+.lp-wine-access-map {
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-access-box {
+    flex-direction: row;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+  }
+
+  .lp-wine-access-info,
+  .lp-wine-access-map {
+    flex: 1;
+  }
+}
+
+
+
+/* ==========================================
+   8. Gallery Section (Infinite Scroll Marquee)
+   ========================================== */
+.lp-wine-gallery {
+  overflow: hidden;
+  padding-bottom: var(--spacing-xxl);
+}
+
+.lp-wine-gallery-marquee {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: var(--spacing-md);
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.lp-wine-gallery-track {
+  display: inline-flex;
+  gap: 16px;
+  padding: 0 16px;
+  /* JSアニメーション制御 / will-change でGPU合成レイヤーに乗せる */
+  will-change: transform;
+}
+
+.lp-wine-gallery-track img {
+  height: 250px;
+  width: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  /* Atmosphere: モノクロからの彩度復帰 */
+  filter: grayscale(40%);
+  transition: all 0.5s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.lp-wine-gallery-track img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  z-index: 10;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 769px) {
+  .lp-wine-gallery-track {
+    gap: 32px;
+    padding: 0 32px;
+  }
+
+  .lp-wine-gallery-track img {
+    height: 350px;
+  }
+}
+
+
+/* ==========================================
+   9. Final CTA
+   ========================================== */
+.lp-wine-cta {
+  background: var(--wine-bg-light);
+  padding: 120px 0;
+}
+
+.lp-wine-cta-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.lp-wine-cta-title {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--wine-primary);
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.lp-wine-cta-price {
+  margin-bottom: 40px;
+}
+
+.lp-wine-cta-price-label {
+  display: block;
+  font-size: 14px;
+  color: var(--text-light);
+  margin-bottom: 8px;
+}
+
+.lp-wine-cta-price-value {
+  font-size: 40px;
+  font-weight: 500;
+  color: var(--wine-dark);
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.lp-wine-cta-price-tax {
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+@media (min-width: 769px) {
+  .lp-wine-cta-title {
+    font-size: 40px;
+  }
+
+  .lp-wine-cta-price-value {
+    font-size: 56px;
+  }
+}
+
+
+/* ==========================================
+   10. Color Section
+   ========================================== */
+/* .lp-wine-color uses existing .lp-wine-concept-flex layout - no extra styles needed */
+
+
+/* ==========================================
+   11. Durability Section
+   ========================================== */
+.lp-wine-durability-inner {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 16px;
+  padding: 40px 16px;
+  box-shadow: 0 12px 40px rgba(114, 47, 55, 0.08);
+  text-align: center;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-durability-inner {
+    padding: 64px 60px;
+  }
+}
+
+.lp-wine-durability-lead {
+  margin-bottom: var(--spacing-md) !important;
+  line-height: 2;
+}
+
+.lp-wine-durability-points {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: var(--spacing-md) auto;
+  text-align: left;
+  max-width: 340px;
+}
+
+.lp-wine-durability-point {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lp-wine-durability-check {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--wine-primary);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.lp-wine-durability-label {
+  font-size: 16px;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: var(--text-main);
+  letter-spacing: 0.05em;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-durability-label {
+    font-size: 18px;
+  }
+}
+
+.lp-wine-durability-tagline {
+  margin-top: var(--spacing-md) !important;
+  margin-bottom: 0 !important;
+  font-size: 15px;
+  color: var(--text-light);
+  letter-spacing: 0.1em;
+}
+
+
+/* ==========================================
+   12. Recommend Section
+   ========================================== */
+.lp-wine-recommend-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-top: var(--spacing-lg);
+}
+
+.lp-wine-recommend-card {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-left: 1px solid rgba(255, 255, 255, 1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 16px;
+  box-shadow: 0 12px 32px rgba(114, 47, 55, 0.08);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 600px) {
+  .lp-wine-recommend-card {
+    width: calc(50% - 24px);
+  }
+}
+
+@media (min-width: 769px) {
+  .lp-wine-recommend-card {
+    width: calc(33.333% - 32px);
+    max-width: 340px;
+  }
+
+  .lp-wine-recommend-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(114, 47, 55, 0.12);
+  }
+}
+
+.lp-wine-recommend-icon {
+  width: 48px;
+  height: 48px;
+  color: var(--wine-primary);
+  flex-shrink: 0;
+}
+.lp-wine-recommend-icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.lp-wine-recommend-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--wine-primary);
+  letter-spacing: 0.05em;
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-recommend-title {
+    font-size: 19px;
+  }
+}
+
+.lp-wine-recommend-card .lp-wine-text {
+  margin-bottom: 0 !important;
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.8;
+}
+
+@media (min-width: 769px) {
+  .lp-wine-recommend-card .lp-wine-text {
+    font-size: 15px;
+  }
+}
+
+
+/* ==========================================
+   13. Animations (Atmosphere base)
+   ========================================== */
+.lp-wine-fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(5px);
+  /* Atmosphere: ぼかしからの出現 */
+  transition: opacity 1.2s cubic-bezier(0.25, 1, 0.5, 1),
+    transform 1.2s cubic-bezier(0.25, 1, 0.5, 1),
+    filter 1.2s ease-out;
+}
+
+.lp-wine-fade-in {
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.lp-wine-fade-up.visible,
+.lp-wine-fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}

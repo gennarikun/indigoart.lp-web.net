@@ -1,0 +1,1969 @@
+/* ==========================================
+   シルクスクリーンページ専用CSS
+   silkscreen/index.html で使用
+   ========================================== */
+
+/* Utilities */
+.pc-only {
+  display: block;
+}
+
+.sp-only {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .pc-only {
+    display: none;
+  }
+
+  .sp-only {
+    display: block;
+  }
+}
+
+/* 幅固定と余白削除 */
+.page-id-1755 .section.siteContent .container {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.page-id-1755 .section.siteContent {
+  padding: 0;
+}
+
+.page-id-1755 {
+  margin: 0;
+}
+
+/* ==========================================
+   CSS Reset & Base Styles (WordPress対策)
+   ========================================== */
+/* 1. 親箱のテーマ干渉を無効化 */
+.lp-indigo-wrapper {
+  all: revert;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "游ゴシック", "Yu Gothic", "Meiryo", sans-serif;
+  color: #e8eef9;
+  background: linear-gradient(180deg, #0a1628 0%, #0f2044 10%, #152d5a 25%, #1a3a6e 40%, #1e4580 55%, #1a3a6e 70%, #152d5a 85%, #0f2044 100%);
+  font-size: 18px;
+}
+
+/* 2. 子要素の計算ルール統一 */
+.lp-indigo-wrapper * {
+  box-sizing: border-box;
+}
+
+/* 3. デフォルトスタイル抹殺（見出し・リスト・Pタグ） */
+.lp-indigo-wrapper h1,
+.lp-indigo-wrapper h2,
+.lp-indigo-wrapper h3,
+.lp-indigo-wrapper h4,
+.lp-indigo-wrapper h5,
+.lp-indigo-wrapper h6,
+.lp-indigo-wrapper ul,
+.lp-indigo-wrapper ol,
+.lp-indigo-wrapper li,
+.lp-indigo-wrapper p {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  list-style: none;
+  font-weight: normal;
+}
+
+.lp-indigo-wrapper h3::after {
+  display: none;
+  position: unset;
+}
+
+/* 4. 空Pタグ対策 */
+.lp-indigo-wrapper p:empty {
+  display: none;
+}
+
+.lp-indigo-wrapper a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.lp-indigo-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ==========================================
+   Container
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-container {
+    padding: 0;
+  }
+}
+
+/* ==========================================
+   Hero Section (藍染らしい背景パターン)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 400px;
+  max-height: 600px;
+  background:
+    linear-gradient(135deg, rgba(15, 37, 64, 0.95) 0%, rgba(26, 58, 82, 0.9) 50%, rgba(44, 79, 111, 0.85) 100%),
+    repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.02) 10px, rgba(255, 255, 255, 0.02) 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
+}
+
+
+/* 渦巻き絞り染めパターン */
+.lp-indigo-wrapper .lp-indigo-hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background:
+    radial-gradient(circle at 20% 30%, rgba(91, 126, 216, 0.4) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(44, 79, 189, 0.4) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(122, 156, 230, 0.3) 0%, transparent 50%);
+  animation: rotate 60s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: url('../assets/02f460a5.jpg') center/cover;
+  opacity: 0.15;
+  mix-blend-mode: overlay;
+}
+
+.lp-indigo-wrapper .lp-indigo-hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding: 40px 12px;
+}
+
+.lp-indigo-wrapper .lp-indigo-hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: 0.05em;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-hero-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-hero-title {
+    font-size: 32px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-hero-subtitle {
+    font-size: 16px;
+  }
+}
+
+/* ==========================================
+   Concept Section
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-concept {
+  padding: 80px 0;
+  background: transparent;
+}
+
+.lp-indigo-wrapper .lp-indigo-concept-text {
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-concept {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-concept-text {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+/* ==========================================
+   Silk Screen Explanation (NEW)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-explanation-section {
+  padding: 80px 0;
+  background: linear-gradient(180deg,
+      rgba(26, 58, 110, 0.3) 0%,
+      rgba(30, 69, 128, 0.4) 50%,
+      rgba(26, 58, 110, 0.3) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+/* 叢雲染めパターン */
+.lp-indigo-wrapper .lp-indigo-explanation-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(90deg,
+      transparent 0%,
+      rgba(65, 105, 225, 0.05) 20%,
+      rgba(91, 126, 216, 0.08) 40%,
+      rgba(65, 105, 225, 0.05) 60%,
+      transparent 80%);
+  animation: wave 20s ease-in-out infinite;
+}
+
+@keyframes wave {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(25%);
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-explanation-content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lp-indigo-wrapper .lp-indigo-explanation-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: rgba(155, 186, 240, 1);
+}
+
+.lp-indigo-wrapper .lp-indigo-explanation-text {
+  font-size: 1em;
+  line-height: 2;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-explanation-section {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-explanation-title {
+    font-size: 22px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-explanation-text {
+    font-size: 1em;
+    text-align: left;
+  }
+}
+
+/* ==========================================
+   Info Cards with SVG Icons
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-info-section {
+  padding: 60px 12px;
+  background:
+    linear-gradient(135deg,
+      rgba(30, 69, 128, 0.3) 0%,
+      rgba(21, 45, 90, 0.4) 100%),
+    repeating-linear-gradient(45deg,
+      transparent,
+      transparent 10px,
+      rgba(65, 105, 225, 0.05) 10px,
+      rgba(65, 105, 225, 0.05) 20px);
+}
+
+.lp-indigo-wrapper .lp-indigo-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 36px 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+/* 立体感を追加 */
+.lp-indigo-wrapper .lp-indigo-info-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transition: left 0.5s;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-card:hover::before {
+  left: 100%;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(65, 105, 225, 0.2);
+}
+
+.lp-indigo-wrapper .lp-indigo-info-card-highlight {
+  background: linear-gradient(135deg, #4169E1 0%, #2c4fbd 100%);
+  color: #fff;
+  box-shadow: 0 8px 32px rgba(65, 105, 225, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-info-card-highlight:hover {
+  box-shadow: 0 16px 48px rgba(65, 105, 225, 0.4);
+}
+
+/* SVG Icons (replacing emojis) */
+.lp-indigo-wrapper .lp-indigo-info-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+/* Clock Icon */
+.lp-indigo-wrapper .lp-indigo-icon-clock::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%234169E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>') center/contain no-repeat;
+}
+
+/* People Icon */
+.lp-indigo-wrapper .lp-indigo-icon-people::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="%234169E1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>') center/contain no-repeat;
+}
+
+/* Coin Icon (for highlight card) - White version */
+.lp-indigo-wrapper .lp-indigo-info-card-highlight .lp-indigo-wrapper .lp-indigo-icon-yen::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('../assets/34e633e2.png') center/contain no-repeat;
+}
+
+/* Coin Icon - Regular (Blue) */
+.lp-indigo-wrapper .lp-indigo-icon-yen::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('../assets/34e633e2.png') center/contain no-repeat;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-icon.lp-indigo-icon-yen {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 8px;
+}
+
+
+.lp-indigo-wrapper .lp-indigo-info-label {
+  font-size: 18px;
+  margin-bottom: 8px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-info-label {
+    font-size: 16px;
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-info-card-highlight .lp-indigo-wrapper .lp-indigo-info-label {
+  opacity: 0.95;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-value {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-note {
+  font-size: 12px;
+  margin-top: 8px;
+  opacity: 0.7;
+}
+
+.lp-indigo-wrapper .lp-indigo-tax {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-info-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-info-card {
+    padding: 28px 20px;
+  }
+}
+
+/* 料金セクション新レイアウト */
+.lp-indigo-wrapper .lp-indigo-info-grid-new {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-side {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.lp-indigo-wrapper .lp-indigo-info-side .lp-indigo-wrapper .lp-indigo-info-card {
+  flex: 1;
+}
+
+/* 料金詳細カード */
+.lp-indigo-wrapper .lp-indigo-price-detail {
+  text-align: center;
+  padding: 40px 36px !important;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-total {
+  font-size: 48px !important;
+  margin-bottom: 24px;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-breakdown {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 20px;
+  margin-top: 8px;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lp-indigo-wrapper .lp-indigo-price-row:last-child {
+  border-bottom: none;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-row-note {
+  justify-content: center;
+  border-bottom: none;
+  padding: 6px 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-row-note .lp-indigo-wrapper .lp-indigo-price-item {
+  font-size: 13px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-item {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-amount {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-product {
+  margin-top: 20px;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-product span {
+  font-size: 16px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.lp-indigo-wrapper .lp-indigo-price-product strong {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-info-grid-new {
+    grid-template-columns: 1fr;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-price-total {
+    font-size: 36px !important;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-price-detail {
+    padding: 28px 20px !important;
+  }
+}
+
+/* ==========================================
+   Section Title
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-section-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 56px;
+  color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.lp-indigo-wrapper .lp-indigo-section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4));
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-section-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+}
+
+/* ==========================================
+   Experience Flow (立体感を追加)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-flow-section {
+  padding: 80px 0;
+  background: transparent;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  margin-bottom: 80px;
+  align-items: start;
+  position: relative;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item:last-child {
+  margin-bottom: 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item-reverse {
+  direction: rtl;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item-reverse>* {
+  direction: ltr;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(65, 105, 225, 0.1), transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item:hover .lp-indigo-wrapper .lp-indigo-flow-image::after {
+  opacity: 1;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item:hover .lp-indigo-wrapper .lp-indigo-flow-image img {
+  transform: scale(1.05);
+}
+
+/* 立体感: テキストを画像に重ねる */
+.lp-indigo-wrapper .lp-indigo-flow-content {
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  margin-top: -40px;
+  position: relative;
+  z-index: 2;
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-item:hover .lp-indigo-wrapper .lp-indigo-flow-content {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(65, 105, 225, 0.25);
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-number {
+  display: inline-block;
+  background: linear-gradient(135deg, #4169E1, #2c4fbd);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.lp-indigo-wrapper .lp-indigo-flow-text {
+  font-size: 1em;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-flow-section {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-flow-item {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 60px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-flow-item-reverse {
+    direction: ltr;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-flow-image img {
+    height: 250px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-flow-content {
+    margin-top: -20px;
+    padding: 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-flow-title {
+    font-size: 20px;
+  }
+}
+
+/* ==========================================
+   Material Selection (Enhanced)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-material-section {
+  padding: 80px 0;
+  background:
+    radial-gradient(circle at 20% 80%, rgba(65, 105, 225, 0.15) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(91, 126, 216, 0.15) 0%, transparent 50%),
+    rgba(15, 32, 68, 0.5);
+}
+
+.lp-indigo-wrapper .lp-indigo-material-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-bottom: 48px;
+  align-items: stretch;
+}
+
+.lp-indigo-wrapper .lp-indigo-material-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 0.4s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+}
+
+.lp-indigo-wrapper .lp-indigo-material-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* 手ぬぐい RECOMMENDED - 強調スタイル */
+.lp-indigo-wrapper .lp-indigo-material-recommended {
+  border: 3px solid #4169E1;
+  box-shadow: 0 8px 32px rgba(65, 105, 225, 0.25);
+  transform: scale(1.02);
+}
+
+.lp-indigo-wrapper .lp-indigo-material-recommended:hover {
+  transform: scale(1.05) translateY(-8px);
+  box-shadow: 0 16px 56px rgba(65, 105, 225, 0.35);
+}
+
+/* グローエフェクト */
+.lp-indigo-wrapper .lp-indigo-material-recommended::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  background: linear-gradient(45deg, #4169E1, #2c4fbd, #4169E1);
+  border-radius: 16px;
+  z-index: -1;
+  opacity: 0.3;
+  filter: blur(8px);
+  animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-material-badge-large {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%);
+  color: #fff;
+  padding: 12px 32px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 700;
+  z-index: 2;
+  box-shadow: 0 6px 20px rgba(255, 71, 87, 0.4);
+  animation: pulse 2s ease-in-out infinite;
+  white-space: nowrap;
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+
+  50% {
+    transform: translateX(-50%) scale(1.05);
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-material-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.lp-indigo-wrapper .lp-indigo-material-name {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 24px 28px 12px;
+  color: rgba(155, 186, 240, 1);
+}
+
+.lp-indigo-wrapper .lp-indigo-material-recommended .lp-indigo-wrapper .lp-indigo-material-name {
+  font-size: 24px;
+}
+
+.lp-indigo-wrapper .lp-indigo-material-desc {
+  font-size: 18px;
+  padding: 0 28px 28px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  flex: 1;
+}
+
+.lp-indigo-wrapper .lp-indigo-notice {
+  background: linear-gradient(135deg, #fff3cd 0%, #ffe69c 100%);
+  border: 2px solid #ffc107;
+  border-radius: 16px;
+  padding: 28px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 4px 16px rgba(255, 193, 7, 0.2);
+}
+
+.lp-indigo-wrapper .lp-indigo-notice-icon {
+  font-size: 36px;
+  flex-shrink: 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-notice-content {
+  flex: 1;
+}
+
+.lp-indigo-wrapper .lp-indigo-notice-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #856404;
+}
+
+.lp-indigo-wrapper .lp-indigo-notice-text {
+  font-size: 16px;
+  color: #856404;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-material-section {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-material-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-material-recommended {
+    transform: scale(1);
+  }
+
+  .lp-indigo-wrapper .lp-indigo-material-image {
+    height: 220px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-material-badge-large {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
+}
+
+/* ==========================================
+   Gallery (Enhanced Depth)
+   ========================================== */
+/* ==========================================
+   Gallery (Infinite Loop Marquee)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-gallery-section {
+  padding: 80px 0;
+  background: rgba(10, 22, 40, 0.4);
+  overflow: hidden;
+}
+
+.lp-indigo-wrapper .lp-indigo-gallery-marquee {
+  overflow: hidden;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.lp-indigo-wrapper .lp-indigo-gallery-track {
+  display: flex;
+  gap: 24px;
+  width: max-content;
+  animation: marquee-scroll 45s linear infinite;
+}
+
+.lp-indigo-wrapper .lp-indigo-gallery-track img {
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ホバー停止なし - 常に流れ続ける */
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-gallery-section {
+    padding: 60px 0;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-gallery-track img {
+    width: 260px;
+    height: 195px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-gallery-track {
+    gap: 16px;
+    animation-duration: 45s;
+  }
+}
+
+/* ==========================================
+   Testimonials (Enhanced)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-testimonials-section {
+  padding: 80px 0;
+  background:
+    linear-gradient(135deg, rgba(26, 58, 110, 0.4) 0%, rgba(21, 45, 90, 0.5) 100%);
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-card {
+  background: rgba(255, 255, 255, 0.06);
+  padding: 36px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 4px solid rgba(91, 126, 216, 0.8);
+  will-change: transform;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-text {
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 24px;
+  font-style: italic;
+  position: relative;
+  padding-left: 20px;
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-text::before {
+  content: '"';
+  position: absolute;
+  left: 0;
+  top: -8px;
+  font-size: 48px;
+  color: rgba(91, 126, 216, 0.4);
+  opacity: 0.2;
+  font-family: Georgia, serif;
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(155, 186, 240, 0.9);
+}
+
+.lp-indigo-wrapper .lp-indigo-testimonial-stars {
+  font-size: 16px;
+  color: #ffc107;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-testimonials-section {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-testimonial-card {
+    padding: 28px;
+  }
+}
+
+/* ==========================================
+   FAQ (All Expanded)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-faq-section {
+  padding: 80px 0;
+  background: transparent;
+}
+
+.lp-indigo-wrapper .lp-indigo-faq-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-faq-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+}
+
+
+.lp-indigo-wrapper .lp-indigo-faq-item {
+  margin-bottom: 36px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.lp-indigo-wrapper .lp-indigo-faq-item:hover {
+  box-shadow: 0 6px 32px rgba(65, 105, 225, 0.15);
+  transform: translateX(4px);
+}
+
+.lp-indigo-wrapper .lp-indigo-faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-faq-question {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(155, 186, 240, 1);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lp-indigo-wrapper .lp-indigo-faq-question::before {
+  content: 'Q';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  background: linear-gradient(135deg, #4169E1, #2c4fbd);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 700;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(65, 105, 225, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-faq-answer {
+  font-size: 1em;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.75);
+  padding-left: 54px;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-faq-section {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-faq-item {
+    padding: 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-faq-question {
+    font-size: 16px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-faq-answer {
+    font-size: 1em;
+    padding-left: 0;
+    margin-top: 12px;
+  }
+}
+
+/* ==========================================
+   CTA Section
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-cta-section {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #1a3a8a 0%, #2c4fbd 30%, #4169E1 60%, #5b7ed8 100%);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* CTAにも藍染パターン */
+.lp-indigo-wrapper .lp-indigo-cta-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 30% 40%, rgba(122, 156, 230, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 70% 60%, rgba(91, 126, 216, 0.3) 0%, transparent 50%);
+  animation: float 10s ease-in-out infinite;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-cta-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.lp-indigo-wrapper .lp-indigo-cta-button {
+  display: inline-block;
+  background: #fff;
+  color: #0a1628 !important;
+  padding: 18px 56px;
+  border-radius: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.lp-indigo-wrapper .lp-indigo-cta-button:hover {
+  background: #f0f0f0;
+  color: #0a1628 !important;
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4);
+}
+
+/* SP専用改行 */
+.lp-indigo-wrapper .lp-indigo-sp-br {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-sp-br {
+    display: initial;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-cta-section {
+    padding: 70px 20px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-cta-title {
+    font-size: 22px;
+    margin-bottom: 28px;
+    line-height: 1.6;
+    max-width: 13em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-cta-button {
+    font-size: 16px;
+    padding: 16px 36px;
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+/* ==========================================
+   CTA Mini (Inline CTAs)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-cta-mini {
+  padding: 40px 0;
+  background: linear-gradient(135deg, rgba(26, 58, 110, 0.4) 0%, rgba(30, 69, 128, 0.5) 100%);
+  text-align: center;
+}
+
+.lp-indigo-wrapper .lp-indigo-cta-mini .lp-indigo-wrapper .lp-indigo-cta-button {
+  background: #4169E1;
+  color: #fff !important;
+  padding: 16px 48px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(65, 105, 225, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-cta-mini .lp-indigo-wrapper .lp-indigo-cta-button:hover {
+  background: #2c4fbd;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(65, 105, 225, 0.4);
+}
+
+.lp-indigo-wrapper .lp-indigo-cta-sub {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+/* ==========================================
+   完成見本セクション
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-sample-section {
+  padding: 80px 0;
+  background: transparent;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-intro {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 48px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-card {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-sample-card+.lp-indigo-wrapper .lp-indigo-sample-card {
+    margin-top: 20px;
+  }
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-info {
+  padding: 24px 28px;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-badge {
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  background: rgba(91, 126, 216, 0.3);
+  color: rgba(155, 186, 240, 1);
+  border: 1px solid rgba(91, 126, 216, 0.5);
+  margin-bottom: 12px;
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-badge-large {
+  background: rgba(255, 193, 7, 0.2);
+  color: #ffd54f;
+  border-color: rgba(255, 193, 7, 0.4);
+}
+
+.lp-indigo-wrapper .lp-indigo-sample-desc {
+  font-size: 15px;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-sample-section {
+    padding: 60px 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-sample-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-sample-image {
+    height: 280px;
+  }
+}
+
+/* ==========================================
+   Slide-in Animations (和の動き)
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-slide-in-left {
+  opacity: 0;
+  transform: translateX(-60px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lp-indigo-wrapper .lp-indigo-slide-in-right {
+  opacity: 0;
+  transform: translateX(60px);
+  transition: opacity 0.8s cubic-bezier(0.4, 0, 0.2, 1), transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.lp-indigo-wrapper .lp-indigo-slide-in-left.visible,
+.lp-indigo-wrapper .lp-indigo-slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ==========================================
+   Concept Lead Text
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-concept-lead {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 20px;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.lp-indigo-wrapper .lp-indigo-concept-highlight {
+  font-size: 18px;
+  margin-top: 16px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.lp-indigo-wrapper .lp-indigo-concept-highlight strong {
+  color: #7eb8ff;
+  font-weight: 700;
+}
+
+/* ==========================================
+   Story Section: なぜこのサービスが生まれたのか
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-story-section {
+  padding: 100px 20px;
+  background: linear-gradient(180deg, #0a1628 0%, #0d1f3c 50%, #0a1628 100%);
+  position: relative;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-intro {
+  text-align: center;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 56px;
+  letter-spacing: 0.04em;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-bottom: 56px;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 40px 28px;
+  text-align: center;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #4169E1, transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+  transform: translateY(-4px);
+  border-color: rgba(65, 105, 225, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-story-card:hover::before {
+  opacity: 1;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 12px;
+  color: #7eb8ff;
+  opacity: 0.85;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-card-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  margin-bottom: 14px;
+  letter-spacing: 0.04em;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-card-text {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 1.7;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-closing {
+  text-align: center;
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+  letter-spacing: 0.06em;
+  position: relative;
+  padding-top: 32px;
+}
+
+.lp-indigo-wrapper .lp-indigo-story-closing::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 48px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #4169E1, transparent);
+}
+
+/* ==========================================
+   Beyond Section: 藍染の、その先へ
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-beyond-section {
+  padding: 120px 20px;
+  background: linear-gradient(135deg, #0a1628 0%, #142244 40%, #1a2a50 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-bg-shape {
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(65, 105, 225, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-layout {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-end;
+  /* right-aligned image */
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-text-block {
+  width: 55%;
+  padding: 50px 60px;
+  background: rgba(10, 22, 40, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  left: 0;
+  z-index: 3;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 28px;
+  letter-spacing: 0.06em;
+  line-height: 1.3;
+  position: relative;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-title::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, #4169E1, #7eb8ff);
+  margin-top: 16px;
+  border-radius: 2px;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-lead {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-connector {
+  font-size: 17px;
+  color: #7eb8ff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 0.04em;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-list li {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.95);
+  padding: 10px 0 10px 24px;
+  position: relative;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  letter-spacing: 0.04em;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #7eb8ff;
+  box-shadow: 0 0 8px rgba(126, 184, 255, 0.6);
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-desc {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-tagline {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.7;
+  padding: 20px 24px;
+  background: rgba(65, 105, 225, 0.1);
+  border-left: 3px solid #4169E1;
+  border-radius: 0 8px 8px 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-image-block {
+  width: 65%;
+  position: relative;
+  z-index: 1;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+.lp-indigo-wrapper .lp-indigo-beyond-image-accent {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 60%;
+  height: 70%;
+  border: 2px solid rgba(126, 184, 255, 0.2);
+  border-radius: 12px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* ==========================================
+   Explanation Sub-text
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-explanation-text-sub {
+  margin-top: 16px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-explanation-text-sub {
+    font-size: 16px;
+  }
+}
+
+/* ==========================================
+   Responsive: New Sections
+   ========================================== */
+@media (max-width: 768px) {
+  .lp-indigo-wrapper .lp-indigo-concept-lead {
+    font-size: 18px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-concept-highlight {
+    font-size: 16px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-story-section {
+    padding: 70px 16px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-story-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-story-card {
+    padding: 32px 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-section {
+    padding: 80px 0px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-layout {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-text-block {
+    width: 100%;
+    padding: 30px 12px;
+    position: relative;
+    order: 1;
+    z-index: 3;
+    margin-bottom: -30px;
+    /* pull image up slightly */
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-image-block {
+    width: 100%;
+    order: 2;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-title {
+    font-size: 26px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-image {
+    margin-left: 0;
+    border-radius: 12px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-image-accent {
+    bottom: -10px;
+    right: -10px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-beyond-bg-shape {
+    width: 300px;
+    height: 300px;
+    top: -10%;
+    right: -20%;
+  }
+}
+
+/* ==========================================
+   Sample Usage Section
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-sample-usage {
+  margin-top: 64px;
+  text-align: center;
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-inner {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 40px 60px;
+  text-align: left;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+  text-align: center;
+  position: relative;
+  letter-spacing: 0.06em;
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #7eb8ff;
+  margin: 16px auto 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-list li {
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-icon {
+  color: #7eb8ff;
+  font-weight: bold;
+  margin-right: 12px;
+  font-size: 18px;
+}
+
+.lp-indigo-wrapper .lp-indigo-usage-closing {
+  font-size: 1em;
+  color: rgba(126, 184, 255, 0.9);
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 0.04em;
+}
+
+/* ==========================================
+   Closing Section
+   ========================================== */
+.lp-indigo-wrapper .lp-indigo-closing-section {
+  padding: 100px 20px 40px;
+  text-align: center;
+  background: #0a1628;
+}
+
+.lp-indigo-wrapper .lp-indigo-closing-image-wrapper {
+  max-width: 800px;
+  margin: 0 auto 48px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.3);
+}
+
+.lp-indigo-wrapper .lp-indigo-closing-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.8s ease;
+}
+
+.lp-indigo-wrapper .lp-indigo-closing-image-wrapper:hover .lp-indigo-wrapper .lp-indigo-closing-image {
+  transform: scale(1.05);
+}
+
+.lp-indigo-wrapper .lp-indigo-closing-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 32px;
+  letter-spacing: 0.08em;
+}
+
+.lp-indigo-wrapper .lp-indigo-closing-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #4169E1, #7eb8ff);
+  margin: 20px auto 0;
+}
+
+.lp-indigo-wrapper .lp-indigo-closing-text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.8;
+  margin-bottom: 16px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.04em;
+}
+
+/* responsive overrides for very end */
+@media (max-width: 768px) {
+  .lp-indigo-wrapper {
+    font-size: 16px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-usage-inner {
+    padding: 32px 24px;
+    display: block;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-usage-title {
+    font-size: 18px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-usage-list li {
+    font-size: 1em;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-closing-section {
+    padding: 80px 16px 30px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-closing-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
+  .lp-indigo-wrapper .lp-indigo-closing-text {
+    font-size: 1em;
+  }
+}
+
+/* ==========================================
+   Language Toggle (日英切り替えボタンのデザイン)
+   ========================================== */
+.lp-indigo-lang-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 8px;
+  border-radius: 24px;
+  box-shadow: 0 4px 16px rgba(65, 105, 225, 0.2);
+}
+
+.lp-indigo-lang-btn {
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.lp-indigo-lang-btn.active {
+  background: #4169E1;
+  color: #fff;
+}
+
+.lp-indigo-lang-btn:hover:not(.active) {
+  background: #f0f0f0;
+}
