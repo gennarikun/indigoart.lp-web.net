@@ -1,6 +1,11 @@
+*.mp4
+*.MP4
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.svg
+*.gif
+_backup*/
+test_*.py
 .DS_Store
-__pycache__/
-*.pyc
-_style.css
-_script.js
-*.key
