@@ -100,4 +100,47 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  /* === Parallax Scroll for Up-Cycle page backgrounds === */
+  const upcycleWrapper = document.querySelector('.lp-page-upcycle');
+  if (upcycleWrapper) {
+    const parallaxSections = upcycleWrapper.querySelectorAll('.lp-sub-section--washi, .lp-sub-section--indigo');
+    
+    if (parallaxSections.length > 0) {
+      let ticking = false;
+      
+      function updateParallax() {
+        const scrollY = window.scrollY;
+        parallaxSections.forEach(section => {
+          const rect = section.getBoundingClientRect();
+          const speed = 0.15;
+          const offset = (rect.top * speed);
+          const before = section.querySelector(':scope > *');
+          if (section.style) {
+            section.style.setProperty('--parallax-y', offset + 'px');
+          }
+        });
+        ticking = false;
+      }
+
+      // Apply parallax via CSS custom property
+      const styleEl = document.createElement('style');
+      styleEl.textContent = `
+        .lp-page-upcycle .lp-sub-section--washi::before,
+        .lp-page-upcycle .lp-sub-section--indigo::before {
+          transform: translateY(var(--parallax-y, 0px));
+        }
+      `;
+      document.head.appendChild(styleEl);
+
+      window.addEventListener('scroll', () => {
+        if (!ticking) {
+          requestAnimationFrame(updateParallax);
+          ticking = true;
+        }
+      }, { passive: true });
+
+      updateParallax();
+    }
+  }
+
 });

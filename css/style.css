@@ -6585,3 +6585,360 @@ div .lp-sub-wrapper table {
 .lp-sub-fade-up.stagger-4 { transition-delay: 0.4s; }
 
 /* ====== ABOUT-CLASS 追加スタイル完 ====== */
+
+/* ========================================================================= */
+/* UP-CYCLE（染め直し）ビジュアルアップグレード ここから                       */
+/* 全セレクタは .lp-page-upcycle 配下にスコープ限定（他ページへの汚染防止）    */
+/* ========================================================================= */
+
+/* --- UC-1. パララックス背景テクスチャ (各セクションの最背面に布の空気感) --- */
+.lp-page-upcycle .lp-sub-section--washi {
+  position: relative;
+  overflow: hidden;
+}
+.lp-page-upcycle .lp-sub-section--washi::before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  right: -10%;
+  bottom: -20%;
+  background:
+    radial-gradient(ellipse at 25% 35%, rgba(27, 58, 92, 0.04) 0%, transparent 55%),
+    radial-gradient(ellipse at 75% 65%, rgba(123, 45, 56, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 50% 80%, rgba(28, 28, 28, 0.02) 0%, transparent 40%);
+  pointer-events: none;
+  z-index: 0;
+  will-change: transform;
+}
+.lp-page-upcycle .lp-sub-section--washi > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* インディゴセクション用パララックス背景 */
+.lp-page-upcycle .lp-sub-section--indigo {
+  position: relative;
+  overflow: hidden;
+}
+.lp-page-upcycle .lp-sub-section--indigo::before {
+  content: '';
+  position: absolute;
+  top: -30%;
+  left: -15%;
+  right: -15%;
+  bottom: -30%;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(201, 169, 110, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 30%, rgba(42, 85, 128, 0.15) 0%, transparent 45%),
+    radial-gradient(circle at 60% 80%, rgba(15, 36, 64, 0.2) 0%, transparent 40%);
+  pointer-events: none;
+  z-index: 0;
+  will-change: transform;
+}
+.lp-page-upcycle .lp-sub-section--indigo > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- UC-2. グラスモーフィズム（すりガラス）パネル --- */
+/* 注意ボックス */
+.lp-page-upcycle .lp-sub-caution {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(16px) saturate(1.4);
+  -webkit-backdrop-filter: blur(16px) saturate(1.4);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 8px 32px rgba(27, 58, 92, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+/* 特徴ブロックのテキスト側 */
+.lp-page-upcycle .lp-sub-feature-body {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(12px) saturate(1.2);
+  -webkit-backdrop-filter: blur(12px) saturate(1.2);
+  padding: 32px;
+  border-radius: var(--sub-radius);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* 料金カード */
+.lp-page-upcycle .lp-sub-price-card {
+  background: rgba(26, 39, 68, 0.55);
+  backdrop-filter: blur(20px) saturate(1.3);
+  -webkit-backdrop-filter: blur(20px) saturate(1.3);
+  border: 1px solid rgba(201, 169, 110, 0.25);
+  box-shadow:
+    0 12px 40px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+/* 効果カード */
+.lp-page-upcycle .lp-sub-benefit-card {
+  background: rgba(26, 39, 68, 0.6);
+  backdrop-filter: blur(14px) saturate(1.2);
+  -webkit-backdrop-filter: blur(14px) saturate(1.2);
+  border: 1px solid rgba(201, 169, 110, 0.2);
+  box-shadow:
+    0 8px 28px rgba(0, 0, 0, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+              box-shadow 0.5s ease,
+              border-color 0.5s ease;
+}
+.lp-page-upcycle .lp-sub-benefit-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  border-color: rgba(201, 169, 110, 0.45);
+}
+
+/* Before/After カード */
+.lp-page-upcycle .lp-sub-ba-card {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.lp-page-upcycle .lp-sub-ba-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ アコーディオン */
+.lp-page-upcycle .lp-sub-faq-item {
+  border-bottom-color: rgba(0, 0, 0, 0.06);
+}
+.lp-page-upcycle .lp-sub-faq-item summary {
+  transition: color 0.3s ease;
+}
+.lp-page-upcycle .lp-sub-faq-item summary:hover {
+  color: var(--sub-gold);
+}
+
+/* --- UC-3. 透かし文字（巨大ウォーターマーク）見出し --- */
+.lp-page-upcycle .lp-sub-section-title {
+  position: relative;
+}
+
+/* セクション③「染め直しサービスの特徴」 */
+.lp-page-upcycle #anc_03 .lp-sub-section-title::before {
+  content: 'FEATURES';
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: clamp(48px, 10vw, 100px);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--sub-indigo);
+  opacity: 0.04;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: -1;
+  line-height: 1;
+}
+
+/* セクション④「料金とご依頼の流れ」 */
+.lp-page-upcycle #anc_04 .lp-sub-section-title::before {
+  content: 'PRICING';
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: clamp(48px, 10vw, 100px);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.06);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+  line-height: 1;
+}
+
+/* セクション⑤「デザインパターン / 制作例」 */
+.lp-page-upcycle #anc_05 .lp-sub-section-title::before {
+  content: 'GALLERY';
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: clamp(48px, 10vw, 100px);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--sub-indigo);
+  opacity: 0.04;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: -1;
+  line-height: 1;
+}
+
+/* セクション⑥「藍染の効果 & FAQ」 */
+.lp-page-upcycle #anc_06 .lp-sub-section-title::before {
+  content: 'BENEFITS';
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: clamp(48px, 10vw, 100px);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--sub-indigo);
+  opacity: 0.04;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: -1;
+  line-height: 1;
+}
+
+/* セクション⑦「キット販売」 */
+.lp-page-upcycle #anc_07 .lp-sub-section-title::before {
+  content: 'SHOP';
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cinzel', 'Times New Roman', serif;
+  font-size: clamp(48px, 10vw, 100px);
+  font-weight: 300;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--sub-indigo);
+  opacity: 0.04;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: -1;
+  line-height: 1;
+}
+
+/* セクションタイトルの下線装飾を洗練化 */
+.lp-page-upcycle .lp-sub-section-title::after {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* モバイルでウォーターマークのサイズを調整 */
+@media (max-width: 768px) {
+  .lp-page-upcycle .lp-sub-section-title[class]::before {
+    font-size: clamp(32px, 12vw, 56px);
+    top: -0.4em;
+  }
+}
+
+/* --- UC-4. 3つの独自色彩：藍（indigo）/ ボルドー（wine pumice）/ チャコール（sumi）--- */
+
+/* ④ 料金セクション → 深い藍のグラデーション（メインカラー強調） */
+.lp-page-upcycle .lp-sub-section--indigo {
+  background: linear-gradient(
+    165deg,
+    #0f1a2e 0%,
+    #1a2744 35%,
+    #1f3050 65%,
+    #162640 100%
+  );
+}
+
+/* ⑥ 藍染の効果セクション → ワインパミスの微かなボルドーの光彩 */
+.lp-page-upcycle #anc_06.lp-sub-section--washi {
+  background:
+    radial-gradient(ellipse at 15% 85%, rgba(123, 45, 56, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 15%, rgba(123, 45, 56, 0.04) 0%, transparent 45%),
+    var(--sub-washi);
+}
+.lp-page-upcycle #anc_06 .lp-sub-section-title::before {
+  color: rgba(123, 45, 56, 0.06);
+  opacity: 1;
+}
+
+/* ⑦ キット販売セクション → チャコール（墨）のニュアンス */
+.lp-page-upcycle #anc_07 {
+  background:
+    radial-gradient(ellipse at 30% 20%, rgba(28, 28, 28, 0.035) 0%, transparent 50%),
+    radial-gradient(ellipse at 70% 80%, rgba(28, 28, 28, 0.025) 0%, transparent 45%),
+    #fff;
+}
+.lp-page-upcycle #anc_07 .lp-sub-section-title::before {
+  color: rgba(28, 28, 28, 0.05);
+  opacity: 1;
+}
+
+/* --- UC-5. FVの奥行き強化 --- */
+.lp-page-upcycle .lp-sub-hero {
+  background: linear-gradient(
+    135deg,
+    #0f1a2e 0%,
+    #1a2744 40%,
+    #1f3555 70%,
+    #162640 100%
+  );
+}
+.lp-page-upcycle .lp-sub-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    radial-gradient(circle at 80% 40%, rgba(201, 169, 110, 0.08) 0%, transparent 50%),
+    radial-gradient(circle at 20% 70%, rgba(42, 85, 128, 0.12) 0%, transparent 40%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* FV英語アクセントのさり気ない光彩 */
+.lp-page-upcycle .lp-sub-hero-en-accent {
+  font-size: clamp(14px, 1.8vw, 18px);
+  letter-spacing: 0.5em;
+  color: rgba(201, 169, 110, 0.35);
+  text-shadow: 0 0 30px rgba(201, 169, 110, 0.1);
+}
+
+/* --- UC-6. フロー（ご依頼の流れ）のホバーエフェクト --- */
+.lp-page-upcycle .lp-sub-flow-item {
+  transition: transform 0.3s ease;
+}
+.lp-page-upcycle .lp-sub-flow-item:hover {
+  transform: translateX(6px);
+}
+.lp-page-upcycle .lp-sub-flow-num {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.lp-page-upcycle .lp-sub-flow-item:hover .lp-sub-flow-num {
+  transform: scale(1.1);
+  box-shadow: 0 4px 16px rgba(201, 169, 110, 0.3);
+}
+
+/* --- UC-7. 導入テキストの洗練化 --- */
+.lp-page-upcycle .lp-sub-intro-text p {
+  font-family: var(--sub-font-serif);
+  font-size: 17px;
+  line-height: 2.2;
+  letter-spacing: 0.05em;
+  color: var(--sub-text);
+}
+
+/* --- UC-8. 特徴ナンバーの光彩効果 --- */
+.lp-page-upcycle .lp-sub-feature-num {
+  text-shadow: 0 0 40px rgba(201, 169, 110, 0.15);
+  transition: opacity 0.3s ease, text-shadow 0.3s ease;
+}
+.lp-page-upcycle .lp-sub-feature-block:hover .lp-sub-feature-num {
+  opacity: 0.8;
+  text-shadow: 0 0 50px rgba(201, 169, 110, 0.3);
+}
+
+/* ====== UP-CYCLE ビジュアルアップグレード完 ====== */
