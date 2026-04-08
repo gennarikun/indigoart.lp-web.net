@@ -11,7 +11,7 @@ include $basePath . 'head-common.php';
 </head>
 <body class="<?= htmlspecialchars($bodyClass) ?>">
 <?php include $basePath . 'header.php'; ?>
-<div class="lp-sub-wrapper">
+<div class="lp-sub-wrapper lp-page-upcycle">
   <!-- ① 【 FV 】 Categorical Hero: 深い藍色背景 ＋ 日本語大見出し ＋ 英語極太あしらい ＋ 右に関連グラフィック -->
   <section class="lp-sub-hero">
     <div class="lp-sub-hero-inner">

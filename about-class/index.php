@@ -15,7 +15,7 @@ include_once($basePath . 'head-common.php');
 <a class="skip-link screen-reader-text" href="#vk-mobile-nav">ナビゲーションに移動</a>
 <?php include_once($basePath . 'header.php'); ?>
 
-<div class="lp-sub-wrapper" id="main">
+<div class="lp-sub-wrapper lp-page-about-class" id="main">
   <!-- ① FV: 藍色背景＋タイトルカード＋右に染物のビジュアル -->
   <section class="lp-sub-hero">
     <div class="lp-sub-hero-inner">
