@@ -143,4 +143,70 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  /* === Parallax Scroll for About-Class (染物体験) page === */
+  const aboutClassWrapper = document.querySelector('.lp-page-about-class');
+  if (aboutClassWrapper) {
+    const parallaxImages = aboutClassWrapper.querySelectorAll('.ac-parallax-bg');
+
+    if (parallaxImages.length > 0) {
+      let acTicking = false;
+
+      function updateAboutClassParallax() {
+        parallaxImages.forEach(img => {
+          const section = img.closest('.lp-sub-section');
+          if (!section) return;
+          const rect = section.getBoundingClientRect();
+          const viewH = window.innerHeight;
+          // Only process if section is in/near viewport
+          if (rect.bottom < -100 || rect.top > viewH + 100) return;
+          const progress = (viewH - rect.top) / (viewH + rect.height);
+          const offset = (progress - 0.5) * 60; // max ±30px movement
+          img.style.transform = `translate(-50%, calc(-50% + ${offset}px))`;
+        });
+        acTicking = false;
+      }
+
+      window.addEventListener('scroll', () => {
+        if (!acTicking) {
+          requestAnimationFrame(updateAboutClassParallax);
+          acTicking = true;
+        }
+      }, { passive: true });
+
+      updateAboutClassParallax();
+    }
+  }
+
+});
+
+/* ========================================================================= */
+/* about-indigo パララックス背景制御                                         */
+/* .lp-page-about-indigo ページにのみ適用                                    */
+/* ========================================================================= */
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.querySelector('.lp-page-about-indigo')) {
+    var aiBgs = document.querySelectorAll('.lp-page-about-indigo .ai-parallax-bg');
+    var aiTicking = false;
+
+    function updateAboutIndigoParallax() {
+      var scrollY = window.scrollY || window.pageYOffset;
+      aiBgs.forEach(function(bg) {
+        var section = bg.parentElement;
+        var rect = section.getBoundingClientRect();
+        var sectionTop = rect.top + scrollY;
+        var offset = (scrollY - sectionTop) * 0.15;
+        bg.style.transform = 'translateY(' + offset + 'px)';
+      });
+      aiTicking = false;
+    }
+
+    window.addEventListener('scroll', function() {
+      if (!aiTicking) {
+        requestAnimationFrame(updateAboutIndigoParallax);
+        aiTicking = true;
+      }
+    }, { passive: true });
+
+    updateAboutIndigoParallax();
+  }
 });

@@ -12,16 +12,12 @@ include $basePath . 'head-common.php';
 <body class="<?= htmlspecialchars($bodyClass) ?>">
 <?php include $basePath . 'header.php'; ?>
 <div class="lp-sub-wrapper lp-page-upcycle">
-  <!-- ① 【 FV 】 Categorical Hero: 深い藍色背景 ＋ 日本語大見出し ＋ 英語極太あしらい ＋ 右に関連グラフィック -->
-  <section class="lp-sub-hero">
-    <div class="lp-sub-hero-inner">
-      <div class="lp-sub-hero-titles">
-        <span class="lp-sub-hero-en-accent">UP-CYCLE</span>
-        <h1 class="lp-sub-hero-ja-main">洋服染め直し</h1>
-      </div>
-      <div class="lp-sub-hero-visual-fade">
-        <img alt="洋服染め直し" src="../assets/5-2.png"/>
-      </div>
+  <!-- ① 【 FV 】 共通パララックスヒーロー -->
+  <section class="global-sub-hero" style="background-image: url('../assets/5-2.png'); border-bottom: 4px solid #db7093;">
+    <div class="global-sub-hero-inner">
+      <span class="global-sub-hero-en-accent">UP-CYCLE</span>
+      <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">洋服染め直し</h1>
+      <p style="color:rgba(255,255,255,0.8); letter-spacing:0.05em; font-size:clamp(14px,1.8vw,18px); margin-top:12px;">もう一度袖を通す、新しい服との出会い</p>
     </div>
   </section>
 

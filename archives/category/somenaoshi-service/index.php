@@ -14,11 +14,15 @@ include_once($basePath . 'head-common.php');
 <a class="skip-link screen-reader-text" href="#vk-mobile-nav">ナビゲーションに移動</a>
 <?php include_once($basePath . 'header.php'); ?>
 
-<div class="section page-header"><div class="container"><div class="row"><div class="col-md-12">
-<div class="page-header_pageTitle">
-ブログ</div>
-</div></div></div></div><!-- [ /.page-header ] -->
-<!-- [ .breadSection ] --><div class="section breadSection"><div class="container"><div class="row"><ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li id="panHome" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="../../../" itemprop="item"><span itemprop="name"><i class="fa-solid fa-house"></i> HOME</span></a><meta content="1" itemprop="position"/></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="../../../blog" itemprop="item"><span itemprop="name">ブログ</span></a><meta content="2" itemprop="position"/></li><li><span>染め直しサービス</span><meta content="3" itemprop="position"/></li></ol></div></div></div><!-- [ /.breadSection ] -->
+<div class="lp-page-blog">
+<section class="global-sub-hero" style="background-image: url('<?= $basePath ?>assets/DSC01312-1024x683.jpg'); border-bottom: 4px solid #b8960c;">
+  <div class="global-sub-hero-inner" style="pointer-events: none;">
+    <span class="global-sub-hero-en-accent">ARTICLE</span>
+    <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ブログ記事</h1>
+    <p style="color:rgba(255,255,255,0.8); letter-spacing:0.05em; font-size:clamp(14px,1.8vw,18px); margin-top:12px;">インディゴ高菜先生からの発信</p>
+  </div>
+</section>
+</div>
 <div class="section siteContent">
 <div class="container">
 <div class="row">

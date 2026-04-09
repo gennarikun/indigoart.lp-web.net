@@ -6942,3 +6942,741 @@ div .lp-sub-wrapper table {
 }
 
 /* ====== UP-CYCLE ビジュアルアップグレード完 ====== */
+
+
+/* ========================================================================= */
+/* 染物体験（about-class）ビジュアルアップグレード                          */
+/* スコープ: .lp-page-about-class 配下のみ                                  */
+/* grep証明: このクラスは about-class/index.php:18 にのみ存在               */
+/* ========================================================================= */
+
+/* --- AC-0. Google Fonts (Cinzel for watermarks) --- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+/* --- AC-1. パララックス背景の共通基盤 --- */
+.lp-page-about-class .lp-sub-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.lp-page-about-class .ac-parallax-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: 0;
+  transition: transform 0.1s linear;
+  will-change: transform;
+}
+
+.lp-page-about-class .lp-sub-container {
+  position: relative;
+  z-index: 1;
+}
+
+/* --- AC-2. 透かし文字（Watermark Typography）--- */
+.lp-page-about-class .lp-sub-section--washi#anc_dye::before,
+.lp-page-about-class .lp-sub-section--indigo#anc_technique::before,
+.lp-page-about-class .lp-sub-section--washi#anc_gallery::before {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(80px, 18vw, 280px);
+  line-height: 1;
+  pointer-events: none;
+  z-index: 0;
+  white-space: nowrap;
+  letter-spacing: 0.08em;
+}
+
+/* 染料セクション: 藍系の透かし */
+.lp-page-about-class .lp-sub-section--washi#anc_dye::before {
+  content: 'DYES';
+  color: #2c3e6b;
+  opacity: 0.07;
+}
+
+/* 染め方セクション: 白系の透かし */
+.lp-page-about-class .lp-sub-section--indigo#anc_technique::before {
+  content: 'TECHNIQUE';
+  color: #ffffff;
+  opacity: 0.04;
+  font-size: clamp(60px, 12vw, 200px);
+}
+
+/* ギャラリーセクション: 藍系の透かし */
+.lp-page-about-class .lp-sub-section--washi#anc_gallery::before {
+  content: 'GALLERY';
+  color: #2c3e6b;
+  opacity: 0.06;
+}
+
+/* --- AC-3. グラスモーフィズム: 染料セクション 説明文パネル --- */
+.lp-page-about-class .lp-sub-class-lead {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  padding: 2.5em 2em;
+  box-shadow: 0 8px 32px rgba(44, 62, 107, 0.08);
+  position: relative;
+  z-index: 1;
+}
+
+/* --- AC-4. 色彩分離: 藍(01) --- */
+.lp-page-about-class .lp-sub-feature-block:first-child .lp-sub-feature-body {
+  border-left: 4px solid #1a3a5c;
+  padding-left: 1.5em;
+  position: relative;
+}
+.lp-page-about-class .lp-sub-feature-block:first-child .lp-sub-feature-body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(26, 58, 92, 0.06) 0%, transparent 60%);
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: -1;
+}
+.lp-page-about-class .lp-sub-feature-block:first-child .lp-sub-feature-num {
+  color: #1a3a5c;
+}
+.lp-page-about-class .lp-sub-feature-block:first-child .lp-sub-feature-title {
+  color: #1a3a5c;
+}
+
+/* --- AC-5. 色彩分離: 墨(02) --- */
+.lp-page-about-class .lp-sub-feature-block:nth-child(2) .lp-sub-feature-body {
+  border-left: 4px solid #4a4a4a;
+  padding-left: 1.5em;
+  position: relative;
+}
+.lp-page-about-class .lp-sub-feature-block:nth-child(2) .lp-sub-feature-body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(74, 74, 74, 0.06) 0%, transparent 60%);
+  border-radius: 8px;
+  pointer-events: none;
+  z-index: -1;
+}
+.lp-page-about-class .lp-sub-feature-block:nth-child(2) .lp-sub-feature-num {
+  color: #4a4a4a;
+}
+.lp-page-about-class .lp-sub-feature-block:nth-child(2) .lp-sub-feature-title {
+  color: #4a4a4a;
+}
+
+/* --- AC-6. グラスモーフィズム: 技法カード --- */
+.lp-page-about-class .lp-sub-technique-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.lp-page-about-class .lp-sub-technique-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* --- AC-7. ギャラリー: ホバーリフト効果 --- */
+.lp-page-about-class .lp-sub-gallery-item {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.lp-page-about-class .lp-sub-gallery-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(44, 62, 107, 0.15);
+}
+.lp-page-about-class .lp-sub-gallery-item img {
+  transition: transform 0.5s ease;
+}
+.lp-page-about-class .lp-sub-gallery-item:hover img {
+  transform: scale(1.03);
+}
+
+/* --- AC-8. モバイル対応 --- */
+@media (max-width: 767px) {
+  .lp-page-about-class .lp-sub-class-lead {
+    padding: 1.5em 1.2em;
+    border-radius: 12px;
+  }
+  .lp-page-about-class .lp-sub-feature-block:first-child .lp-sub-feature-body,
+  .lp-page-about-class .lp-sub-feature-block:nth-child(2) .lp-sub-feature-body {
+    border-left-width: 3px;
+    padding-left: 1em;
+  }
+  .lp-page-about-class .lp-sub-technique-card {
+    border-radius: 12px;
+  }
+  .lp-page-about-class .ac-parallax-bg {
+    width: 180%;
+    opacity: 0.05;
+  }
+}
+
+/* ====== 染物体験（about-class）ビジュアルアップグレード完 ====== */
+
+/* ========================================================================= */
+/* 藍染めの魅力（about-indigo）ビジュアルアップグレード                      */
+/* スコープ: .lp-page-about-indigo 配下のみ - 他ページへの影響ゼロ           */
+/* ========================================================================= */
+
+/* --- ベースリセット & 変数 --- */
+.lp-page-about-indigo {
+  --ai-indigo: #1a3a5c;
+  --ai-indigo-deep: #0f2440;
+  --ai-washi: #F5F0E8;
+  --ai-washi-dark: #e8e0d0;
+  --ai-gold: #b8960c;
+  --ai-text: #333;
+  --ai-text-light: rgba(255,255,255,0.92);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.lp-page-about-indigo p,
+.lp-page-about-indigo h2,
+.lp-page-about-indigo h3,
+.lp-page-about-indigo h4 {
+  margin-top: 0;
+}
+
+/* --- ヒーロー --- */
+.lp-page-about-indigo .lp-sub-hero.ai-hero {
+  position: relative;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../assets/DSC09978-e1710039218155-1024x1024.jpg') center/cover no-repeat fixed;
+  overflow: hidden;
+}
+
+.lp-page-about-indigo .lp-sub-hero.ai-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(15,36,64,0.75) 0%, rgba(26,58,92,0.55) 100%);
+  z-index: 1;
+}
+
+.lp-page-about-indigo .lp-sub-hero .lp-sub-hero-inner {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.lp-page-about-indigo .lp-sub-hero .lp-sub-hero-en-accent {
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(14px, 2vw, 20px);
+  letter-spacing: 0.3em;
+  color: var(--ai-gold);
+  margin-bottom: 16px;
+}
+
+.lp-page-about-indigo .lp-sub-hero .lp-sub-hero-ja-main {
+  font-size: clamp(28px, 5vw, 48px);
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+}
+
+.lp-page-about-indigo .lp-sub-hero .lp-sub-hero-lead {
+  font-size: clamp(14px, 1.8vw, 18px);
+  color: rgba(255,255,255,0.8);
+  letter-spacing: 0.05em;
+}
+
+/* --- パンくず --- */
+.lp-page-about-indigo .lp-sub-breadcrumb {
+  background: var(--ai-washi);
+  padding: 12px 0;
+  font-size: 13px;
+}
+
+.lp-page-about-indigo .lp-sub-breadcrumb .breadcrumb {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.lp-page-about-indigo .lp-sub-breadcrumb .breadcrumb li + li::before {
+  content: '/';
+  margin-right: 8px;
+  color: #999;
+}
+
+.lp-page-about-indigo .lp-sub-breadcrumb a {
+  color: var(--ai-indigo);
+  text-decoration: none;
+}
+
+/* --- 導入文 --- */
+.lp-page-about-indigo .lp-sub-intro-text {
+  background: var(--ai-washi);
+  padding: 48px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 2;
+  color: var(--ai-text);
+}
+
+/* --- 共通コンテナ --- */
+.lp-page-about-indigo .lp-sub-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* --- セクション共通 --- */
+.lp-page-about-indigo .lp-sub-section {
+  position: relative;
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+/* 和紙色セクション */
+.lp-page-about-indigo .lp-sub-section--washi {
+  background: var(--ai-washi);
+  color: var(--ai-text);
+}
+
+/* 藍色セクション */
+.lp-page-about-indigo .lp-sub-section--indigo {
+  background: var(--ai-indigo-deep);
+  color: var(--ai-text-light);
+}
+
+/* --- 透かし文字（ウォーターマーク） --- */
+.lp-page-about-indigo .lp-sub-section-title-block {
+  position: relative;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.lp-page-about-indigo .lp-sub-section-en {
+  display: block;
+  font-family: 'Cinzel', serif;
+  font-size: clamp(48px, 12vw, 140px);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.lp-page-about-indigo .lp-sub-section--washi .lp-sub-section-en {
+  color: rgba(44, 62, 107, 0.05);
+}
+
+.lp-page-about-indigo .lp-sub-section--indigo .lp-sub-section-en {
+  color: rgba(255, 255, 255, 0.04);
+}
+
+.lp-page-about-indigo .lp-sub-section-title {
+  position: relative;
+  z-index: 1;
+  font-size: clamp(22px, 3.5vw, 32px);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.lp-page-about-indigo .lp-sub-section--washi .lp-sub-section-title {
+  color: var(--ai-indigo);
+}
+
+.lp-page-about-indigo .lp-sub-section--indigo .lp-sub-section-title {
+  color: #fff;
+}
+
+/* --- パララックス背景画像 --- */
+.lp-page-about-indigo .ai-parallax-bg {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140%;
+  height: 130%;
+  object-fit: cover;
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: 0;
+  will-change: transform;
+}
+
+/* --- グラスモーフィズム パネル（ライト） --- */
+.lp-page-about-indigo .ai-glass-panel {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 32px;
+  line-height: 1.9;
+  box-shadow: 0 4px 24px rgba(26, 58, 92, 0.06);
+}
+
+.lp-page-about-indigo .ai-glass-panel h3 {
+  font-size: 20px;
+  color: var(--ai-indigo);
+  margin-bottom: 16px;
+  font-weight: 700;
+  border-left: 4px solid var(--ai-indigo);
+  padding-left: 12px;
+}
+
+.lp-page-about-indigo .ai-glass-panel p {
+  margin-bottom: 12px;
+}
+
+/* --- グラスモーフィズム カード（ダーク/藍色セクション用） --- */
+.lp-page-about-indigo .ai-glass-card-dark {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 32px;
+  margin-bottom: 32px;
+  line-height: 1.9;
+}
+
+.lp-page-about-indigo .ai-glass-card-dark h3 {
+  font-size: 20px;
+  color: var(--ai-gold);
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.lp-page-about-indigo .ai-glass-card-dark p {
+  margin-bottom: 12px;
+  color: var(--ai-text-light);
+}
+
+/* --- 特徴カード グリッド --- */
+.lp-page-about-indigo .ai-sub-heading {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  color: var(--ai-indigo);
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0 24px;
+}
+
+.lp-page-about-indigo .ai-sub-heading-light {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  color: var(--ai-gold);
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0 24px;
+}
+
+.lp-page-about-indigo .ai-feature-cards {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.lp-page-about-indigo .ai-feature-card.ai-glass-card {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(26, 58, 92, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lp-page-about-indigo .ai-feature-card.ai-glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(26, 58, 92, 0.12);
+}
+
+.lp-page-about-indigo .ai-feature-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ai-indigo);
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.lp-page-about-indigo .ai-feature-card h4 {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ai-indigo);
+  margin-bottom: 10px;
+}
+
+.lp-page-about-indigo .ai-feature-card p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--ai-text);
+}
+
+/* --- コンテンツ行（テキスト＋画像 Z配置） --- */
+.lp-page-about-indigo .ai-content-row {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+.lp-page-about-indigo .ai-content-row--reverse {
+  direction: rtl;
+}
+
+.lp-page-about-indigo .ai-content-row--reverse > * {
+  direction: ltr;
+}
+
+.lp-page-about-indigo .ai-content-image img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+/* --- 歴史セクション --- */
+.lp-page-about-indigo .ai-history-image {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.lp-page-about-indigo .ai-history-image img {
+  width: 100%;
+  display: block;
+}
+
+.lp-page-about-indigo .ai-history-cards {
+  display: grid;
+  gap: 24px;
+}
+
+/* --- ステップ（手順表示） --- */
+.lp-page-about-indigo .ai-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.lp-page-about-indigo .ai-step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.lp-page-about-indigo .ai-step-num {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ai-gold);
+  flex-shrink: 0;
+  width: 48px;
+  text-align: center;
+  line-height: 1;
+  padding-top: 4px;
+}
+
+.lp-page-about-indigo .ai-step-content h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.lp-page-about-indigo .lp-sub-section--indigo .ai-step-content h4 {
+  color: #fff;
+}
+
+.lp-page-about-indigo .ai-step-content p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* --- 技法カード（染め方セクション内） --- */
+.lp-page-about-indigo .ai-technique-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.lp-page-about-indigo .lp-sub-technique-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.lp-page-about-indigo .lp-sub-technique-card:hover {
+  transform: translateY(-4px);
+}
+
+.lp-page-about-indigo .lp-sub-technique-img-wrap {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.lp-page-about-indigo .lp-sub-technique-img-wrap img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.lp-page-about-indigo .lp-sub-technique-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.lp-page-about-indigo .lp-sub-technique-text {
+  font-size: 13px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.8);
+}
+
+/* --- CTAセクション --- */
+.lp-page-about-indigo .ai-cta-block {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.lp-page-about-indigo .ai-cta-image img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.lp-page-about-indigo .lp-sub-cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 48px;
+  background: linear-gradient(135deg, var(--ai-gold), #d4a80e);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lp-page-about-indigo .lp-sub-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(184, 150, 12, 0.35);
+  text-decoration: none;
+  color: #fff;
+}
+
+/* --- レスポンシブ（スマホ 767px以下） --- */
+@media (max-width: 767px) {
+  .lp-page-about-indigo .lp-sub-hero.ai-hero {
+    min-height: 40vh;
+    background-attachment: scroll;
+  }
+
+  .lp-page-about-indigo .lp-sub-section {
+    padding: 56px 0;
+  }
+
+  .lp-page-about-indigo .ai-feature-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .lp-page-about-indigo .ai-content-row {
+    grid-template-columns: 1fr;
+  }
+
+  .lp-page-about-indigo .ai-content-row--reverse {
+    direction: ltr;
+  }
+
+  .lp-page-about-indigo .ai-technique-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lp-page-about-indigo .ai-cta-block {
+    grid-template-columns: 1fr;
+  }
+
+  .lp-page-about-indigo .lp-sub-section-en {
+    font-size: clamp(36px, 15vw, 80px);
+  }
+
+  .lp-page-about-indigo .ai-glass-panel,
+  .lp-page-about-indigo .ai-glass-card-dark {
+    padding: 20px;
+  }
+
+  .lp-page-about-indigo .ai-parallax-bg {
+    width: 180%;
+    opacity: 0.05;
+  }
+}
+
+/* ====== 藍染めの魅力（about-indigo）ビジュアルアップグレード完 ====== */

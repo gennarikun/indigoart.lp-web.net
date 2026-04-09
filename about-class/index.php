@@ -16,16 +16,11 @@ include_once($basePath . 'head-common.php');
 <?php include_once($basePath . 'header.php'); ?>
 
 <div class="lp-sub-wrapper lp-page-about-class" id="main">
-  <!-- ① FV: 藍色背景＋タイトルカード＋右に染物のビジュアル -->
-  <section class="lp-sub-hero">
-    <div class="lp-sub-hero-inner">
-      <div class="lp-sub-hero-titles">
-        <span class="lp-sub-hero-en-accent">ABOUT CLASS</span>
-        <h1 class="lp-sub-hero-ja-main">染物体験の詳細</h1>
-      </div>
-      <div class="lp-sub-hero-visual-fade">
-        <img alt="染物体験" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_wine_dyed_vegetabl_d451c3df-bc21-4433-a8d0-ebf478a68a3b_1-e1732949047305-1024x682.png"/>
-      </div>
+  <!-- ① FV: 共通パララックスヒーロー -->
+  <section class="global-sub-hero" style="background-image: url('../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_wine_dyed_vegetabl_d451c3df-bc21-4433-a8d0-ebf478a68a3b_1-e1732949047305-1024x682.png'); border-bottom: 4px solid #db7093;">
+    <div class="global-sub-hero-inner">
+      <span class="global-sub-hero-en-accent">ABOUT CLASS</span>
+      <h1 class="global-sub-hero-ja-main">染物体験の詳細</h1>
     </div>
   </section>
 
@@ -36,6 +31,7 @@ include_once($basePath . 'head-common.php');
 
   <!-- ③ 染料について -->
   <section class="lp-sub-section lp-sub-section--washi" id="anc_dye">
+    <img class="ac-parallax-bg" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.png" alt="" aria-hidden="true" />
     <div class="lp-sub-container">
       <h2 class="lp-sub-section-title lp-sub-fade-up">染料について</h2>
 
@@ -67,6 +63,7 @@ include_once($basePath . 'head-common.php');
 
   <!-- ④ 染め方について（4つの絞り染め技法）-->
   <section class="lp-sub-section lp-sub-section--indigo" id="anc_technique">
+    <img class="ac-parallax-bg" src="../assets/shunta0044_T-shirt_designed_dyeing_class_tie_dye_dyeing_Indig_e66da3d3-8c6a-4ae9-b897-601e943160ba_1-e1733161598658.png" alt="" aria-hidden="true" />
     <div class="lp-sub-container">
       <h2 class="lp-sub-section-title lp-sub-fade-up">染め方について</h2>
       <p class="lp-sub-section-subtitle lp-sub-fade-up">今回紹介するのは、4つの絞り染め技法です。絞り染めは、布を特定の方法で折りたたみ、縛り、絞ることで模様を作り出す技術です。それぞれの技法によって、全く異なる模様や表情を布に与えることができます。</p>
