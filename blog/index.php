@@ -11,11 +11,15 @@ include $basePath . 'head-common.php';
 </head>
 <body class="<?= htmlspecialchars($bodyClass) ?>">
 <?php include $basePath . 'header.php'; ?>
-<div class="section page-header"><div class="container"><div class="row"><div class="col-md-12">
-<h1 class="page-header_pageTitle">
-ブログ</h1>
-</div></div></div></div><!-- [ /.page-header ] -->
-<!-- [ .breadSection ] --><div class="section breadSection"><div class="container"><div class="row"><ol class="breadcrumb" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li id="panHome" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="../" itemprop="item"><span itemprop="name"><i class="fa-solid fa-house"></i> HOME</span></a><meta content="1" itemprop="position"/></li><li><span>ブログ</span><meta content="2" itemprop="position"/></li></ol></div></div></div><!-- [ /.breadSection ] -->
+<div class="lp-page-blog">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC01312-1024x683.jpg'); border-bottom: 4px solid #b8960c;">
+    <div class="global-sub-hero-inner" style="pointer-events: none;">
+      <span class="global-sub-hero-en-accent">BLOG</span>
+      <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ブログ・お知らせ</h1>
+      <p style="color:rgba(255,255,255,0.8); letter-spacing:0.05em; font-size:clamp(14px,1.8vw,18px); margin-top:12px;">日々の染物体験の様子や最新情報</p>
+    </div>
+  </section>
+  <div>
 <div class="section siteContent">
 <div class="container">
 <div class="row">
@@ -211,15 +215,7 @@ include $basePath . 'head-common.php';
 </div>
 </div>
 </article>
-<nav aria-label="投稿のページ送り" class="navigation pagination">
-<h2 class="screen-reader-text">投稿のページ送り</h2>
-<div class="nav-links"><ul class="page-numbers">
-<li><span aria-current="page" class="page-numbers current"><span class="meta-nav screen-reader-text">固定ページ </span>1</span></li>
-<li><span class="meta-nav screen-reader-text">固定ページ </span>2</li>
-<li>»</li>
-</ul>
-</div>
-</nav>
+
 </div><!-- [ /.postList ] -->
 </div><!-- [ /.mainSection ] -->
 <div class="col subSection sideSection sideSection-col-two baseSection">
@@ -352,106 +348,7 @@ include $basePath . 'head-common.php';
 </div><!-- [ /.row ] -->
 </div><!-- [ /.container ] -->
 </div><!-- [ /.siteContent ] -->
-<div class="section sectionBox siteContent_after">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<aside class="widget widget_text" id="text-9"> <div class="textwidget"><h2 id="anc_09" style="text-align: center;">体験の開催場所・アクセス</h2>
-<h3>染物体験教室 高菜先生の山梨ワイン染め工房</h3>
-<p><img alt="藍染め体験教室　河口湖" class="aligncenter size-large wp-image-115" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../assets/DSC03300-1024x683.jpg" srcset="../assets/DSC03300-1024x683.jpg 1024w, ../assets/DSC03300-300x200.jpg 300w, ../assets/DSC03300-768x512.jpg 768w, ../assets/DSC03300-1536x1024.jpg 1536w, ../assets/DSC03300.jpg 2048w" width="1024"/></p>
-<p><img alt="藍染め体験教室　河口湖" class="aligncenter size-large wp-image-119" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../assets/DSC03238-1024x683.jpg" srcset="../assets/DSC03238-1024x683.jpg 1024w, ../assets/DSC03238-300x200.jpg 300w, ../assets/DSC03238-768x512.jpg 768w, ../assets/DSC03238-1536x1024.jpg 1536w, ../assets/DSC03238.jpg 2048w" width="1024"/></p>
-<table style="margin-bottom: 20px;">
-<tbody>
-<tr>
-<td style="background-color: #eee; width: 20%;">住所</td>
-<td style="text-align: left;">〒401-0301 山梨県南都留郡富士河口湖町船津３２５０−３</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">駐車場</td>
-<td style="text-align: left;">無料駐車場有</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">予約</td>
-<td style="text-align: left;">予約優先性（不定休で営業しておりますので、確実にご利用になりたいという方は前日までのご予約をお願い致します。）</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">予約可能時間</td>
-<td style="text-align: left;">AM 10:00~17:00</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">定休日</td>
-<td style="text-align: left;">不定休</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～20名</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">最寄駅</td>
-<td style="text-align: left;">富士急行線河口湖駅（徒歩12分）</td>
-</tr>
-</tbody>
-</table>
-<p></p><center><iframe allowfullscreen="allowfullscreen" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d775.1549715324162!2d138.76800850374636!3d35.4925292582425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2e5dd60f9ad483e!2z5pyN5p-T5L2T6aiT5pWZ5a6k44OX44Op44Oz44OE44Kv44Op44OV44OI!5e0!3m2!1sja!2sjp!4v1670156959432!5m2!1sja!2sjp" style="border: 0;"></iframe></center>
-<h3>富士家 甲府店</h3>
-<table style="margin-bottom: 20px;">
-<tbody>
-<tr>
-<td style="background-color: #eee; width: 20%;">住所</td>
-<td style="text-align: left;">〒400-0867<br/>
-山梨県甲府市青沼３丁目５−４４　リッチダイヤモンド総合市民会館内</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">駐車場</td>
-<td style="text-align: left;">無料駐車場有</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">予約</td>
-<td style="text-align: left;">予約優先性</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">予約可能時間</td>
-<td style="text-align: left;">平日・・・AM 10:00~18:00</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">定休日</td>
-<td style="text-align: left;">毎週火曜・木曜</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">交通アクセス</td>
-<td style="text-align: left;">◆公共交通機関でお越しの方<br/>
-○ＪＲ甲府駅バスターミナルより<br/>
-5番のりば 富士見経由 奈良原行き（山梨交通）または玉諸小学校行き（富士急行便）総合市民会館で下車<br/>
-3番のりば 伊勢町営業所行き（山梨交通）太田町見付で下車<br/>
-○身延線南甲府駅から徒歩15分◆お車でお越しの方<br/>
-中央自動車道 甲府南ICから甲府駅・山梨県庁方面へ約20分<br/>
-中央自動車道 甲府昭和ICから東京・勝沼方面へ約15分</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">電話番号</td>
-<td style="text-align: left;">050-6882-5580</td>
-</tr>
-</tbody>
-</table>
-<p></p><center><iframe allowfullscreen="" loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.9971410603234!2d138.57254497608224!3d35.65244207259652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601bf9ebb5cfa1cb%3A0x1b7dafda328d64dc!2z44Oq44OD44OB44OA44Kk44Ok44Oi44Oz44OJ57eP5ZCI5biC5rCR5Lya6aSo!5e0!3m2!1sja!2sjp!4v1746377353099!5m2!1sja!2sjp" style="border: 0;"></iframe></center>
-</div>
-</aside><aside class="widget widget_text" id="text-13"> <div class="textwidget"><div class="widget widget_vkexunit_contact_section">
-<div class="veu_contact">
-<section class="veu_contact veu_contentAddSection">
-<div class="contact_frame">
-<p class="contact_txt"><span class="contact_txt_tel veu_color_txt_key" style="color: #000080;">お申込み </span><span class="contact_txt_time">24時間受け付けております</span></p>
-<p><a class="btn btn-primary btn-lg contact_bt" href="../contact/"><span class="contact_bt_txt">お問い合わせもこちら </span><span class="contact_bt_subTxt">お気軽にご相談ください</span></a></p>
-</div>
-</section>
-</div>
-</div>
-</div>
-</aside> </div>
-</div>
-</div>
+  </div>
 </div>
 <?php include $basePath . 'footer.php'; ?>
+
