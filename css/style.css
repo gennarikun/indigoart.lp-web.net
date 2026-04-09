@@ -7404,3 +7404,157 @@ div .lp-sub-wrapper table {
 }
 
 /* ====== 藍染めの魅力（about-indigo）ビジュアルアップグレード完 ====== */
+
+/* ========================================================================= */
+/* ブログ一覧ページ専用スタイル ここから (.lp-blog-layout 系)                    */
+/* ========================================================================= */
+.lp-page-blog {
+  background-color: #FCFAF8;
+  padding-bottom: 80px;
+}
+.lp-blog-layout {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 20px;
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+.lp-blog-main {
+  flex: 1;
+  min-width: 0; 
+}
+.lp-blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 32px;
+}
+.lp-blog-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.lp-blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+.lp-blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.lp-blog-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: #eee;
+}
+.lp-blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+.lp-blog-card:hover .lp-blog-img img {
+  transform: scale(1.05);
+}
+.lp-blog-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.lp-blog-meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: #666;
+}
+.lp-blog-cat {
+  background: #b8960c;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.lp-blog-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0 0 12px 0 !important;
+  color: #333;
+}
+.lp-blog-excerpt {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.lp-blog-sidebar {
+  width: 300px;
+  flex-shrink: 0;
+}
+.lp-sidebar-widget {
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+}
+.lp-sidebar-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 20px 0 !important;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #eee;
+  color: #333;
+}
+.lp-sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lp-sidebar-list li {
+  margin-bottom: 12px;
+}
+.lp-sidebar-list a {
+  text-decoration: none;
+  color: #666;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+}
+.lp-sidebar-list a:hover {
+  color: #b8960c;
+}
+.lp-sidebar-list a::before {
+  content: "›";
+  margin-right: 8px;
+  color: #b8960c;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .lp-blog-layout {
+    flex-direction: column;
+  }
+  .lp-blog-sidebar {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .lp-blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
