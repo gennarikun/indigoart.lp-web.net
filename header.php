@@ -25,16 +25,32 @@
     </div>
     <nav class="header-nav">
       <ul>
-        <li><a href="<?= $basePath ?>">TOP</a></li>
         <li>
-          <a href="<?= $basePath ?>up-cycle/">洋服染め直しサービス</a>
+          <a href="<?= $basePath ?>">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/></svg>
+            <span>TOP</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?= $basePath ?>up-cycle/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2m0 14v2M5.5 7L7 8.5m10-1.5L15.5 8.5"/><path d="M8 12a4 4 0 018 0"/><path d="M6 16h12"/><path d="M9 20h6"/><path d="M4 6l2 2m12-2l-2 2"/></svg>
+            <span>洋服染め直し</span>
+          </a>
           <ul class="sub-menu gap-bridge">
             <li><a href="<?= $basePath ?>blog/">ブログ</a></li>
           </ul>
         </li>
-        <li><a href="<?= $basePath ?>gallery/">ギャラリー</a></li>
         <li>
-          <a href="<?= $basePath ?>about-class/">染物体験</a>
+          <a href="<?= $basePath ?>gallery/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>ギャラリー</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?= $basePath ?>about-class/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8l-4 4 4 4"/><path d="M17 8l4 4-4 4"/><path d="M14 4l-4 16"/></svg>
+            <span>染物体験</span>
+          </a>
           <ul class="sub-menu gap-bridge">
             <li><a href="<?= $basePath ?>about-indigo/">藍染めについて</a></li>
             <li><a href="<?= $basePath ?>silkscreen/">藍染×シルクスクリーン</a></li>
@@ -42,10 +58,30 @@
             <li><a href="<?= $basePath ?>item/">染物素材のご紹介</a></li>
           </ul>
         </li>
-        <li><a href="<?= $basePath ?>online-shop/">ショップ</a></li>
-        <li><a href="<?= $basePath ?>price/">料金表</a></li>
-        <li><a href="<?= $basePath ?>question/">よくある質問</a></li>
-        <li><a href="<?= $basePath ?>contact/">ご予約・お問い合わせ</a></li>
+        <li>
+          <a href="<?= $basePath ?>online-shop/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+            <span>ショップ</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?= $basePath ?>price/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+            <span>料金表</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?= $basePath ?>question/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            <span>よくある質問</span>
+          </a>
+        </li>
+        <li>
+          <a href="<?= $basePath ?>contact/">
+            <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 8l9 6 9-6"/></svg>
+            <span>ご予約・お問い合わせ</span>
+          </a>
+        </li>
       </ul>
     </nav>
     <button class="mobile-menu-btn" aria-label="モバイルメニューを開く">
@@ -55,18 +91,42 @@
 </header>
 <div class="mobile-nav-overlay">
   <nav>
-    <a href="<?= $basePath ?>">TOP</a>
-    <a href="<?= $basePath ?>up-cycle/">洋服染め直しサービス</a>
-    <a href="<?= $basePath ?>blog/" style="padding-left: 30px; font-size: 16px;">- ブログ</a>
-    <a href="<?= $basePath ?>gallery/">ギャラリー</a>
-    <a href="<?= $basePath ?>about-class/">染物体験</a>
-    <a href="<?= $basePath ?>about-indigo/" style="padding-left: 30px; font-size: 16px;">- 藍染めについて</a>
-    <a href="<?= $basePath ?>silkscreen/" style="padding-left: 30px; font-size: 16px;">- 藍染×シルクスクリーン</a>
-    <a href="<?= $basePath ?>pumice/" style="padding-left: 30px; font-size: 16px;">- 甲州ワイン染めについて</a>
-    <a href="<?= $basePath ?>item/" style="padding-left: 30px; font-size: 16px;">- 染物素材のご紹介</a>
-    <a href="<?= $basePath ?>online-shop/">ショップ</a>
-    <a href="<?= $basePath ?>price/">料金表</a>
-    <a href="<?= $basePath ?>question/">よくある質問</a>
-    <a href="<?= $basePath ?>contact/">ご予約・お問い合わせ</a>
+    <a href="<?= $basePath ?>">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-4 0a1 1 0 01-1-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1"/></svg>
+      TOP
+    </a>
+    <a href="<?= $basePath ?>up-cycle/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v2m0 14v2M5.5 7L7 8.5m10-1.5L15.5 8.5"/><path d="M8 12a4 4 0 018 0"/><path d="M6 16h12"/><path d="M9 20h6"/><path d="M4 6l2 2m12-2l-2 2"/></svg>
+      洋服染め直しサービス
+    </a>
+    <a href="<?= $basePath ?>blog/" style="padding-left: 50px; font-size: 16px;">- ブログ</a>
+    <a href="<?= $basePath ?>gallery/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+      ギャラリー
+    </a>
+    <a href="<?= $basePath ?>about-class/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8l-4 4 4 4"/><path d="M17 8l4 4-4 4"/><path d="M14 4l-4 16"/></svg>
+      染物体験
+    </a>
+    <a href="<?= $basePath ?>about-indigo/" style="padding-left: 50px; font-size: 16px;">- 藍染めについて</a>
+    <a href="<?= $basePath ?>silkscreen/" style="padding-left: 50px; font-size: 16px;">- 藍染×シルクスクリーン</a>
+    <a href="<?= $basePath ?>pumice/" style="padding-left: 50px; font-size: 16px;">- 甲州ワイン染めについて</a>
+    <a href="<?= $basePath ?>item/" style="padding-left: 50px; font-size: 16px;">- 染物素材のご紹介</a>
+    <a href="<?= $basePath ?>online-shop/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+      ショップ
+    </a>
+    <a href="<?= $basePath ?>price/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>
+      料金表
+    </a>
+    <a href="<?= $basePath ?>question/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+      よくある質問
+    </a>
+    <a href="<?= $basePath ?>contact/">
+      <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 8l9 6 9-6"/></svg>
+      ご予約・お問い合わせ
+    </a>
   </nav>
 </div>
