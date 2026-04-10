@@ -34,6 +34,4 @@ if (isset($pageCSS) && is_array($pageCSS)) {
 }
 ?>
 <!-- Custom Redesign Styles & Scripts -->
-<link rel="stylesheet" href="<?= $basePath ?>css/design.css?v=20260408_02">
 <script src="<?= $basePath ?>js/script.js?v=20260408_02"></script>
-<script src="<?= $basePath ?>js/design.js?v=20260408_02"></script>

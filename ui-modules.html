@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>UI Modules - 見出しデザインモジュール</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --indigo: #113285;
+      --indigo-light: #2c52b3;
+      --gold: #c3a477;
+      --bg-color: #f8f9fa;
+      --text-main: #333;
+    }
+    body {
+      font-family: "Noto Serif JP", serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      padding: 40px;
+      margin: 0;
+    }
+    .module-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .module-section {
+      background: #fff;
+      padding: 60px 40px;
+      margin-bottom: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+    .module-label {
+      display: inline-block;
+      background: #e0e0e0;
+      color: #666;
+      font-size: 12px;
+      font-family: sans-serif;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 40px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    /* =========================================
+       Pattern A: 英字オーバーレイ + 縦書きアクセント
+       (モダンジャパニーズ・トップページ風)
+    ========================================= */
+    .heading-pattern-a {
+      position: relative;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .heading-pattern-a .en-bg {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(60px, 8vw, 120px);
+      color: rgba(17, 50, 133, 0.04);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 1;
+      white-space: nowrap;
+      z-index: 1;
+      letter-spacing: 0.2em;
+    }
+    .heading-pattern-a .ja-title {
+      position: relative;
+      z-index: 2;
+      font-size: clamp(24px, 4vw, 36px);
+      color: var(--indigo);
+      letter-spacing: 0.2em;
+      margin: 0;
+    }
+    .heading-pattern-a .ja-title::after {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 2px;
+      background: var(--gold);
+      margin: 20px auto 0;
+    }
+
+    /* =========================================
+       Pattern B: 和紙/藍染テクスチャ背景 + 文字抜き
+       (素材の質感を強調するプレミアムスタイル)
+    ========================================= */
+    .heading-pattern-b {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 120px;
+      background: linear-gradient(135deg, var(--indigo) 0%, var(--indigo-light) 100%);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(17,50,133,0.2);
+    }
+    .heading-pattern-b::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.65%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.15%22/%3E%3C/svg%3E');
+      mix-blend-mode: overlay;
+    }
+    .heading-pattern-b .inner-text {
+      position: relative;
+      color: #fff;
+      font-size: 28px;
+      letter-spacing: 0.3em;
+      z-index: 2;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .heading-pattern-b .en-sub {
+      position: absolute;
+      bottom: 12px;
+      right: 24px;
+      color: var(--gold);
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      letter-spacing: 0.4em;
+    }
+
+    /* =========================================
+       Pattern C: グラスモーフィズム + 左ラインアシンメトリー
+       (現代的でスタイリッシュな情報整理)
+    ========================================= */
+    .heading-pattern-c {
+      position: relative;
+      padding: 24px 32px;
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255,255,255,0.4);
+      border-left: 6px solid var(--indigo);
+      border-radius: 0 8px 8px 0;
+      box-shadow: 4px 4px 20px rgba(0,0,0,0.03);
+    }
+    .heading-pattern-c .ja-title {
+      font-size: 28px;
+      color: #222;
+      margin: 0 0 8px 0;
+      letter-spacing: 0.1em;
+    }
+    .heading-pattern-c .en-title {
+      font-family: 'Cinzel', serif;
+      font-size: 14px;
+      color: var(--gold);
+      letter-spacing: 0.2em;
+      margin: 0;
+    }
+
+    /* =========================================
+       Pattern D: クラシックミニマル・ダブルライン
+       (シンプルさを極めた上質なカタログ風)
+    ========================================= */
+    .heading-pattern-d {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: var(--indigo);
+    }
+    .heading-pattern-d::before,
+    .heading-pattern-d::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid rgba(17, 50, 133, 0.2);
+    }
+    .heading-pattern-d::before { margin-right: 2em; }
+    .heading-pattern-d::after { margin-left: 2em; }
+    
+    .heading-pattern-d .title-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .heading-pattern-d .ja-title {
+      font-size: 28px;
+      letter-spacing: 0.15em;
+      margin: 0 0 4px 0;
+    }
+    .heading-pattern-d .en-title {
+      font-family: 'Cinzel', serif;
+      font-size: 12px;
+      color: var(--gold);
+      letter-spacing: 0.3em;
+    }
+  </style>
+</head>
+<body>
+
+<div class="module-container">
+  <h1 style="text-align:center; color:#113285; margin-bottom: 60px; font-size:36px;">Heading Design Modules</h1>
+
+  <div class="module-section">
+    <div class="module-label">Pattern A : Overlay & Accent</div>
+    <div class="heading-pattern-a">
+      <div class="en-bg">T-SHIRT</div>
+      <h2 class="ja-title">藍染素材【Tシャツ】</h2>
+    </div>
+    <p style="color:#666; font-size:14px; text-align:center; margin-top:40px;">背面に巨大な英字を透かしで配置し、空間の広がりとジャングリア的な高級感を演出。トップページやAbout Classの余白の使い方を踏襲した王道デザイン。</p>
+  </div>
+
+  <div class="module-section">
+    <div class="module-label">Pattern B : Texture & Gradient</div>
+    <div class="heading-pattern-b">
+      <h2 class="inner-text">藍染素材【オプション】</h2>
+      <span class="en-sub">OPTIONS</span>
+    </div>
+    <p style="color:#666; font-size:14px; text-align:center; margin-top:40px;">藍の手染め・和紙の質感をCSSノイズテクスチャとグラデーションで表現した、物質的なリッチさを持つ見出し。視覚的なインパクトが強いセクションの開始に。</p>
+  </div>
+
+  <div class="module-section">
+    <div class="module-label">Pattern C : Glassmorphism & Solid</div>
+    <div class="heading-pattern-c">
+      <h2 class="ja-title">染物体験の料金表</h2>
+      <p class="en-title">PRICE LIST & SYSTEM</p>
+    </div>
+    <p style="color:#666; font-size:14px; text-align:left; margin-top:20px;">透明感を伴うグラスモーフィズムと、左のソリッドな藍色ラインを合わせたアシンメトリーな実用デザイン。料金表のような「整理された情報」を見せる直前に最適。</p>
+  </div>
+
+  <div class="module-section">
+    <div class="module-label">Pattern D : Classic Minimal</div>
+    <div class="heading-pattern-d">
+      <div class="title-wrap">
+        <h2 class="ja-title">よくあるご質問</h2>
+        <span class="en-title">QUESTIONS</span>
+      </div>
+    </div>
+    <p style="color:#666; font-size:14px; text-align:center; margin-top:40px;">左右に繊細なラインを伸ばし、余白を広大に取ることで「何もないことの美しさ」を強調するスタイル。美術館のカタログ（図録）のような静的で落ち着いた印象。</p>
+  </div>
+
+</div>
+
+</body>
+</html>

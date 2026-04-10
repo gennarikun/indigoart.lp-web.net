@@ -3,7 +3,7 @@ $basePath = '../';
 $pageTitle = '藍染素材のご紹介 – 河口湖の草木染め・藍染・染物体験教室インディゴ高菜先生|アパレルオンラインショップ通販';
 $canonicalUrl = '../item';
 $bodyClass = 'wp-singular page-template-default page page-id-305 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc';
-$pageCSS = ['css/item.css'];
+$pageCSS = [];
 include_once($basePath . 'head-common.php');
 ?>
 
