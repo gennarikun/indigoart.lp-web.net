@@ -81,4 +81,4 @@
 </footer>
 
 <!-- Remove original included footer scripts that might interfere, or selectively include them if needed -->
-<?php wp_footer(); ?>
+<!-- Removed wp_footer() to fix Fatal Error in static PHP environment -->
