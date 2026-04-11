@@ -9,9 +9,9 @@
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-775206818">
 </script>
 <style id="custom-background-css" type="text/css">
-		:root { --washi-texture: url('<?= $basePath ?>assets/7966bae7.png'); }
+		:root { --washi-texture: url('/assets/7966bae7.png'); }
 		body.custom-background {
-			background-image: url('<?= $basePath ?>assets/7966bae7.png');
+			background-image: url('/assets/7966bae7.png');
 			background-position: left top;
 			background-size: auto;
 			background-repeat: repeat;
@@ -24,7 +24,7 @@
 <link href="<?= $basePath ?>assets/065cc1bd.png" rel="icon" sizes="192x192"/>
 <link href="<?= $basePath ?>assets/36b0842c.png" rel="apple-touch-icon"/>
 <meta content="<?= $basePath ?>assets/d6b26641.png" name="msapplication-TileImage"/>
-<link href="<?= $basePath ?>css/lib.min.css" media="all" rel="stylesheet" type="text/css"/><link href="<?= $basePath ?>css/style.css?v=<?= time() ?>" media="all" rel="stylesheet" type="text/css"/>
+<link href="<?= $basePath ?>css/style.css?v=<?= time() ?>" media="all" rel="stylesheet" type="text/css"/>
 <?php
 // 各ページの固有CSSを読み込む
 if (isset($pageCSS) && is_array($pageCSS)) {
