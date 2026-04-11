@@ -8909,6 +8909,13 @@ section.ceo-section {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .global-sub-hero {
+    margin-top: 60px;
+    min-height: calc(50vh - 60px);
+  }
+}
+
 .global-sub-hero::before {
   content: '';
   position: absolute;
