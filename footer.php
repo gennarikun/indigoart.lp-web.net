@@ -51,10 +51,10 @@
 <section class="cta-section">
   <div class="container fade-in">
     <div class="cta-text">
-      <span style="display:inline-block;">お申込み</span> <span style="display:inline-block;">24時間受け付けております</span>
+      <span style="display:inline-block;">ご予約・お問い合わせ</span> <span style="display:inline-block;">24時間受け付けております</span>
     </div>
     <div class="cta-sub">
-      <span style="display:inline-block;">WEB予約・LINE・</span><span style="display:inline-block;">お電話にてご予約を承ります</span>
+      <span style="display:inline-block;">LINE・メール・</span><span style="display:inline-block;">お電話等にてご予約を承ります</span>
     </div>
     <a href="<?= $basePath ?>contact/" class="btn-cta" style="font-size:18px; padding:20px 48px; line-height: 1.5;">
       <span style="display:inline-block;">お問い合わせもこちら</span> <span style="display:inline-block;">お気軽にご相談ください</span>

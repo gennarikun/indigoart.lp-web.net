@@ -25,7 +25,7 @@ include_once($basePath . 'head-common.php');
   <div class="lp-item-container">
     
     <!-- Tシャツセクション -->
-    <h2 class="lp-sub-section-title lp-sub-fade-up">藍染素材【Tシャツ】</h2>
+    <h2 class="lp-sub-section-title lp-sub-fade-up" style="letter-spacing: 0.05em;">藍染素材【Tシャツ】</h2>
     <div class="lp-item-grid">
       
       <!-- 薄手Tシャツ -->
@@ -93,7 +93,7 @@ include_once($basePath . 'head-common.php');
     </div>
 
     <!-- オプションセクション -->
-    <h2 class="lp-sub-section-title lp-sub-fade-up" style="margin-top: 40px;">藍染素材【オプション】</h2>
+    <h2 class="lp-sub-section-title lp-sub-fade-up" style="margin-top: 40px; letter-spacing: 0.05em;">藍染素材【オプション】</h2>
     <div class="lp-item-grid">
       
       <!-- 手ぬぐい -->
@@ -188,7 +188,7 @@ include_once($basePath . 'head-common.php');
 
     <!-- 料金表セクション -->
     <div class="lp-item-pricing-section fade-in">
-      <h2 class="lp-sub-section-title lp-sub-fade-up">染物体験の料金表</h2>
+      <h2 class="lp-sub-section-title lp-sub-fade-up" style="letter-spacing: 0.05em;">染物体験の料金表</h2>
       
       <div class="lp-item-price-notice-wrap">
         <p>染料は「パミス」「藍」「墨」の3種類からお好きなものをお選びください。</p>
