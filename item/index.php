@@ -22,7 +22,7 @@ include_once($basePath . 'head-common.php');
     </div>
   </section>
 
-  <div class="lp-item-container fade-in">
+  <div class="lp-item-container">
     
     <!-- Tシャツセクション -->
     <h2 class="lp-sub-section-title lp-sub-fade-up">藍染素材【Tシャツ】</h2>

@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cssFadeObserver.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1, rootMargin: "0px 0px -10% 0px" });
+  }, { threshold: 0, rootMargin: "0px 0px -50px 0px" });
 
   document.querySelectorAll('.fade-in, .fade-up, .lp-sub-fade-up, .lp-wine-fade-up, .lp-wine-fade-in').forEach(el => {
     // Some classes might have 'visible' hardcoded initially for safety, we remove it here so it animates
