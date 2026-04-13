@@ -15,7 +15,7 @@ include $basePath . 'head-common.php';
 
 <!-- ======================= HERO ======================= -->
 <section class="hero">
-  <video class="hero-video" src="<?= $basePath ?>assets/hero_loop.mp4" autoplay loop muted playsinline></video>
+  <video class="hero-video" src="<?= $basePath ?>assets/hero_loop.mp4" poster="<?= $basePath ?>assets/hero_loop_poster.webp" autoplay loop muted playsinline></video>
   <div class="hero-overlay"></div>
   <div class="hero-bottom-bleed"></div>
   
