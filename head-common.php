@@ -9,14 +9,9 @@
 <meta content="河口湖で藍染め・草木染め体験ならインディゴ高菜先生。初心者歓迎、手ぶらでOK。洋服の染め直しサービスも承ります。" name="description"/>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-775206818">
 </script>
-<style id="custom-background-css" type="text/css">
-		:root { --washi-texture: url('<?= $basePath ?>assets/7966bae7.webp'); }
+    <style id="custom-background-css" type="text/css">
 		body.custom-background {
-			background-image: url('<?= $basePath ?>assets/7966bae7.webp');
-			background-position: left top;
-			background-size: auto;
-			background-repeat: repeat;
-			background-attachment: scroll;
+			background-image: none !important;
 		}
 	</style>
 <!-- Meta Pixel Code -->
