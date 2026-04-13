@@ -16,7 +16,7 @@ include $basePath . 'head-common.php';
   <section class="global-sub-hero" style="background-image: url('../assets/DSC01315-1024x683.webp'); border-bottom: 4px solid #339966;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">CONTACT</span>
-      <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.05em; font-size: clamp(28px, 5vw, 48px);">ご予約･お問い合わせ</h1>
+      <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ご予約・お問い合わせ</h1>
       <p style="color:rgba(255,255,255,0.8); letter-spacing:0.05em; font-size:clamp(14px,1.8vw,18px); margin-top:12px;">ご予約やご相談はこちら</p>
     </div>
   </section>
