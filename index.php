@@ -50,7 +50,7 @@ include $basePath . 'head-common.php';
 <section id="anc_02" class="section">
   <div class="container greeting-grid fade-in">
     <div class="greeting-image">
-      <img src="<?= $basePath ?>assets/shunta0044_Tenugui_designed_tie_dye_dyeing_wine_dyed_vegetabl_046a6e2a-287c-4af6-8b93-f8c1ec9524b8_0-1024x574.png" alt="染物体験の様子">
+      <img src="<?= $basePath ? loading="lazy">assets/shunta0044_Tenugui_designed_tie_dye_dyeing_wine_dyed_vegetabl_046a6e2a-287c-4af6-8b93-f8c1ec9524b8_0-1024x574.webp" alt="染物体験の様子">
     </div>
     <div class="greeting-text">
       <div class="section-label">GREETING</div>
@@ -96,7 +96,7 @@ include $basePath . 'head-common.php';
       <!-- 1 -->
       <div class="feature-card">
         <div class="feature-card-image">
-          <img src="<?= $basePath ?>assets/DSC06759-1024x683.jpg" alt="伝統への触れ合い">
+          <img src="<?= $basePath ? loading="lazy">assets/DSC06759-1024x683.webp" alt="伝統への触れ合い">
           <div class="feature-badge">1</div>
         </div>
         <div class="feature-card-body">
@@ -107,7 +107,7 @@ include $basePath . 'head-common.php';
       <!-- 2 -->
       <div class="feature-card">
         <div class="feature-card-image">
-          <img src="<?= $basePath ?>assets/375306_0-e1732940449149-1024x683.jpg" alt="学ぶ楽しさ">
+          <img src="<?= $basePath ? loading="lazy">assets/375306_0-e1732940449149-1024x683.webp" alt="学ぶ楽しさ">
           <div class="feature-badge">2</div>
         </div>
         <div class="feature-card-body">
@@ -118,7 +118,7 @@ include $basePath . 'head-common.php';
       <!-- 3 -->
       <div class="feature-card">
         <div class="feature-card-image">
-          <img src="<?= $basePath ?>assets/80e14639_1.jpg" alt="自分だけの作品作り">
+          <img src="<?= $basePath ? loading="lazy">assets/80e14639_1.webp" alt="自分だけの作品作り">
           <div class="feature-badge">3</div>
         </div>
         <div class="feature-card-body">
@@ -129,7 +129,7 @@ include $basePath . 'head-common.php';
       <!-- 4 -->
       <div class="feature-card">
         <div class="feature-card-image">
-          <img src="<?= $basePath ?>assets/13-1024x683.png" alt="自然素材の魅力">
+          <img src="<?= $basePath ? loading="lazy">assets/13-1024x683.webp" alt="自然素材の魅力">
           <div class="feature-badge">4</div>
         </div>
         <div class="feature-card-body">
@@ -140,7 +140,7 @@ include $basePath . 'head-common.php';
       <!-- 5 -->
       <div class="feature-card">
         <div class="feature-card-image">
-          <img src="<?= $basePath ?>assets/DSC09688-1024x683.jpg" alt="子供の想像力を育む">
+          <img src="<?= $basePath ? loading="lazy">assets/DSC09688-1024x683.webp" alt="子供の想像力を育む">
           <div class="feature-badge">5</div>
         </div>
         <div class="feature-card-body">
@@ -151,7 +151,7 @@ include $basePath . 'head-common.php';
       <!-- 6 -->
       <div class="feature-card">
         <div class="feature-card-image">
-          <img src="<?= $basePath ?>assets/0d6ddc1e.jpg" alt="保護猫がお出迎え">
+          <img src="<?= $basePath ? loading="lazy">assets/0d6ddc1e.webp" alt="保護猫がお出迎え">
           <div class="feature-badge">6</div>
         </div>
         <div class="feature-card-body">
@@ -169,7 +169,7 @@ include $basePath . 'head-common.php';
     <!-- Block 1 -->
     <div class="mission-block">
       <div class="mission-image">
-        <img src="<?= $basePath ?>assets/shunta0044_wine_making_process_red_wine_-ar_169_-v_6.1_5999d954-d696-4f38-bfb5-25c16efb7387_1-e1732941628896-1024x682.png" alt="山梨県の産業廃棄物問題">
+        <img src="<?= $basePath ? loading="lazy">assets/shunta0044_wine_making_process_red_wine_-ar_169_-v_6.1_5999d954-d696-4f38-bfb5-25c16efb7387_1-e1732941628896-1024x682.webp" alt="山梨県の産業廃棄物問題">
       </div>
       <div class="mission-text">
         <div class="section-label" style="text-align:left">WASTE PROBLEM</div>
@@ -181,7 +181,7 @@ include $basePath . 'head-common.php';
     <!-- Block 2 -->
     <div class="mission-block reverse">
       <div class="mission-image">
-        <img src="<?= $basePath ?>assets/shunta0044_After_removing_the_stems_from_the_grapes_crushedde_062f0e98-53d3-45c5-b48d-8811117c8e7a_1-e1732941564522-1024x682.png" alt="私たちの想い">
+        <img src="<?= $basePath ? loading="lazy">assets/shunta0044_After_removing_the_stems_from_the_grapes_crushedde_062f0e98-53d3-45c5-b48d-8811117c8e7a_1-e1732941564522-1024x682.webp" alt="私たちの想い">
       </div>
       <div class="mission-text">
         <div class="section-label" style="text-align:left">OUR MISSION</div>
@@ -251,7 +251,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">1</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/DSC03300-1024x683.jpg" alt="会場へ到着">
+          <img src="<?= $basePath ? loading="lazy">assets/DSC03300-1024x683.webp" alt="会場へ到着">
         </div>
       </div>
       <!-- 2 -->
@@ -262,7 +262,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">2</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/1268e79b.jpg" alt="染物体験の説明">
+          <img src="<?= $basePath ? loading="lazy">assets/1268e79b.webp" alt="染物体験の説明">
         </div>
       </div>
       <!-- 3 -->
@@ -273,7 +273,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">3</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/f47e1942.jpg" alt="染料選び">
+          <img src="<?= $basePath ? loading="lazy">assets/f47e1942.webp" alt="染料選び">
         </div>
       </div>
       <!-- 4 -->
@@ -284,7 +284,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">4</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/f3e0fa2e.jpg" alt="染め方選び">
+          <img src="<?= $basePath ? loading="lazy">assets/f3e0fa2e.webp" alt="染め方選び">
         </div>
       </div>
       <!-- 5 -->
@@ -295,7 +295,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">5</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/d612040b.jpg" alt="素材を縛る">
+          <img src="<?= $basePath ? loading="lazy">assets/d612040b.webp" alt="素材を縛る">
         </div>
       </div>
       <!-- 6 -->
@@ -306,7 +306,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">6</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/3ec0c122.jpg" alt="染色液に浸す">
+          <img src="<?= $basePath ? loading="lazy">assets/3ec0c122.webp" alt="染色液に浸す">
         </div>
       </div>
       <!-- 7 -->
@@ -317,7 +317,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">7</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/c2b1e04a.jpg" alt="洗い流し">
+          <img src="<?= $basePath ? loading="lazy">assets/c2b1e04a.webp" alt="洗い流し">
         </div>
       </div>
       <!-- 8 -->
@@ -328,7 +328,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">8</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/58303451.jpg" alt="完成">
+          <img src="<?= $basePath ? loading="lazy">assets/58303451.webp" alt="完成">
         </div>
       </div>
       <!-- 9 -->
@@ -339,7 +339,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">9</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/fd79d34f.jpg" alt="写真撮影">
+          <img src="<?= $basePath ? loading="lazy">assets/fd79d34f.webp" alt="写真撮影">
         </div>
       </div>
       <!-- 10 -->
@@ -350,7 +350,7 @@ include $basePath . 'head-common.php';
         </div>
         <div class="flow-step-badge">10</div>
         <div class="flow-step-image">
-          <img src="<?= $basePath ?>assets/AdobeStock_226274837-1024x683.jpeg" alt="最後に">
+          <img src="<?= $basePath ? loading="lazy">assets/AdobeStock_226274837-1024x683.webp" alt="最後に">
         </div>
       </div>
     </div>
@@ -470,12 +470,12 @@ include $basePath . 'head-common.php';
     <p class="section-intro">インディゴ高菜先生にお越しくださったお客様から嬉しい感想をいただいております。</p>
     
     <div class="reviews-masonry">
-      <div class="review-card"><img src="<?= $basePath ?>assets/379247-1024x680.jpg" alt="口コミ" loading="lazy"></div>
-      <div class="review-card"><img src="<?= $basePath ?>assets/IMG_4235-1024x445.jpg" alt="口コミ" loading="lazy"></div>
-      <div class="review-card"><img src="<?= $basePath ?>assets/379245_0-626x1024.jpg" alt="口コミ" loading="lazy"></div>
-      <div class="review-card"><img src="<?= $basePath ?>assets/379241_0-1024x533.jpg" alt="口コミ" loading="lazy"></div>
-      <div class="review-card"><img src="<?= $basePath ?>assets/IMG_4234-1024x488.jpg" alt="口コミ" loading="lazy"></div>
-      <div class="review-card"><img src="<?= $basePath ?>assets/379244_0-682x1024.jpg" alt="口コミ" loading="lazy"></div>
+      <div class="review-card"><img src="<?= $basePath ? loading="lazy">assets/379247-1024x680.webp" alt="口コミ" loading="lazy"></div>
+      <div class="review-card"><img src="<?= $basePath ? loading="lazy">assets/IMG_4235-1024x445.webp" alt="口コミ" loading="lazy"></div>
+      <div class="review-card"><img src="<?= $basePath ? loading="lazy">assets/379245_0-626x1024.webp" alt="口コミ" loading="lazy"></div>
+      <div class="review-card"><img src="<?= $basePath ? loading="lazy">assets/379241_0-1024x533.webp" alt="口コミ" loading="lazy"></div>
+      <div class="review-card"><img src="<?= $basePath ? loading="lazy">assets/IMG_4234-1024x488.webp" alt="口コミ" loading="lazy"></div>
+      <div class="review-card"><img src="<?= $basePath ? loading="lazy">assets/379244_0-682x1024.webp" alt="口コミ" loading="lazy"></div>
     </div>
   </div>
 
@@ -485,14 +485,14 @@ include $basePath . 'head-common.php';
     <p class="section-intro">インディゴ高菜先生をご利用のお客様の様子をご紹介させていただきます。</p>
     
     <div class="gallery-grid">
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/375306_0-e1732940449149-1024x683.jpg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/375305_0-1024x768.jpg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/0ac23cfd.jpg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/80e14639.jpg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/IMG_5637-1-1024x768.jpeg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/393147-1024x768.jpg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/393151_0.jpg" alt="ギャラリー" loading="lazy"></div>
-      <div class="gallery-item"><img src="<?= $basePath ?>assets/393150_0.jpg" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/375306_0-e1732940449149-1024x683.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/375305_0-1024x768.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/0ac23cfd.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/80e14639.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/IMG_5637-1-1024x768.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/393147-1024x768.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/393151_0.webp" alt="ギャラリー" loading="lazy"></div>
+      <div class="gallery-item"><img src="<?= $basePath ? loading="lazy">assets/393150_0.webp" alt="ギャラリー" loading="lazy"></div>
     </div>
   </div>
 </section>
