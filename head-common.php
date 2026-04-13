@@ -31,4 +31,4 @@ if (isset($pageCSS) && is_array($pageCSS)) {
 }
 ?>
 <!-- Custom Redesign Styles & Scripts -->
-<script src="<?= $basePath ?>js/script.js?v=20260408_02"></script>
+<script defer src="<?= $basePath ?>js/script.js?v=20260408_02"></script>

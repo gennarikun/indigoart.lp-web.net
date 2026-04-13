@@ -301,7 +301,7 @@ include $basePath . 'head-common.php';
       </div>
       
       <div class="lp-sub-cta-center lp-sub-fade-up" style="margin-top:40px;">
-        <a href="https://www.instagram.com/takana_sumabura/" target="_blank" class="lp-sub-cta">その他の実績を見る (Instagram)</a>
+        <a href="https://www.instagram.com/takana_sumabura/" target="_blank" rel="noopener noreferrer" class="lp-sub-cta">その他の実績を見る (Instagram)</a>
       </div>
     </div>
   </section>
@@ -424,15 +424,15 @@ include $basePath . 'head-common.php';
         <p style="margin-bottom:16px;">①1ℓのお湯（40度くらい）でキットを溶かすキットを溶かす<br/>②染めたいアイテムを濡らす<br/>③デザインをつける<br/>④染める（30秒程度）<br/>⑤流す</p>
         <p style="margin-bottom:24px;">内容量45g (Tシャツ2〜3枚程度す染めることが可能です)</p>
         <div style="display:flex; gap:16px; flex-wrap:wrap; margin-bottom:48px;">
-          <a href="https://suridane-shop.square.site/product/-t-/209" target="_blank" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">藍染めキットの購入はこちら</a>
-          <a href="https://suridane-shop.square.site/product/-t-/208" target="_blank" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">藍染め＋Tシャツの購入はこちら</a>
+          <a href="https://suridane-shop.square.site/product/-t-/209" target="_blank" rel="noopener noreferrer" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">藍染めキットの購入はこちら</a>
+          <a href="https://suridane-shop.square.site/product/-t-/208" target="_blank" rel="noopener noreferrer" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">藍染め＋Tシャツの購入はこちら</a>
         </div>
 
         <h4 style="color:var(--sub-gold); font-size:1.4rem; border-bottom:1px solid #ddd; padding-bottom:8px; margin-bottom:16px;">墨染め使い方</h4>
         <p style="margin-bottom:24px;">①700mlのお湯にキットを溶かします<br/>②染めたいアイテムをミョウバン水で濡らす<br/>③デザインをつける<br/>④染める（30秒程度）<br/>⑤10分ほど放置して流す</p>
         <div style="display:flex; gap:16px; flex-wrap:wrap; margin-bottom:48px;">
-          <a href="https://suridane-shop.square.site/product/-/206" target="_blank" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">墨染めキットの購入はこちら</a>
-          <a href="https://suridane-shop.square.site/product/-t-/208" target="_blank" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">墨染め＋Tシャツの購入はこちら</a>
+          <a href="https://suridane-shop.square.site/product/-/206" target="_blank" rel="noopener noreferrer" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">墨染めキットの購入はこちら</a>
+          <a href="https://suridane-shop.square.site/product/-t-/208" target="_blank" rel="noopener noreferrer" class="lp-sub-cta lp-sub-cta--filled" style="flex:1; padding: 12px; font-size:14px; text-align:center;">墨染め＋Tシャツの購入はこちら</a>
         </div>
 
         <h4 style="color:var(--sub-gold); font-size:1.4rem; border-bottom:1px solid #ddd; padding-bottom:8px; margin-bottom:16px;">Tシャツサイズ</h4>
@@ -448,7 +448,7 @@ include $basePath . 'head-common.php';
         <p style="margin-bottom:24px;">オンラインショップでは上記の商品を販売しております。<br/>詳しくはオンラインショップをご覧ください。<br/>また、プレゼントのラッピングも承っておりますので、ご希望の際はラッピング有りを選択してください。</p>
         <img src="../assets/LINE_ALBUM_2024.5.9_240509_45-1024x683.webp" alt="Wrapping" style="width:100%; border-radius:8px; margin-bottom:48px;" />
         <div class="lp-sub-cta-center">
-          <a href="https://suridane-shop.square.site/shop/-/16?page=1&amp;limit=30&amp;sort_by=category_order&amp;sort_order=asc" target="_blank" class="lp-sub-cta lp-sub-cta--filled">オンラインショップはこちら</a>
+          <a href="https://suridane-shop.square.site/shop/-/16?page=1&amp;limit=30&amp;sort_by=category_order&amp;sort_order=asc" target="_blank" rel="noopener noreferrer" class="lp-sub-cta lp-sub-cta--filled">オンラインショップはこちら</a>
         </div>
       </div>
     </div>
