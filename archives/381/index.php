@@ -15,7 +15,7 @@ include_once($basePath . 'head-common.php');
 <?php include_once($basePath . 'header.php'); ?>
 
 <div class="lp-page-blog">
-<section class="global-sub-hero" style="background-image: url('<?= $basePath ?>assets/DSC01312-1024x683.jpg'); border-bottom: 4px solid #b8960c;">
+<section class="global-sub-hero" style="background-image: url('<?= $basePath ?>assets/DSC01312-1024x683.webp'); border-bottom: 4px solid #b8960c;">
   <div class="global-sub-hero-inner" style="pointer-events: none;">
     <span class="global-sub-hero-en-accent">ARTICLE</span>
     <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ブログ記事</h1>
@@ -39,22 +39,22 @@ include_once($basePath . 'head-common.php');
 											藍染の起源と影響：古代中国文化における歴史と象徴性									</h1>
 </header>
 <div class="entry-body">
-<p><img alt="藍染の起源と影響：古代中国文化における歴史と象徴性" class="aligncenter size-large wp-image-391" decoding="async" fetchpriority="high" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../../assets/1-1024x683.png" srcset="../../assets/1-1024x683.png 1024w, ../../assets/1-300x200.png 300w, ../../assets/1-768x512.png 768w, ../../assets/1-1536x1024.png 1536w, ../../assets/1.png 2048w" width="1024"/></p>
+<p><img alt="藍染の起源と影響：古代中国文化における歴史と象徴性" class="aligncenter size-large wp-image-391" decoding="async" fetchpriority="high" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../../assets/1-1024x683.webp" srcset="../../assets/1-1024x683.webp 1024w, ../../assets/1-300x200.webp 300w, ../../assets/1-768x512.webp 768w, ../../assets/1-1536x1024.webp 1536w, ../../assets/1.webp 2048w" width="1024"/></p>
 <p>古代中国における藍染は、その使い方、歴史、そして人々の生活に密接に関わっていた複雑な文化的要素を持っています。以下は古代中国における藍染の詳細な分析です。</p>
 <h2 style="text-align: center;">藍染の使い方と象徴性</h2>
-<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-438" decoding="async" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../../assets/34-1024x683.png" srcset="../../assets/34-1024x683.png 1024w, ../../assets/34-300x200.png 300w, ../../assets/34-768x512.png 768w, ../../assets/34-1536x1024.png 1536w, ../../assets/34.png 2048w" width="1024"/></p>
+<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-438" decoding="async" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../../assets/34-1024x683.webp" srcset="../../assets/34-1024x683.webp 1024w, ../../assets/34-300x200.webp 300w, ../../assets/34-768x512.webp 768w, ../../assets/34-1536x1024.webp 1536w, ../../assets/34.webp 2048w" width="1024"/></p>
 <ul>
 <li>衣服: 古代中国では、藍染は広範囲にわたる社会階層で衣服の染色に使用されました。藍染めされた衣服は、普通の市民から高位の官僚まで、幅広く愛用されていました。特に、漁師や農民などの労働者階級にとって、藍染めの衣服は日常着として重宝されました。</li>
 <li>装飾品と芸術: 藍染は紙、絹、陶磁器の装飾にも使用され、美術品や工芸品に豊かな青色を加えました。古代中国の詩や書物には、藍色や藍染めに対する言及が散見され、文化的な価値を反映しています。</li>
 </ul>
 <h2 style="text-align: center;">歴史と文化的意義</h2>
-<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-436" decoding="async" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../../assets/32-1024x683.png" srcset="../../assets/32-1024x683.png 1024w, ../../assets/32-300x200.png 300w, ../../assets/32-768x512.png 768w, ../../assets/32-1536x1024.png 1536w, ../../assets/32.png 2048w" width="1024"/><br/>
+<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-436" decoding="async" height="683" sizes="(max-width: 1024px) 100vw, 1024px" src="../../assets/32-1024x683.webp" srcset="../../assets/32-1024x683.webp 1024w, ../../assets/32-300x200.webp 300w, ../../assets/32-768x512.webp 768w, ../../assets/32-1536x1024.webp 1536w, ../../assets/32.webp 2048w" width="1024"/><br/>
 古代中国では、藍染の技術は非常に早い段階から発展しました。中国の藍染は、主にインディゴフェラではなく、地域に自生する植物から抽出された藍を使用していたことが特徴です。この地域固有の染料は、中国の長い歴史とともに、独自の染色法や美学を発展させました。</p>
 <h2 style="text-align: center;">生活への影響</h2>
-<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-437" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/33-1024x683.png" srcset="../../assets/33-1024x683.png 1024w, ../../assets/33-300x200.png 300w, ../../assets/33-768x512.png 768w, ../../assets/33-1536x1024.png 1536w, ../../assets/33.png 2048w" width="1024"/><br/>
+<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-437" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/33-1024x683.webp" srcset="../../assets/33-1024x683.webp 1024w, ../../assets/33-300x200.webp 300w, ../../assets/33-768x512.webp 768w, ../../assets/33-1536x1024.webp 1536w, ../../assets/33.webp 2048w" width="1024"/><br/>
 藍染は古代中国の人々の生活に深く根ざしていました。藍染めされた衣服は耐久性が高く、作業服としての機能性を持ちながら、その美しさで日常生活に彩りを添えていました。また、藍染めは家庭内で行われることも多く、染色技術は世代から世代へと伝承されました。</p>
 <h2 style="text-align: center;">藍染の生産</h2>
-<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-434" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/30-1024x683.png" srcset="../../assets/30-1024x683.png 1024w, ../../assets/30-300x200.png 300w, ../../assets/30-768x512.png 768w, ../../assets/30-1536x1024.png 1536w, ../../assets/30.png 2048w" width="1024"/><br/>
+<p><img alt="古代中国文化における藍染の歴史と文化" class="aligncenter size-large wp-image-434" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/30-1024x683.webp" srcset="../../assets/30-1024x683.webp 1024w, ../../assets/30-300x200.webp 300w, ../../assets/30-768x512.webp 768w, ../../assets/30-1536x1024.webp 1536w, ../../assets/30.webp 2048w" width="1024"/><br/>
 古代中国の藍染め技術は、植物の栽培から藍の抽出、布への染色に至るまで、一連の精巧な工程を経ています。中国の藍染めは特に、発酵させることで藍の色素を抽出する独特の方法を用いていました。この技術は、中国全土で発展し、多様な地域ごとの特色を生み出しています。</p>
 <h2 style="text-align: center;">まとめ</h2>
 <p>古代中国における藍染は、ただの衣料品の染色を超えた、深い文化的および社会的意味を持っていました。藍染めされた衣服や芸術品は、古代中国の人々の生活、信仰、および価値観の一部となっています。長い歴史を通じて、藍染は中国の文化や伝統の象徴として、その重要性を保ち続けています。</p>
@@ -74,8 +74,8 @@ include_once($basePath . 'head-common.php');
 </div><!-- #comments -->
 </article><!-- [ /#post-381 ] -->
 <div class="vk_posts postNextPrev">
-<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 post-378 post type-post status-publish format-standard has-post-thumbnail hentry category-4 category-5" id="post-378"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/3-1024x683.png')"><a href="../../archives/378"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">藍染について</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 300px) 100vw, 300px" src="../../assets/3-300x200.png"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">前の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/378">藍染の起源と影響：古代インド文化における使用法と象徴性</a></h5><div class="vk_post_date card-date published">2024年3月28日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
-<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 card-horizontal-reverse postNextPrev_next post-385 post type-post status-publish format-standard has-post-thumbnail hentry category-4 category-5" id="post-385"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/2-1024x683.png')"><a href="../../archives/385"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">藍染について</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 300px) 100vw, 300px" src="../../assets/2-300x200.png"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">次の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/385">藍染の起源と影響：アフリカ文化における歴史と象徴性</a></h5><div class="vk_post_date card-date published">2024年3月28日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
+<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 post-378 post type-post status-publish format-standard has-post-thumbnail hentry category-4 category-5" id="post-378"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/3-1024x683.webp')"><a href="../../archives/378"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">藍染について</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 300px) 100vw, 300px" src="../../assets/3-300x200.webp"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">前の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/378">藍染の起源と影響：古代インド文化における使用法と象徴性</a></h5><div class="vk_post_date card-date published">2024年3月28日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
+<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 card-horizontal-reverse postNextPrev_next post-385 post type-post status-publish format-standard has-post-thumbnail hentry category-4 category-5" id="post-385"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/2-1024x683.webp')"><a href="../../archives/385"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">藍染について</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 300px) 100vw, 300px" src="../../assets/2-300x200.webp"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">次の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/385">藍染の起源と影響：アフリカ文化における歴史と象徴性</a></h5><div class="vk_post_date card-date published">2024年3月28日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
 </div>
 </div><!-- [ /.mainSection ] -->
 <div class="col subSection sideSection sideSection-col-two baseSection">
@@ -84,7 +84,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/878">
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-150x150.jpg" width="150"/> </a>
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/878">女性モノの服の染め直し</a></h4>
@@ -94,7 +94,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/830">
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-150x150.jpeg" width="150"/> </a>
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/830">染め直しサービス　”藍染を使った服の染め直しサービスで、お洒落と思い出を再び”</a></h4>
@@ -104,7 +104,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/441">
-<img alt="日本における藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/06b2a040.png" width="150"/> </a>
+<img alt="日本における藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/06b2a040.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/441">日本における藍染の歴史</a></h4>
@@ -114,7 +114,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/385">
-<img alt="藍染の起源と影響：アフリカ文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/2-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：アフリカ文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/2-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/385">藍染の起源と影響：アフリカ文化における歴史と象徴性</a></h4>
@@ -124,7 +124,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/381">
-<img alt="藍染の起源と影響：古代中国文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/1-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：古代中国文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/1-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/381">藍染の起源と影響：古代中国文化における歴史と象徴性</a></h4>
@@ -134,7 +134,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/378">
-<img alt="藍染の起源と影響：古代インド文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：古代インド文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/378">藍染の起源と影響：古代インド文化における使用法と象徴性</a></h4>
@@ -144,7 +144,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/376">
-<img alt="藍染の起源と影響：古代エジプト文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/4-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：古代エジプト文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/4-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/376">藍染の起源と影響~古代エジプト文化における藍の歴史と象徴性~</a></h4>
@@ -154,7 +154,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/370">
-<img alt="藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/89bfda85.png" width="150"/> </a>
+<img alt="藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/89bfda85.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/370">世界の藍染の歴史と文化</a></h4>
@@ -164,7 +164,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/168">
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/28878415_m-150x150.jpg" width="150"/> </a>
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/28878415_m-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/168">藍染めの起源と日本での発展、特に山梨県富士河口湖地域の歴史との関連</a></h4>
@@ -174,7 +174,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/166">
-<img alt="藍染　出張体験" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" sizes="auto, (max-width: 150px) 100vw, 150px" src="../../assets/25879106_m-e1710039014851-150x150.jpg" srcset="../../assets/25879106_m-e1710039014851-150x150.jpg 150w, ../../assets/25879106_m-e1710039014851-300x300.jpg 300w, ../../assets/25879106_m-e1710039014851-1024x1024.jpg 1024w, ../../assets/25879106_m-e1710039014851-768x768.jpg 768w, ../../assets/25879106_m-e1710039014851.jpg 1280w" width="150"/> </a>
+<img alt="藍染　出張体験" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" sizes="auto, (max-width: 150px) 100vw, 150px" src="../../assets/25879106_m-e1710039014851-150x150.webp" srcset="../../assets/25879106_m-e1710039014851-150x150.webp 150w, ../../assets/25879106_m-e1710039014851-300x300.webp 300w, ../../assets/25879106_m-e1710039014851-1024x1024.webp 1024w, ../../assets/25879106_m-e1710039014851-768x768.webp 768w, ../../assets/25879106_m-e1710039014851.webp 1280w" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/166">藍染めが現代のファッションやインテリアデザインでどのように活用されているか</a></h4>

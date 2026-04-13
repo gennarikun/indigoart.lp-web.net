@@ -9,9 +9,9 @@
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-775206818">
 </script>
 <style id="custom-background-css" type="text/css">
-		:root { --washi-texture: url('/assets/7966bae7.png'); }
+		:root { --washi-texture: url('/assets/7966bae7.webp'); }
 		body.custom-background {
-			background-image: url('/assets/7966bae7.png');
+			background-image: url('/assets/7966bae7.webp');
 			background-position: left top;
 			background-size: auto;
 			background-repeat: repeat;
@@ -20,9 +20,9 @@
 	</style>
 <!-- Meta Pixel Code -->
 <!-- End Meta Pixel Code -->
-<link href="<?= $basePath ?>assets/33152662.png" rel="icon" sizes="32x32"/>
-<link href="<?= $basePath ?>assets/065cc1bd.png" rel="icon" sizes="192x192"/>
-<link href="<?= $basePath ?>assets/36b0842c.png" rel="apple-touch-icon"/>
+<link href="<?= $basePath ?>assets/33152662.webp" rel="icon" sizes="32x32"/>
+<link href="<?= $basePath ?>assets/065cc1bd.webp" rel="icon" sizes="192x192"/>
+<link href="<?= $basePath ?>assets/36b0842c.webp" rel="apple-touch-icon"/>
 <meta content="<?= $basePath ?>assets/d6b26641.png" name="msapplication-TileImage"/>
 <link href="<?= $basePath ?>css/style.css?v=<?= time() ?>" media="all" rel="stylesheet" type="text/css"/>
 <?php

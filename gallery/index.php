@@ -16,7 +16,7 @@ include $basePath . 'head-common.php';
 <div class="lp-page-gallery">
   
   <!-- Hero Section (FV) -->
-  <section class="global-sub-hero" style="background-image: url('../assets/DSC09978-e1710039218155-1024x1024.jpg'); border-bottom: 4px solid #db7093;">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC09978-e1710039218155-1024x1024.webp'); border-bottom: 4px solid #db7093;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">GALLERY</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ギャラリー</h1>
@@ -28,67 +28,67 @@ include $basePath . 'head-common.php';
   <div class="lp-gallery-container fade-in">
     <div class="lp-gallery-grid">
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/375306_0-e1732940449149-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/375306_0-e1732940449149-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/IMG_0950-1024x767.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/IMG_0950-1024x767.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/b48eb425.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/b48eb425.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/375305_0-1024x768.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/375305_0-1024x768.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/05070773.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/05070773.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/80e14639.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/80e14639.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/0a5cc54e.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/0a5cc54e.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/35625112.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/35625112.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/IMG_5637-e1732936681791-1024x574.jpeg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/IMG_5637-e1732936681791-1024x574.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/0ac23cfd.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/0ac23cfd.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/63bf5a1d.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/63bf5a1d.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/767c132e.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/767c132e.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC01312-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC01312-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC01315-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC01315-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC01320-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC01320-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC01324-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC01324-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC01338-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC01338-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC08862-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC08862-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC09688-1-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC09688-1-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/DSC09694-1-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/DSC09694-1-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
       <div class="lp-gallery-item">
-        <img src="<?= $basePath ?>assets/IMG_0324-3-1024x683.jpg" alt="ギャラリー画像" loading="lazy">
+        <img src="<?= $basePath ?>assets/IMG_0324-3-1024x683.webp" alt="ギャラリー画像" loading="lazy">
       </div>
     </div>
   </div>

@@ -157,7 +157,7 @@
 .lp-indigo-wrapper .lp-indigo-hero-overlay {
   position: absolute;
   inset: 0;
-  background: url('../assets/02f460a5.jpg') center/cover;
+  background: url('../assets/02f460a5.webp') center/cover;
   opacity: 0.15;
   mix-blend-mode: overlay;
 }
@@ -396,7 +396,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('../assets/34e633e2.png') center/contain no-repeat;
+  background: url('../assets/34e633e2.webp') center/contain no-repeat;
 }
 
 /* Coin Icon - Regular (Blue) */
@@ -404,7 +404,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('../assets/34e633e2.png') center/contain no-repeat;
+  background: url('../assets/34e633e2.webp') center/contain no-repeat;
 }
 
 .lp-indigo-wrapper .lp-indigo-info-icon.lp-indigo-icon-yen {

@@ -15,7 +15,7 @@ include $basePath . 'head-common.php';
 <div class="lp-page-question">
 
   <!-- Hero Section (FV) -->
-  <section class="global-sub-hero" style="background-image: url('../assets/DSC09688-1-1024x683.jpg'); border-bottom: 4px solid #db7093;">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC09688-1-1024x683.webp'); border-bottom: 4px solid #db7093;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">Q & A</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">よくある質問</h1>

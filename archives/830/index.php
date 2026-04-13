@@ -15,7 +15,7 @@ include_once($basePath . 'head-common.php');
 <?php include_once($basePath . 'header.php'); ?>
 
 <div class="lp-page-blog">
-<section class="global-sub-hero" style="background-image: url('<?= $basePath ?>assets/DSC01312-1024x683.jpg'); border-bottom: 4px solid #b8960c;">
+<section class="global-sub-hero" style="background-image: url('<?= $basePath ?>assets/DSC01312-1024x683.webp'); border-bottom: 4px solid #b8960c;">
   <div class="global-sub-hero-inner" style="pointer-events: none;">
     <span class="global-sub-hero-en-accent">ARTICLE</span>
     <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ブログ記事</h1>
@@ -44,8 +44,8 @@ include_once($basePath . 'head-common.php');
 <h2>カウンセリング内容</h2>
 <p>今回の依頼は、長年来ていたシャツが経年劣化により色褪せてきてしまったが、友人からのプレゼントで捨てることができない。そこで色褪せが気にならないように藍染めで染めてもらいたい、とのことでした。</p>
 <h3>ビフォー</h3>
-<p><img alt="" class="aligncenter size-full wp-image-832" decoding="async" fetchpriority="high" height="852" sizes="(max-width: 856px) 100vw, 856px" src="../../assets/e730fe12.png" srcset="../../assets/e730fe12.png 856w, ../../assets/7739e15f.png 300w, ../../assets/6eb96b4e.png 150w, ../../assets/bdd3bfba.png 768w" width="856"/></p>
-<div class="wp-caption aligncenter" id="attachment_833" style="width: 898px"><img alt="" aria-describedby="caption-attachment-833" class="wp-image-833 size-full" decoding="async" height="892" sizes="(max-width: 888px) 100vw, 888px" src="../../assets/b34f171a.png" srcset="../../assets/b34f171a.png 888w, ../../assets/95a1c0e8.png 300w, ../../assets/d45c010d.png 150w, ../../assets/39aba165.png 768w" width="888"/><p class="wp-caption-text" id="caption-attachment-833">写真では伝わりづらいかもしれませんが、長年愛用していたため色褪せが気になります。</p></div>
+<p><img alt="" class="aligncenter size-full wp-image-832" decoding="async" fetchpriority="high" height="852" sizes="(max-width: 856px) 100vw, 856px" src="../../assets/e730fe12.webp" srcset="../../assets/e730fe12.webp 856w, ../../assets/7739e15f.webp 300w, ../../assets/6eb96b4e.webp 150w, ../../assets/bdd3bfba.webp 768w" width="856"/></p>
+<div class="wp-caption aligncenter" id="attachment_833" style="width: 898px"><img alt="" aria-describedby="caption-attachment-833" class="wp-image-833 size-full" decoding="async" height="892" sizes="(max-width: 888px) 100vw, 888px" src="../../assets/b34f171a.webp" srcset="../../assets/b34f171a.webp 888w, ../../assets/95a1c0e8.webp 300w, ../../assets/d45c010d.webp 150w, ../../assets/39aba165.webp 768w" width="888"/><p class="wp-caption-text" id="caption-attachment-833">写真では伝わりづらいかもしれませんが、長年愛用していたため色褪せが気になります。</p></div>
 <p>お客様とカウンセリングを行い、染め直しするお洋服の素材や形をもとに可能な限りご要望にお応えできるようにすり合わせを行います。</p>
 <p>カウンセリングの内容を簡潔にまとめると下記の通りです。</p>
 <div class="box15" style="text-align: center;">
@@ -60,12 +60,12 @@ include_once($basePath . 'head-common.php');
 </div>
 <p>お客様とのカウンセリングを行っていく中で、お客様の普段のファッションや着こなし方、好みなどをより正確に確認し、普段使いしやすいデザインに仕上げることが今回のポイントになりました。</p>
 <div class="box15" style="text-align: center;"><span style="font-size: 14pt;">今回はこちらの叢雲絞りのデザインで染めていきます。</span><br/>
-<img alt="" class="wp-image-718 aligncenter" decoding="async" height="317" sizes="(max-width: 317px) 100vw, 317px" src="../../assets/5-1.png" srcset="../../assets/5-1.png 700w, ../../assets/5-1-300x300.png 300w, ../../assets/5-1-150x150.png 150w" width="317"/></div>
+<img alt="" class="wp-image-718 aligncenter" decoding="async" height="317" sizes="(max-width: 317px) 100vw, 317px" src="../../assets/5-1.webp" srcset="../../assets/5-1.webp 700w, ../../assets/5-1-300x300.webp 300w, ../../assets/5-1-150x150.webp 150w" width="317"/></div>
 <h3>アフター</h3>
-<p><img alt="" class="aligncenter size-large wp-image-835" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-1024x683.jpeg" srcset="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-1024x683.jpeg 1024w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-300x200.jpeg 300w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-768x512.jpeg 768w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-1536x1024.jpeg 1536w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE.jpeg 2048w" width="1024"/></p>
-<p><img alt="" class="aligncenter size-large wp-image-837" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 683px) 100vw, 683px" src="../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-683x1024.jpeg" srcset="../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-683x1024.jpeg 683w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-200x300.jpeg 200w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-768x1152.jpeg 768w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-1024x1536.jpeg 1024w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE.jpeg 1365w" width="683"/></p>
-<p><img alt="" class="aligncenter size-large wp-image-836" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-1024x683.jpeg" srcset="../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-1024x683.jpeg 1024w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-300x200.jpeg 300w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-768x512.jpeg 768w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-1536x1024.jpeg 1536w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532.jpeg 2048w" width="1024"/></p>
-<p><img alt="" class="aligncenter size-large wp-image-838" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-1024x683.jpeg" srcset="../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-1024x683.jpeg 1024w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-300x200.jpeg 300w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-768x512.jpeg 768w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-1536x1024.jpeg 1536w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0.jpeg 2048w" width="1024"/></p>
+<p><img alt="" class="aligncenter size-large wp-image-835" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-1024x683.webp" srcset="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-1024x683.webp 1024w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-300x200.webp 300w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-768x512.webp 768w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-1536x1024.webp 1536w, ../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE.webp 2048w" width="1024"/></p>
+<p><img alt="" class="aligncenter size-large wp-image-837" decoding="async" height="1024" loading="lazy" sizes="auto, (max-width: 683px) 100vw, 683px" src="../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-683x1024.webp" srcset="../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-683x1024.webp 683w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-200x300.webp 200w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-768x1152.webp 768w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE-1024x1536.webp 1024w, ../../assets/CFDD649D-E933-4930-B16B-8E4537256AFE.webp 1365w" width="683"/></p>
+<p><img alt="" class="aligncenter size-large wp-image-836" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-1024x683.webp" srcset="../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-1024x683.webp 1024w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-300x200.webp 300w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-768x512.webp 768w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532-1536x1024.webp 1536w, ../../assets/A7DFF3EE-2BBB-4AB5-8F71-E2F2BF80D532.webp 2048w" width="1024"/></p>
+<p><img alt="" class="aligncenter size-large wp-image-838" decoding="async" height="683" loading="lazy" sizes="auto, (max-width: 1024px) 100vw, 1024px" src="../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-1024x683.webp" srcset="../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-1024x683.webp 1024w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-300x200.webp 300w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-768x512.webp 768w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0-1536x1024.webp 1536w, ../../assets/F72AA4B8-526E-4355-A802-605D4C9013D0.webp 2048w" width="1024"/></p>
 <section class="veu_contact veu_contentAddSection">
 <div class="contact_frame"><a class="btn btn-primary btn-lg contact_bt" href="../../contact/"><span class="contact_bt_txt">お問い合わせもこちら </span><span class="contact_bt_subTxt">お気軽にご相談ください</span></a></div>
 </section>
@@ -105,8 +105,8 @@ include_once($basePath . 'head-common.php');
 </div><!-- #comments -->
 </article><!-- [ /#post-830 ] -->
 <div class="vk_posts postNextPrev">
-<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 post-441 post type-post status-publish format-standard has-post-thumbnail hentry category-4 category-5" id="post-441"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/8e96d73b.png')"><a href="../../archives/441"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">藍染について</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 300px) 100vw, 300px" src="../../assets/409e82a8.png"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">前の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/441">日本における藍染の歴史</a></h5><div class="vk_post_date card-date published">2024年3月30日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
-<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 card-horizontal-reverse postNextPrev_next post-878 post type-post status-publish format-standard has-post-thumbnail hentry category-6" id="post-878"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD.jpg')"><a href="../../archives/878"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">染め直しサービス</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 225px) 100vw, 225px" src="../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-225x300.jpg"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">次の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/878">女性モノの服の染め直し</a></h5><div class="vk_post_date card-date published">2024年5月8日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
+<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 post-441 post type-post status-publish format-standard has-post-thumbnail hentry category-4 category-5" id="post-441"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/8e96d73b.webp')"><a href="../../archives/441"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">藍染について</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 300px) 100vw, 300px" src="../../assets/409e82a8.webp"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">前の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/441">日本における藍染の歴史</a></h5><div class="vk_post_date card-date published">2024年3月30日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
+<div class="vk_post vk_post-postType-post card card-post card-horizontal card-sm vk_post-col-xs-12 vk_post-col-sm-12 vk_post-col-md-6 card-horizontal-reverse postNextPrev_next post-878 post type-post status-publish format-standard has-post-thumbnail hentry category-6" id="post-878"><div class="card-horizontal-inner-row"><div class="vk_post-col-5 col-5 card-img-outer"><div class="vk_post_imgOuter" style="background-image:url('../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD.webp')"><a href="../../archives/878"><div class="card-img-overlay"><span class="vk_post_imgOuter_singleTermLabel" style="color:#fff;background-color:#999999">染め直しサービス</span></div><img class="vk_post_imgOuter_img card-img card-img-use-bg wp-post-image" sizes="auto, (max-width: 225px) 100vw, 225px" src="../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-225x300.webp"/></a></div><!-- [ /.vk_post_imgOuter ] --></div><!-- /.col --><div class="vk_post-col-7 col-7"><div class="vk_post_body card-body"><p class="postNextPrev_label">次の記事</p><h5 class="vk_post_title card-title"><a href="../../archives/878">女性モノの服の染め直し</a></h5><div class="vk_post_date card-date published">2024年5月8日</div></div><!-- [ /.card-body ] --></div><!-- /.col --></div><!-- [ /.row ] --></div><!-- [ /.card ] -->
 </div>
 </div><!-- [ /.mainSection ] -->
 <div class="col subSection sideSection sideSection-col-two baseSection">
@@ -115,7 +115,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/878">
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-150x150.jpg" width="150"/> </a>
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/878">女性モノの服の染め直し</a></h4>
@@ -125,7 +125,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/830">
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-150x150.jpeg" width="150"/> </a>
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/830">染め直しサービス　”藍染を使った服の染め直しサービスで、お洒落と思い出を再び”</a></h4>
@@ -135,7 +135,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/441">
-<img alt="日本における藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/06b2a040.png" width="150"/> </a>
+<img alt="日本における藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/06b2a040.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/441">日本における藍染の歴史</a></h4>
@@ -145,7 +145,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/385">
-<img alt="藍染の起源と影響：アフリカ文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/2-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：アフリカ文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/2-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/385">藍染の起源と影響：アフリカ文化における歴史と象徴性</a></h4>
@@ -155,7 +155,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/381">
-<img alt="藍染の起源と影響：古代中国文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/1-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：古代中国文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/1-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/381">藍染の起源と影響：古代中国文化における歴史と象徴性</a></h4>
@@ -165,7 +165,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/378">
-<img alt="藍染の起源と影響：古代インド文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：古代インド文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/3-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/378">藍染の起源と影響：古代インド文化における使用法と象徴性</a></h4>
@@ -175,7 +175,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/376">
-<img alt="藍染の起源と影響：古代エジプト文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/4-150x150.png" width="150"/> </a>
+<img alt="藍染の起源と影響：古代エジプト文化における歴史と象徴性" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/4-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/376">藍染の起源と影響~古代エジプト文化における藍の歴史と象徴性~</a></h4>
@@ -185,7 +185,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/370">
-<img alt="藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/89bfda85.png" width="150"/> </a>
+<img alt="藍染の歴史と文化" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/89bfda85.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/370">世界の藍染の歴史と文化</a></h4>
@@ -195,7 +195,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/168">
-<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/28878415_m-150x150.jpg" width="150"/> </a>
+<img alt="" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" src="../../assets/28878415_m-150x150.webp" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/168">藍染めの起源と日本での発展、特に山梨県富士河口湖地域の歴史との関連</a></h4>
@@ -205,7 +205,7 @@ include_once($basePath . 'head-common.php');
 <div class="media">
 <div class="media-left postList_thumbnail">
 <a href="../../archives/166">
-<img alt="藍染　出張体験" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" sizes="auto, (max-width: 150px) 100vw, 150px" src="../../assets/25879106_m-e1710039014851-150x150.jpg" srcset="../../assets/25879106_m-e1710039014851-150x150.jpg 150w, ../../assets/25879106_m-e1710039014851-300x300.jpg 300w, ../../assets/25879106_m-e1710039014851-1024x1024.jpg 1024w, ../../assets/25879106_m-e1710039014851-768x768.jpg 768w, ../../assets/25879106_m-e1710039014851.jpg 1280w" width="150"/> </a>
+<img alt="藍染　出張体験" class="attachment-thumbnail size-thumbnail wp-post-image" decoding="async" height="150" loading="lazy" sizes="auto, (max-width: 150px) 100vw, 150px" src="../../assets/25879106_m-e1710039014851-150x150.webp" srcset="../../assets/25879106_m-e1710039014851-150x150.webp 150w, ../../assets/25879106_m-e1710039014851-300x300.webp 300w, ../../assets/25879106_m-e1710039014851-1024x1024.webp 1024w, ../../assets/25879106_m-e1710039014851-768x768.webp 768w, ../../assets/25879106_m-e1710039014851.webp 1280w" width="150"/> </a>
 </div>
 <div class="media-body">
 <h4 class="media-heading"><a href="../../archives/166">藍染めが現代のファッションやインテリアデザインでどのように活用されているか</a></h4>

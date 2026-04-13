@@ -33,7 +33,7 @@ include $basePath . 'head-common.php';
 
   <!-- Section 2: 藍の特徴 -->
   <section class="lp-sub-section lp-sub-section--washi ai-section-features" id="anc_features">
-    <img class="ai-parallax-bg" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.png" alt="" aria-hidden="true" />
+    <img class="ai-parallax-bg" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.webp" alt="" aria-hidden="true" />
     <div class="lp-sub-container">
       <div class="lp-sub-section-title-block">
         <span class="lp-sub-section-en">FEATURES</span>
@@ -104,7 +104,7 @@ include $basePath . 'head-common.php';
           <p>藍とは、主に熱帯から温帯地域に自生する植物で、特に染料を作るために栽培される種類があります。藍の植物にはいくつか種類がありますが、日本でよく使われるのは「タデアイ」、またはインド原産の「インディゴフェラ・ティンクトリア」などが知られています。これらの藍植物は、細長い葉を持ち、夏には小さな花を咲かせる特徴があります。しかし、藍染めに使用されるのは、その花ではなく、葉から抽出される色素です。</p>
         </div>
         <div class="ai-content-image">
-          <img alt="藍の葉" src="../assets/23691043_m-1024x768.jpg" />
+          <img alt="藍の葉" src="../assets/23691043_m-1024x768.webp" />
         </div>
       </div>
 
@@ -117,7 +117,7 @@ include $basePath . 'head-common.php';
           <p>藍から染料を作る過程は、自然の力を借りたシンプルながらも緻密な工程を経ています。このプロセスは、藍染めが持つ環境にやさしい持続可能な技術の一例であり、自然素材から美しい色を引き出す魅力を感じることができるでしょう。</p>
         </div>
         <div class="ai-content-image">
-          <img alt="藍染体験教室　河口湖" src="../assets/25879106_m-e1710039014851.jpg" />
+          <img alt="藍染体験教室　河口湖" src="../assets/25879106_m-e1710039014851.webp" />
         </div>
       </div>
     </div>
@@ -132,7 +132,7 @@ include $basePath . 'head-common.php';
       </div>
 
       <div class="ai-history-image">
-        <img alt="藍染の歴史" src="../assets/24732363_m-1024x768.jpg" />
+        <img alt="藍染の歴史" src="../assets/24732363_m-1024x768.webp" />
       </div>
 
       <div class="ai-history-cards">
@@ -207,21 +207,21 @@ include $basePath . 'head-common.php';
       <div class="ai-technique-grid">
         <div class="lp-sub-technique-card">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="絞り染め" src="../assets/AdobeStock_226274837-scaled-e1710038951143.jpeg" />
+            <img alt="絞り染め" src="../assets/AdobeStock_226274837-scaled-e1710038951143.webp" />
           </div>
           <h4 class="lp-sub-technique-name">絞り染め</h4>
           <p class="lp-sub-technique-text">布を特定のパターンで絞り、縛った状態で染めます。解いた後に現れる模様が特徴的です。</p>
         </div>
         <div class="lp-sub-technique-card">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="板締め染め" src="../assets/d38c7dcb.jpg" />
+            <img alt="板締め染め" src="../assets/d38c7dcb.webp" />
           </div>
           <h4 class="lp-sub-technique-name">板締め染め</h4>
           <p class="lp-sub-technique-text">布に木製の板を挟み、縛って染める技法です。板の形状や配置によって異なる模様が生まれます。</p>
         </div>
         <div class="lp-sub-technique-card">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="型染め" src="../assets/4626504_m-1024x683.jpg" />
+            <img alt="型染め" src="../assets/4626504_m-1024x683.webp" />
           </div>
           <h4 class="lp-sub-technique-name">型染め</h4>
           <p class="lp-sub-technique-text">型紙を用いて染料を抑える部分と染める部分を制御し、複雑なデザインを表現します。</p>
@@ -276,7 +276,7 @@ include $basePath . 'head-common.php';
 
       <div class="ai-cta-block">
         <div class="ai-cta-image">
-          <img alt="藍染体験教室　河口湖" src="../assets/IMG_0950-1024x767.jpg" />
+          <img alt="藍染体験教室　河口湖" src="../assets/IMG_0950-1024x767.webp" />
         </div>
         <div class="ai-glass-panel">
           <p>藍染めの魅力を体験してみませんか？河口湖の自然に囲まれた藍染専門の染物体験教室「Art Cycle」では、誰でも簡単に楽しめる藍染体験を提供しています。古来からの伝統技術を学び、オリジナルの藍染Tシャツを作ることができます。家族や友人と特別な思い出を作りたい方、自分だけの一点物を持ちたい方にぴったり。自然がもたらす美しさを体験しに、ぜひお越しください。</p>

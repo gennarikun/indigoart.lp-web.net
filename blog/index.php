@@ -12,7 +12,7 @@ include $basePath . 'head-common.php';
 <body class="<?= htmlspecialchars($bodyClass) ?>">
 <?php include $basePath . 'header.php'; ?>
 <div class="lp-page-blog">
-  <section class="global-sub-hero" style="background-image: url('../assets/DSC01312-1024x683.jpg'); border-bottom: 4px solid #b8960c;">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC01312-1024x683.webp'); border-bottom: 4px solid #b8960c;">
     <div class="global-sub-hero-inner" style="pointer-events: none;">
       <span class="global-sub-hero-en-accent">BLOG</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ブログ・お知らせ</h1>
@@ -26,7 +26,7 @@ include $basePath . 'head-common.php';
       <!-- post 878 -->
       <article class="lp-blog-card">
         <a href="../archives/878" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-150x150.jpg" alt="女性モノの服の染め直し"></div>
+          <div class="lp-blog-img"><img src="../assets/3D64F095-29C0-4D1C-B7AF-D8314B5B62FD-150x150.webp" alt="女性モノの服の染め直し"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年5月8日</span><span class="lp-blog-cat">染め直しサービス</span></div>
             <h2 class="lp-blog-title">女性モノの服の染め直し</h2>
@@ -37,7 +37,7 @@ include $basePath . 'head-common.php';
       <!-- post 830 -->
       <article class="lp-blog-card">
         <a href="../archives/830" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-150x150.jpeg" alt="染め直しサービス"></div>
+          <div class="lp-blog-img"><img src="../assets/9C9B6E0D-D564-423B-96BE-5D6EE23434CE-150x150.webp" alt="染め直しサービス"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年5月5日</span><span class="lp-blog-cat">染め直しサービス</span></div>
             <h2 class="lp-blog-title">染め直しサービス　”藍染を使った服の染め直しサービスで、お洒落と思い出を再び”</h2>
@@ -48,7 +48,7 @@ include $basePath . 'head-common.php';
       <!-- post 441 -->
       <article class="lp-blog-card">
         <a href="../archives/441" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/06b2a040.png" alt="日本における藍染の歴史と文化"></div>
+          <div class="lp-blog-img"><img src="../assets/06b2a040.webp" alt="日本における藍染の歴史と文化"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月30日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">日本における藍染の歴史</h2>
@@ -59,7 +59,7 @@ include $basePath . 'head-common.php';
       <!-- post 385 -->
       <article class="lp-blog-card">
         <a href="../archives/385" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/2-150x150.png" alt="藍染の起源と影響：アフリカ文化における歴史と象徴性" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/2-150x150.webp" alt="藍染の起源と影響：アフリカ文化における歴史と象徴性" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月28日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">藍染の起源と影響：アフリカ文化における歴史と象徴性</h2>
@@ -70,7 +70,7 @@ include $basePath . 'head-common.php';
       <!-- post 381 -->
       <article class="lp-blog-card">
         <a href="../archives/381" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/1-150x150.png" alt="藍染の起源と影響：古代中国文化における歴史と象徴性" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/1-150x150.webp" alt="藍染の起源と影響：古代中国文化における歴史と象徴性" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月28日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">藍染の起源と影響：古代中国文化における歴史と象徴性</h2>
@@ -81,7 +81,7 @@ include $basePath . 'head-common.php';
       <!-- post 378 -->
       <article class="lp-blog-card">
         <a href="../archives/378" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/3-150x150.png" alt="藍染の起源と影響：古代インド文化における歴史と象徴性" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/3-150x150.webp" alt="藍染の起源と影響：古代インド文化における歴史と象徴性" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月28日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">藍染の起源と影響：古代インド文化における使用法と象徴性</h2>
@@ -92,7 +92,7 @@ include $basePath . 'head-common.php';
       <!-- post 376 -->
       <article class="lp-blog-card">
         <a href="../archives/376" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/4-150x150.png" alt="藍染の起源と影響：古代エジプト文化における歴史と象徴性" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/4-150x150.webp" alt="藍染の起源と影響：古代エジプト文化における歴史と象徴性" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月28日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">藍染の起源と影響~古代エジプト文化における藍の歴史と象徴性~</h2>
@@ -103,7 +103,7 @@ include $basePath . 'head-common.php';
       <!-- post 370 -->
       <article class="lp-blog-card">
         <a href="../archives/370" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/89bfda85.png" alt="藍染の歴史と文化" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/89bfda85.webp" alt="藍染の歴史と文化" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月28日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">世界の藍染の歴史と文化</h2>
@@ -114,7 +114,7 @@ include $basePath . 'head-common.php';
       <!-- post 168 -->
       <article class="lp-blog-card">
         <a href="../archives/168" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/28878415_m-150x150.jpg" alt="藍染めの起源と日本での発展" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/28878415_m-150x150.webp" alt="藍染めの起源と日本での発展" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月9日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">藍染めの起源と日本での発展、特に山梨県富士河口湖地域の歴史との関連</h2>
@@ -125,7 +125,7 @@ include $basePath . 'head-common.php';
       <!-- post 166 -->
       <article class="lp-blog-card">
         <a href="../archives/166" class="lp-blog-link">
-          <div class="lp-blog-img"><img src="../assets/25879106_m-e1710039014851-150x150.jpg" alt="藍染　出張体験" loading="lazy"></div>
+          <div class="lp-blog-img"><img src="../assets/25879106_m-e1710039014851-150x150.webp" alt="藍染　出張体験" loading="lazy"></div>
           <div class="lp-blog-content">
             <div class="lp-blog-meta"><span class="lp-blog-date">2024年3月9日</span><span class="lp-blog-cat">藍染について</span></div>
             <h2 class="lp-blog-title">藍染めが現代のファッションやインテリアデザインでどのように活用されているか</h2>

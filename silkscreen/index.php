@@ -52,21 +52,21 @@ include_once($basePath . 'head-common.php');
 <div class="lp-indigo-story-grid">
 <div class="lp-indigo-story-card">
 <div class="lp-indigo-story-icon">
-<img alt="" decoding="async" src="../assets/88475f50.png"/>
+<img alt="" decoding="async" src="../assets/88475f50.webp"/>
 </div>
 <h3 class="lp-indigo-story-card-title" data-en="Truly Satisfying Experiences" data-ja="満足いただける体験を">満足いただける体験を</h3>
 <p class="lp-indigo-story-card-text" data-en="We want to offer experiences that truly satisfy our international guests." data-ja="海外のお客様に、心から満足していただける体験を提供したい。">海外のお客様に、心から満足していただける体験を提供したい。</p>
 </div>
 <div class="lp-indigo-story-card">
 <div class="lp-indigo-story-icon">
-<img alt="" decoding="async" src="../assets/af0f5a95.png"/>
+<img alt="" decoding="async" src="../assets/af0f5a95.webp"/>
 </div>
 <h3 class="lp-indigo-story-card-title" data-en="Gifts of True Value" data-ja="価値あるお土産を">価値あるお土産を</h3>
 <p class="lp-indigo-story-card-text" data-en='We want to deliver souvenirs valued both as "objects" and as "memories."' data-ja='"モノ"としても、"思い出"としても価値のあるお土産を届けたい。'>“モノ”としても、”思い出”としても価値のあるお土産を届けたい。</p>
 </div>
 <div class="lp-indigo-story-card">
 <div class="lp-indigo-story-icon">
-<img alt="" decoding="async" src="../assets/17c6bb2a.png"/>
+<img alt="" decoding="async" src="../assets/17c6bb2a.webp"/>
 </div>
 <h3 class="lp-indigo-story-card-title" data-en="A More Captivating Culture" data-ja="より魅力的な日本文化を">より魅力的な日本文化を</h3>
 <p class="lp-indigo-story-card-text" data-en="We want to share Japanese culture in a freer, more compelling way." data-ja="日本文化を、より自由で魅力的なかたちで伝えたい。">日本文化を、より自由で魅力的なかたちで伝えたい。</p>
@@ -93,7 +93,7 @@ include_once($basePath . 'head-common.php');
 <p class="lp-indigo-beyond-tagline"><span data-en="The fusion of traditional color and modern technique " data-ja="伝統の色と、現代の表現技法。">伝統の色と、現代の表現技法。</span><br/><span data-en="this is our new indigo experience." data-ja="その融合が、私たちの新しい藍染体験です。">その融合が、私たちの新しい藍染体験です。</span></p>
 </div>
 <div class="lp-indigo-beyond-image-block">
-<img alt="藍染×シルクスクリーン作品" class="lp-indigo-beyond-image" decoding="async" src="../assets/fd55e4c6.jpg"/>
+<img alt="藍染×シルクスクリーン作品" class="lp-indigo-beyond-image" decoding="async" src="../assets/fd55e4c6.webp"/>
 <div class="lp-indigo-beyond-image-accent"></div>
 </div>
 </div>
@@ -158,14 +158,14 @@ include_once($basePath . 'head-common.php');
 <p class="lp-indigo-sample-intro"><span data-en="There are two types of silk screen designs: large and small. " data-ja="シルクスクリーンには「大きいタイプ」と「小さいタイプ」の2種類があります。">シルクスクリーンには「大きいタイプ」と「小さいタイプ」の2種類があります。</span><br/><span data-en="See actual finished works below." data-ja="実際の作品をご覧ください。">実際の作品をご覧ください。</span></p>
 <div class="lp-indigo-sample-grid">
 <div class="lp-indigo-sample-card">
-<img alt="小さいタイプの見本 - 鳥居柄" class="lp-indigo-sample-image" decoding="async" src="../assets/cb07a547.png"/>
+<img alt="小さいタイプの見本 - 鳥居柄" class="lp-indigo-sample-image" decoding="async" src="../assets/cb07a547.webp"/>
 <div class="lp-indigo-sample-info">
 <span class="lp-indigo-sample-badge" data-en="Small Type" data-ja="小さいタイプ">小さいタイプ</span>
 <p class="lp-indigo-sample-desc" data-en="Choose up to 2 designs. Adds accent points to your tenugui." data-ja="2種類まで選べます。ワンポイントで手ぬぐいにアクセントを加えます。">2種類まで選べます。ワンポイントで手ぬぐいにアクセントを加えます。</p>
 </div>
 </div>
 <div class="lp-indigo-sample-card">
-<img alt="大きいタイプの見本 - 富士山柄" class="lp-indigo-sample-image" decoding="async" src="../assets/5de55f19.png"/>
+<img alt="大きいタイプの見本 - 富士山柄" class="lp-indigo-sample-image" decoding="async" src="../assets/5de55f19.webp"/>
 <div class="lp-indigo-sample-info">
 <span class="lp-indigo-sample-badge lp-indigo-sample-badge-large" data-en="Large Type" data-ja="大きいタイプ">大きいタイプ</span>
 <p class="lp-indigo-sample-desc" data-en="Choose 1 design. A bold design that adorns the entire tenugui." data-ja="1種類選べます。迫力あるデザインで手ぬぐい全体を彩ります。">1種類選べます。迫力あるデザインで手ぬぐい全体を彩ります。</p>
@@ -203,7 +203,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-slide-in-left">
 <div class="lp-indigo-flow-image">
-<img alt="Step 1" decoding="async" src="../assets/DSC03300.jpg"/>
+<img alt="Step 1" decoding="async" src="../assets/DSC03300.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 1</div>
@@ -213,7 +213,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-flow-item-reverse lp-indigo-slide-in-right">
 <div class="lp-indigo-flow-image">
-<img alt="Step 2" decoding="async" src="../assets/e7e98463.jpg"/>
+<img alt="Step 2" decoding="async" src="../assets/e7e98463.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 2</div>
@@ -223,7 +223,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-slide-in-left">
 <div class="lp-indigo-flow-image">
-<img alt="Step 3" decoding="async" src="../assets/2ac8cf3e.jpg"/>
+<img alt="Step 3" decoding="async" src="../assets/2ac8cf3e.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 3</div>
@@ -233,7 +233,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-flow-item-reverse lp-indigo-slide-in-right">
 <div class="lp-indigo-flow-image">
-<img alt="Step 4" decoding="async" src="../assets/2ebceaec.jpg"/>
+<img alt="Step 4" decoding="async" src="../assets/2ebceaec.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 4</div>
@@ -243,7 +243,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-slide-in-left">
 <div class="lp-indigo-flow-image">
-<img alt="Step 5" decoding="async" src="../assets/7362931b.jpg"/>
+<img alt="Step 5" decoding="async" src="../assets/7362931b.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 5</div>
@@ -253,7 +253,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-flow-item-reverse lp-indigo-slide-in-right">
 <div class="lp-indigo-flow-image">
-<img alt="Step 6" decoding="async" src="../assets/80e34a4a.jpg"/>
+<img alt="Step 6" decoding="async" src="../assets/80e34a4a.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 6</div>
@@ -263,7 +263,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-slide-in-left">
 <div class="lp-indigo-flow-image">
-<img alt="Step 7" decoding="async" src="../assets/38d485c9.jpg"/>
+<img alt="Step 7" decoding="async" src="../assets/38d485c9.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 7</div>
@@ -273,7 +273,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-flow-item-reverse lp-indigo-slide-in-right">
 <div class="lp-indigo-flow-image">
-<img alt="Step 8" decoding="async" src="../assets/fd55e4c6.jpg"/>
+<img alt="Step 8" decoding="async" src="../assets/fd55e4c6.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 8</div>
@@ -283,7 +283,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-slide-in-left">
 <div class="lp-indigo-flow-image">
-<img alt="Step 9" decoding="async" src="../assets/dbf6bad7.jpg"/>
+<img alt="Step 9" decoding="async" src="../assets/dbf6bad7.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 9</div>
@@ -293,7 +293,7 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-flow-item lp-indigo-flow-item-reverse lp-indigo-slide-in-right">
 <div class="lp-indigo-flow-image">
-<img alt="Step 10" decoding="async" src="../assets/1a0e9e37.jpg"/>
+<img alt="Step 10" decoding="async" src="../assets/1a0e9e37.webp"/>
 </div>
 <div class="lp-indigo-flow-content">
 <div class="lp-indigo-flow-number">Step 10</div>
@@ -315,12 +315,12 @@ include_once($basePath . 'head-common.php');
 <div class="lp-indigo-material-grid">
 <div class="lp-indigo-material-card lp-indigo-material-recommended lp-indigo-slide-in-left">
 <div class="lp-indigo-material-badge-large" data-en="Recommended!" data-ja="スタッフイチオシ！">スタッフイチオシ！</div>
-<p> <img alt="Tenugui" class="lp-indigo-material-image" decoding="async" src="../assets/b62d0126.jpg"/></p>
+<p> <img alt="Tenugui" class="lp-indigo-material-image" decoding="async" src="../assets/b62d0126.webp"/></p>
 <h3 class="lp-indigo-material-name" data-en="Tenugui (Hand Towel)" data-ja="手ぬぐい">手ぬぐい</h3>
 <p class="lp-indigo-material-desc" data-en="Quick drying. Ready to take home on the same day. Approx. 10 min." data-ja="乾燥が早い(約10分)のでスムーズに体験のご案内ができます。">乾燥が早い(約10分)のでスムーズに体験のご案内ができます。</p>
 </div>
 <div class="lp-indigo-material-card lp-indigo-slide-in-right">
-<img alt="T-shirt" class="lp-indigo-material-image" decoding="async" src="../assets/shunta0044_T-shirt_designed_dyeing_class_tie_dye_dyeing_Indig_e66da3d3-8c6a-4ae9-b897-601e943160ba_1-e1733161598658.png"/>
+<img alt="T-shirt" class="lp-indigo-material-image" decoding="async" src="../assets/shunta0044_T-shirt_designed_dyeing_class_tie_dye_dyeing_Indig_e66da3d3-8c6a-4ae9-b897-601e943160ba_1-e1733161598658.webp"/>
 <h3 class="lp-indigo-material-name" data-en="T-shirt" data-ja="Tシャツ">Tシャツ</h3>
 <p class="lp-indigo-material-desc" data-en="Takes approx. 30 min to dry. Enjoy lunch or other activities meanwhile." data-ja="乾燥に約30分かかります。その間、ランチ体験などをお楽しみください。">乾燥に約30分かかります。その間、ランチ体験などをお楽しみください。</p>
 </div>
@@ -340,18 +340,18 @@ include_once($basePath . 'head-common.php');
 </div>
 <div class="lp-indigo-gallery-marquee">
 <div class="lp-indigo-gallery-track">
-<img alt="Gallery 1" decoding="async" src="../assets/53680693.jpg"/><br/>
-<img alt="Gallery 2" decoding="async" src="../assets/63dca57f.jpg"/><br/>
-<img alt="Gallery 6" decoding="async" src="../assets/e1bbd450.jpg"/><br/>
-<img alt="Gallery 3" decoding="async" src="../assets/c9a59cc1.jpg"/><br/>
-<img alt="Gallery 4" decoding="async" src="../assets/77e3df09.jpg"/><br/>
-<img alt="Gallery 5" decoding="async" src="../assets/d3221f72.jpg"/><br/>
-<img alt="Gallery 1" decoding="async" src="../assets/53680693.jpg"/><br/>
-<img alt="Gallery 2" decoding="async" src="../assets/63dca57f.jpg"/><br/>
-<img alt="Gallery 6" decoding="async" src="../assets/e1bbd450.jpg"/><br/>
-<img alt="Gallery 3" decoding="async" src="../assets/c9a59cc1.jpg"/><br/>
-<img alt="Gallery 4" decoding="async" src="../assets/77e3df09.jpg"/><br/>
-<img alt="Gallery 5" decoding="async" src="../assets/d3221f72.jpg"/>
+<img alt="Gallery 1" decoding="async" src="../assets/53680693.webp"/><br/>
+<img alt="Gallery 2" decoding="async" src="../assets/63dca57f.webp"/><br/>
+<img alt="Gallery 6" decoding="async" src="../assets/e1bbd450.webp"/><br/>
+<img alt="Gallery 3" decoding="async" src="../assets/c9a59cc1.webp"/><br/>
+<img alt="Gallery 4" decoding="async" src="../assets/77e3df09.webp"/><br/>
+<img alt="Gallery 5" decoding="async" src="../assets/d3221f72.webp"/><br/>
+<img alt="Gallery 1" decoding="async" src="../assets/53680693.webp"/><br/>
+<img alt="Gallery 2" decoding="async" src="../assets/63dca57f.webp"/><br/>
+<img alt="Gallery 6" decoding="async" src="../assets/e1bbd450.webp"/><br/>
+<img alt="Gallery 3" decoding="async" src="../assets/c9a59cc1.webp"/><br/>
+<img alt="Gallery 4" decoding="async" src="../assets/77e3df09.webp"/><br/>
+<img alt="Gallery 5" decoding="async" src="../assets/d3221f72.webp"/>
 </div>
 </div>
 </section>
@@ -444,7 +444,7 @@ include_once($basePath . 'head-common.php');
 <section class="lp-indigo-closing-section">
 <div class="lp-indigo-container">
 <div class="lp-indigo-closing-image-wrapper">
-<img alt="藍染めと伝統" class="lp-indigo-closing-image" decoding="async" src="../assets/b62d0126.jpg"/>
+<img alt="藍染めと伝統" class="lp-indigo-closing-image" decoding="async" src="../assets/b62d0126.webp"/>
 </div>
 <h2 class="lp-indigo-closing-title" data-en="Toward an Ever-Evolving Indigo" data-ja="進化し続ける藍染へ">進化し続ける藍染へ</h2>
 <p class="lp-indigo-closing-text" data-en="We don’t just preserve tradition — we challenge ourselves to evolve it." data-ja="私たちは、伝統を守るだけでなく、伝統を進化させていくことに挑戦します。">私たちは、伝統を守るだけでなく、伝統を進化させていくことに挑戦します。</p>

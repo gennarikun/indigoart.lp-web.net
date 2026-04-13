@@ -13,7 +13,7 @@ include $basePath . 'head-common.php';
 <?php include $basePath . 'header.php'; ?>
 <div class="lp-page-contact">
   <!-- Hero Section -->
-  <section class="global-sub-hero" style="background-image: url('../assets/DSC01315-1024x683.jpg'); border-bottom: 4px solid #339966;">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC01315-1024x683.webp'); border-bottom: 4px solid #339966;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">CONTACT</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ご予約・お問い合わせ</h1>

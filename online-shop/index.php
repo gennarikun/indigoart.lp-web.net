@@ -17,7 +17,7 @@ include_once($basePath . 'head-common.php');
 <div class="lp-page-shop">
 
   <!-- Hero Section -->
-  <section class="global-sub-hero" style="background-image: url('../assets/DSC09694-1.jpg'); border-bottom: 4px solid #113285;">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC09694-1.webp'); border-bottom: 4px solid #113285;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">ONLINE SHOP</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">オンラインショップ</h1>
@@ -36,7 +36,7 @@ include_once($basePath . 'head-common.php');
     <div class="lp-shop-grid">
       <!-- Item -->
       <div class="lp-product-card">
-        <img src="../assets/4-3-1024x1024.png" alt="藍染 無地" class="lp-product-img">
+        <img src="../assets/4-3-1024x1024.webp" alt="藍染 無地" class="lp-product-img">
         <div class="lp-product-body">
           <h3 class="lp-product-title">天然藍染・無地染め</h3>
           <p class="lp-product-desc">天然素材の藍を使った無地染めTシャツです。非常にシンプルな見た目ながら爽やかなデザイン。染め職人が一点一点手作業で染める一点物です。</p>
@@ -45,7 +45,7 @@ include_once($basePath . 'head-common.php');
       </div>
       <!-- Item -->
       <div class="lp-product-card">
-        <img src="../assets/6-3-1024x1024.png" alt="藍染 叢雲絞り" class="lp-product-img">
+        <img src="../assets/6-3-1024x1024.webp" alt="藍染 叢雲絞り" class="lp-product-img">
         <div class="lp-product-body">
           <h3 class="lp-product-title">天然藍染・叢雲絞り</h3>
           <p class="lp-product-desc">叢雲(むらくも)絞りという技法で染めることでムラを作り、ビンテージ風に仕上げております。個性的でありながら着回しもできるデザインです。</p>
@@ -54,7 +54,7 @@ include_once($basePath . 'head-common.php');
       </div>
       <!-- Item -->
       <div class="lp-product-card">
-        <img src="../assets/10-2-1024x1024.png" alt="藍染 渦巻絞り" class="lp-product-img">
+        <img src="../assets/10-2-1024x1024.webp" alt="藍染 渦巻絞り" class="lp-product-img">
         <div class="lp-product-body">
           <h3 class="lp-product-title">天然藍染・渦巻絞り</h3>
           <p class="lp-product-desc">渦巻絞りという技法で染めることで渦のような模様を作り、目を惹くビンテージ風に仕上げております。1つとして同じ渦の形はありません。</p>
@@ -67,7 +67,7 @@ include_once($basePath . 'head-common.php');
     <div class="lp-shop-grid">
       <!-- Item -->
       <div class="lp-product-card">
-        <img src="../assets/f45e4507.jpg" alt="レーヨンストール" class="lp-product-img">
+        <img src="../assets/f45e4507.webp" alt="レーヨンストール" class="lp-product-img">
         <div class="lp-product-body">
           <h3 class="lp-product-title">レーヨンストール 各種</h3>
           <p class="lp-product-desc">「人工シルク」と呼ばれるほど滑らかな肌触りのレーヨンストール。無地・叢雲・グラデーションをご用意しております。</p>
@@ -78,7 +78,7 @@ include_once($basePath . 'head-common.php');
       </div>
       <!-- Item -->
       <div class="lp-product-card">
-        <img src="../assets/bc88a0bc.jpg" alt="大判ストール" class="lp-product-img">
+        <img src="../assets/bc88a0bc.webp" alt="大判ストール" class="lp-product-img">
         <div class="lp-product-body">
           <h3 class="lp-product-title">大判ストール 各種</h3>
           <p class="lp-product-desc">ガーゼニットを使用した柔らかい大判ストール（約50cm×170cm）。肩にかける、巻くなどアレンジ自由自在。</p>
@@ -89,7 +89,7 @@ include_once($basePath . 'head-common.php');
       </div>
       <!-- Item -->
       <div class="lp-product-card">
-        <img src="../assets/4d51692a.jpg" alt="手ぬぐい・ハンカチ・エコバッグ" class="lp-product-img">
+        <img src="../assets/4d51692a.webp" alt="手ぬぐい・ハンカチ・エコバッグ" class="lp-product-img">
         <div class="lp-product-body">
           <h3 class="lp-product-title">手ぬぐい / ハンカチ / バッグ</h3>
           <p class="lp-product-desc">使うほど柔らかくなる手ぬぐいや、携帯に便利なハンカチ、日常使いに最適なエコバッグなど。</p>

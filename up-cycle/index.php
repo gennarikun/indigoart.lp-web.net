@@ -13,7 +13,7 @@ include $basePath . 'head-common.php';
 <?php include $basePath . 'header.php'; ?>
 <div class="lp-sub-wrapper lp-page-upcycle">
   <!-- ① 【 FV 】 共通パララックスヒーロー -->
-  <section class="global-sub-hero" style="background-image: url('../assets/5-2.png'); border-bottom: 4px solid #db7093;">
+  <section class="global-sub-hero" style="background-image: url('../assets/5-2.webp'); border-bottom: 4px solid #db7093;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">UP-CYCLE</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">洋服染め直し</h1>
@@ -47,7 +47,7 @@ include $basePath . 'head-common.php';
       <h2 class="lp-sub-section-title lp-sub-fade-up">染め直しサービスの特徴</h2>
       
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="特徴1" src="../assets/DSC05387-1024x683.jpg"/></div>
+        <div class="lp-sub-feature-img"><img alt="特徴1" src="../assets/DSC05387-1024x683.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">01</div>
           <h4 class="lp-sub-feature-title">世界で１つだけの<br/>デザインに</h4>
@@ -56,7 +56,7 @@ include $basePath . 'head-common.php';
       </div>
 
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="特徴2" src="../assets/afd9544c.jpg"/></div>
+        <div class="lp-sub-feature-img"><img alt="特徴2" src="../assets/afd9544c.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">02</div>
           <h4 class="lp-sub-feature-title">シミや汚れが<br/>気にならなくなる</h4>
@@ -65,7 +65,7 @@ include $basePath . 'head-common.php';
       </div>
 
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="特徴3" src="../assets/AdobeStock_226274837-1024x683_1.jpeg"/></div>
+        <div class="lp-sub-feature-img"><img alt="特徴3" src="../assets/AdobeStock_226274837-1024x683_1.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">03</div>
           <h4 class="lp-sub-feature-title">デザインの指定ができる</h4>
@@ -74,7 +74,7 @@ include $basePath . 'head-common.php';
       </div>
       
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="特徴4" src="../assets/28886070_s.jpeg"/></div>
+        <div class="lp-sub-feature-img"><img alt="特徴4" src="../assets/28886070_s.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">04</div>
           <h4 class="lp-sub-feature-title">地球にやさしい</h4>
@@ -83,7 +83,7 @@ include $basePath . 'head-common.php';
       </div>
 
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="特徴5" src="../assets/8-1024x1024.png"/></div>
+        <div class="lp-sub-feature-img"><img alt="特徴5" src="../assets/8-1024x1024.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">05</div>
           <h4 class="lp-sub-feature-title">様々なアイテムに対応</h4>
@@ -202,32 +202,32 @@ include $basePath . 'head-common.php';
       <div class="lp-sub-fade-up" style="margin-bottom: 64px;">
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px;">
           <div>
-            <img src="../assets/1-1.png" alt="01" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
+            <img src="../assets/1-1.webp" alt="01" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
             <h4 style="color:var(--sub-gold); font-size:1.5rem; margin-bottom:8px;">01</h4>
             <p>デザインを付けずに藍のみでの単色染めとなります。<br/>※完全にムラが無いわけではありません。</p>
           </div>
           <div>
-            <img src="../assets/2-1.png" alt="02" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
+            <img src="../assets/2-1.webp" alt="02" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
             <h4 style="color:var(--sub-gold); font-size:1.5rem; margin-bottom:8px;">02</h4>
             <p>デザインを付けずに墨のみでの単色染めとなります。<br/>※完全にムラが無いわけではありません。</p>
           </div>
           <div>
-            <img src="../assets/3-1.png" alt="03" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
+            <img src="../assets/3-1.webp" alt="03" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
             <h4 style="color:var(--sub-gold); font-size:1.5rem; margin-bottom:8px;">03</h4>
             <p>水面にできる“さざ波”のような美しい模様が特徴。<br/>涼やかな水面の揺らぎだけでなく、夏の夜空や爽やかな青空などが表現できる絞り方です。</p>
           </div>
           <div>
-            <img src="../assets/4-1.png" alt="04" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
+            <img src="../assets/4-1.webp" alt="04" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
             <h4 style="color:var(--sub-gold); font-size:1.5rem; margin-bottom:8px;">04</h4>
             <p>タイダイ染めとも呼ばれるスタンダードなデザイン。<br/>渦の中心を決め、中心から巻きつけるようにデザインをつけることで出来上がります。</p>
           </div>
           <div>
-            <img src="../assets/5-1.png" alt="05" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
+            <img src="../assets/5-1.webp" alt="05" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
             <h4 style="color:var(--sub-gold); font-size:1.5rem; margin-bottom:8px;">05</h4>
             <p>色が付く箇所、付かない箇所の陰影を楽しめます。<br/>デザインをつけたい場所、つけたくない場所などご希望をお伺いできます。</p>
           </div>
           <div>
-            <img src="../assets/6-1.png" alt="06" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
+            <img src="../assets/6-1.webp" alt="06" style="width:100%; border-radius:8px; margin-bottom:16px; object-fit:cover;"/>
             <h4 style="color:var(--sub-gold); font-size:1.5rem; margin-bottom:8px;">06</h4>
             <p>渦巻きのデザインの上に輪ゴムで丸を重ねたデザインです。<br/>デザインが重なっている複雑さを楽しむことができます。</p>
           </div>
@@ -240,8 +240,8 @@ include $basePath . 'head-common.php';
       <div class="lp-sub-ba-grid lp-sub-fade-up">
         <div class="lp-sub-ba-card">
           <div class="lp-sub-ba-images" style="display:flex;">
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/S__67756039_0-e1715493548140-768x1024.jpg" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/DSC06554_0-683x1024.jpg" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/S__67756039_0-e1715493548140-768x1024.webp" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/DSC06554_0-683x1024.webp" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
           </div>
           <div class="lp-sub-ba-info">
             <h4 style="color:var(--sub-gold);">【藍染単色むらくも染め】</h4>
@@ -250,8 +250,8 @@ include $basePath . 'head-common.php';
         </div>
         <div class="lp-sub-ba-card">
           <div class="lp-sub-ba-images" style="display:flex;">
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/S__67756037_0-768x1024.jpg" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/DSC06542_0-e1715494188576-792x1024.jpg" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/S__67756037_0-768x1024.webp" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/DSC06542_0-e1715494188576-792x1024.webp" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
           </div>
           <div class="lp-sub-ba-info">
             <h4 style="color:var(--sub-gold);">【藍染単色デザインおまかせ】</h4>
@@ -260,8 +260,8 @@ include $basePath . 'head-common.php';
         </div>
         <div class="lp-sub-ba-card">
           <div class="lp-sub-ba-images" style="display:flex;">
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/9150725b.jpg" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/58b7ad42.jpg" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/9150725b.webp" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/58b7ad42.webp" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
           </div>
           <div class="lp-sub-ba-info">
             <h4 style="color:var(--sub-gold);">【藍染単色デザインなし】</h4>
@@ -270,8 +270,8 @@ include $basePath . 'head-common.php';
         </div>
         <div class="lp-sub-ba-card">
           <div class="lp-sub-ba-images" style="display:flex;">
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/50795047.jpg" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/3e0ff14e.jpg" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/50795047.webp" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/3e0ff14e.webp" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
           </div>
           <div class="lp-sub-ba-info">
             <h4 style="color:var(--sub-gold);">【藍染単色デザインなし】</h4>
@@ -280,8 +280,8 @@ include $basePath . 'head-common.php';
         </div>
         <div class="lp-sub-ba-card">
           <div class="lp-sub-ba-images" style="display:flex;">
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/36e83c85.jpg" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/0676a10d.jpg" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/36e83c85.webp" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/0676a10d.webp" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
           </div>
           <div class="lp-sub-ba-info">
             <h4 style="color:var(--sub-gold);">【藍染単色デザインなし】</h4>
@@ -290,8 +290,8 @@ include $basePath . 'head-common.php';
         </div>
         <div class="lp-sub-ba-card">
           <div class="lp-sub-ba-images" style="display:flex;">
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/796a1cd9.jpg" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
-            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/d4891cdb.jpg" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--before">Before</div><img src="../assets/796a1cd9.webp" alt="Before" style="width:100%; height:300px; object-fit:cover;"/></div>
+            <div style="flex:1;"><div class="lp-sub-ba-label lp-sub-ba-label--after">After</div><img src="../assets/d4891cdb.webp" alt="After" style="width:100%; height:300px; object-fit:cover;"/></div>
           </div>
           <div class="lp-sub-ba-info">
             <h4 style="color:var(--sub-gold);">【藍染単色デザインなし】</h4>
@@ -415,7 +415,7 @@ include $basePath . 'head-common.php';
       <div class="lp-sub-fade-up" style="max-width:800px; margin:0 auto; padding-top:24px;">
         <p style="margin-bottom:24px;">高菜先生の山梨ワイン染め工房では、ご自宅で染め体験を行いたい方へ、体験教室で使用している藍・墨染めのキットを販売しております。</p>
         <p style="margin-bottom:24px;">・染料のみ(¥980)<br/>・染料＋Tシャツのセット(¥3,980)<br/>のご用意がございます。(送料・税込）</p>
-        <img src="../assets/LINE_ALBUM_2024.5.9_240509_6-1024x683.jpg" alt="Kit" style="width:100%; border-radius:8px; margin-bottom:48px;" />
+        <img src="../assets/LINE_ALBUM_2024.5.9_240509_6-1024x683.webp" alt="Kit" style="width:100%; border-radius:8px; margin-bottom:48px;" />
 
         <h4 style="color:var(--sub-gold); font-size:1.4rem; border-bottom:1px solid #ddd; padding-bottom:8px; margin-bottom:16px;">ご自宅でご用意していただくもの</h4>
         <p style="margin-bottom:48px;">・染めるための容器(バケツや洗面器)<br/>・ビニール手袋(なつべく厚めのもの)<br/>・エプロン(お洋服が汚れないように)<br/>・ハサミ<br/>・紐や輪ゴムや棒などデザインに合わせて<br/>(４種類のデザインの染め方の説明書つき)</p>
@@ -436,7 +436,7 @@ include $basePath . 'head-common.php';
         </div>
 
         <h4 style="color:var(--sub-gold); font-size:1.4rem; border-bottom:1px solid #ddd; padding-bottom:8px; margin-bottom:16px;">Tシャツサイズ</h4>
-        <img src="../assets/e0ea6465.png" alt="T-Shirt size" style="width:100%; margin-bottom:48px;" />
+        <img src="../assets/e0ea6465.webp" alt="T-Shirt size" style="width:100%; margin-bottom:48px;" />
 
         <h4 style="color:var(--sub-gold); font-size:1.4rem; border-bottom:1px solid #ddd; padding-bottom:8px; margin-bottom:16px;">アフターケア</h4>
         <p style="margin-bottom:48px;">・染め終わった後は洗濯機で洗わずに完全に乾かしてから洗濯する（色止めの役割）<br/>・最初の2〜3回は他の洋服と洗わず染めたアイテム単体で洗う</p>
@@ -444,9 +444,9 @@ include $basePath . 'head-common.php';
 
       <h2 class="lp-sub-section-title lp-sub-fade-up" style="margin-top:80px;">小物類オンラインショップ</h2>
       <div class="lp-sub-fade-up" style="max-width:800px; margin:0 auto;">
-        <img src="../assets/291240e8.png" alt="Shop" style="width:100%; border-radius:8px; margin-bottom:24px;" />
+        <img src="../assets/291240e8.webp" alt="Shop" style="width:100%; border-radius:8px; margin-bottom:24px;" />
         <p style="margin-bottom:24px;">オンラインショップでは上記の商品を販売しております。<br/>詳しくはオンラインショップをご覧ください。<br/>また、プレゼントのラッピングも承っておりますので、ご希望の際はラッピング有りを選択してください。</p>
-        <img src="../assets/LINE_ALBUM_2024.5.9_240509_45-1024x683.jpg" alt="Wrapping" style="width:100%; border-radius:8px; margin-bottom:48px;" />
+        <img src="../assets/LINE_ALBUM_2024.5.9_240509_45-1024x683.webp" alt="Wrapping" style="width:100%; border-radius:8px; margin-bottom:48px;" />
         <div class="lp-sub-cta-center">
           <a href="https://suridane-shop.square.site/shop/-/16?page=1&amp;limit=30&amp;sort_by=category_order&amp;sort_order=asc" target="_blank" class="lp-sub-cta lp-sub-cta--filled">オンラインショップはこちら</a>
         </div>

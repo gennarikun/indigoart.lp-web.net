@@ -55,7 +55,7 @@ include $basePath . 'head-common.php';
 </p>
 </div>
 <div class="lp-wine-concept-image-area lp-wine-fade-in visible" style="transition-delay: 0.3s;">
-<img alt="ゆったりとした染め時間" class="lp-wine-img-fluid" decoding="async" src="../assets/shunta0044_Wine_is_now_produced_all_over_the_world._Simply_pu_e4dd4630-e574-4a24-b825-5b2e66616415_1-e1732940871667.png"/>
+<img alt="ゆったりとした染め時間" class="lp-wine-img-fluid" decoding="async" src="../assets/shunta0044_Wine_is_now_produced_all_over_the_world._Simply_pu_e4dd4630-e574-4a24-b825-5b2e66616415_1-e1732940871667.webp"/>
 </div>
 </div>
 <div class="lp-wine-concept-flex lp-wine-concept-reverse">
@@ -72,7 +72,7 @@ include $basePath . 'head-common.php';
 </p>
 </div>
 <div class="lp-wine-concept-image-area lp-wine-fade-in visible" style="transition-delay: 0.4s;">
-<img alt="ワインパミスとサステナブルな取り組み" class="lp-wine-img-fluid" decoding="async" src="../assets/shunta0044_Wine_pumice_is_the_grape_skins_and_seeds_that_rema_c3bd1ec0-cec4-4bd2-8359-9f6bab4ab756_0.png"/>
+<img alt="ワインパミスとサステナブルな取り組み" class="lp-wine-img-fluid" decoding="async" src="../assets/shunta0044_Wine_pumice_is_the_grape_skins_and_seeds_that_rema_c3bd1ec0-cec4-4bd2-8359-9f6bab4ab756_0.webp"/>
 </div>
 </div>
 </div>
@@ -95,7 +95,7 @@ include $basePath . 'head-common.php';
 </p>
 </div>
 <div class="lp-wine-concept-image-area lp-wine-fade-in visible" style="transition-delay: 0.3s;">
-<img alt="鮮やかな発色のワイン染め" class="lp-wine-img-fluid" decoding="async" src="../assets/6ba2cce6.jpg"/>
+<img alt="鮮やかな発色のワイン染め" class="lp-wine-img-fluid" decoding="async" src="../assets/6ba2cce6.webp"/>
 </div>
 </div>
 </div>
@@ -166,7 +166,7 @@ include $basePath . 'head-common.php';
 <div class="lp-wine-flow-wrapper">
 <div class="lp-wine-flow-row lp-wine-fade-up visible">
 <div class="lp-wine-flow-visual">
-<img alt="Step 1: 選んで、絞る" class="lp-wine-img-fluid" decoding="async" src="../assets/d80addf5.jpg"/>
+<img alt="Step 1: 選んで、絞る" class="lp-wine-img-fluid" decoding="async" src="../assets/d80addf5.webp"/>
 <div class="lp-wine-flow-step-num">01</div>
 </div>
 <div class="lp-wine-flow-content">
@@ -177,7 +177,7 @@ include $basePath . 'head-common.php';
 </div>
 <div class="lp-wine-flow-row lp-wine-flow-row-reverse lp-wine-fade-up visible">
 <div class="lp-wine-flow-visual">
-<img alt="Step 2: ワインで染める" class="lp-wine-img-fluid" decoding="async" src="../assets/a4f57514.jpg"/>
+<img alt="Step 2: ワインで染める" class="lp-wine-img-fluid" decoding="async" src="../assets/a4f57514.webp"/>
 <div class="lp-wine-flow-step-num">02</div>
 </div>
 <div class="lp-wine-flow-content">
@@ -188,7 +188,7 @@ include $basePath . 'head-common.php';
 </div>
 <div class="lp-wine-flow-row lp-wine-fade-up visible">
 <div class="lp-wine-flow-visual">
-<img alt="Step 3: 待ち時間も楽しく" class="lp-wine-img-fluid" decoding="async" src="../assets/3e27a9d6.jpg"/>
+<img alt="Step 3: 待ち時間も楽しく" class="lp-wine-img-fluid" decoding="async" src="../assets/3e27a9d6.webp"/>
 <div class="lp-wine-flow-step-num">03</div>
 </div>
 <div class="lp-wine-flow-content">
@@ -199,7 +199,7 @@ include $basePath . 'head-common.php';
 </div>
 <div class="lp-wine-flow-row lp-wine-flow-row-reverse lp-wine-fade-up visible">
 <div class="lp-wine-flow-visual">
-<img alt="Step 4: 完成・記念撮影" class="lp-wine-img-fluid" decoding="async" src="../assets/6ba2cce6.jpg"/>
+<img alt="Step 4: 完成・記念撮影" class="lp-wine-img-fluid" decoding="async" src="../assets/6ba2cce6.webp"/>
 <div class="lp-wine-flow-step-num">04</div>
 </div>
 <div class="lp-wine-flow-content">
@@ -270,7 +270,7 @@ include $basePath . 'head-common.php';
 </div>
 <div class="lp-wine-gallery-marquee">
 <div class="lp-wine-gallery-track">
-<img alt="Gallery 1" decoding="async" loading="eager" src="../assets/ba5594c8.jpg"/><img alt="Gallery 2" decoding="async" loading="eager" src="../assets/c27028e3.jpg"/><img alt="Gallery 3" decoding="async" loading="eager" src="../assets/4a91bc03.jpg"/><img alt="Gallery 4" decoding="async" loading="eager" src="../assets/99851c17.jpg"/><img alt="Gallery 5" decoding="async" loading="eager" src="../assets/9ab42bb9.jpg"/><img alt="Gallery 6" decoding="async" loading="eager" src="../assets/b70b0b54.jpg"/><img alt="Gallery 1" aria-hidden="true" decoding="async" loading="eager" src="../assets/ba5594c8.jpg"/><img alt="Gallery 2" aria-hidden="true" decoding="async" loading="eager" src="../assets/c27028e3.jpg"/><img alt="Gallery 3" aria-hidden="true" decoding="async" loading="eager" src="../assets/4a91bc03.jpg"/><img alt="Gallery 4" aria-hidden="true" decoding="async" loading="eager" src="../assets/99851c17.jpg"/><img alt="Gallery 5" aria-hidden="true" decoding="async" loading="eager" src="../assets/9ab42bb9.jpg"/><img alt="Gallery 6" aria-hidden="true" decoding="async" loading="eager" src="../assets/b70b0b54.jpg"/>
+<img alt="Gallery 1" decoding="async" loading="eager" src="../assets/ba5594c8.webp"/><img alt="Gallery 2" decoding="async" loading="eager" src="../assets/c27028e3.webp"/><img alt="Gallery 3" decoding="async" loading="eager" src="../assets/4a91bc03.webp"/><img alt="Gallery 4" decoding="async" loading="eager" src="../assets/99851c17.webp"/><img alt="Gallery 5" decoding="async" loading="eager" src="../assets/9ab42bb9.webp"/><img alt="Gallery 6" decoding="async" loading="eager" src="../assets/b70b0b54.webp"/><img alt="Gallery 1" aria-hidden="true" decoding="async" loading="eager" src="../assets/ba5594c8.webp"/><img alt="Gallery 2" aria-hidden="true" decoding="async" loading="eager" src="../assets/c27028e3.webp"/><img alt="Gallery 3" aria-hidden="true" decoding="async" loading="eager" src="../assets/4a91bc03.webp"/><img alt="Gallery 4" aria-hidden="true" decoding="async" loading="eager" src="../assets/99851c17.webp"/><img alt="Gallery 5" aria-hidden="true" decoding="async" loading="eager" src="../assets/9ab42bb9.webp"/><img alt="Gallery 6" aria-hidden="true" decoding="async" loading="eager" src="../assets/b70b0b54.webp"/>
 </div>
 </div>
 </section>

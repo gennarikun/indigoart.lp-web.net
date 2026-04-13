@@ -20,7 +20,7 @@
   <div class="header-inner">
     <div class="header-logo">
       <a href="<?= $basePath ?>">
-        <img alt="インディゴ高菜先生" src="<?= $basePath ?>assets/2f075b4d.png"/>
+        <img alt="インディゴ高菜先生" src="<?= $basePath ?>assets/2f075b4d.webp"/>
       </a>
     </div>
     <nav class="header-nav">

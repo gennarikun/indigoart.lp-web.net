@@ -4184,7 +4184,7 @@ body {
   width: 110%;
   /* アニメーションの余白を確保しつつ背景を確実に全域へ */
   height: 110%;
-  background: url('../assets/shunta0044_wine_making_process_red_wine_-ar_169_-v_6.1_5999d954-d696-4f38-bfb5-25c16efb7387_1-e1732941628896.png') center/cover no-repeat;
+  background: url('../assets/shunta0044_wine_making_process_red_wine_-ar_169_-v_6.1_5999d954-d696-4f38-bfb5-25c16efb7387_1-e1732941628896.webp') center/cover no-repeat;
   z-index: 1;
   /* Atmosphere: ゆっくり自然に動くKen Burnsエフェクト */
   animation: wineHeroKenBurns 25s ease-in-out infinite alternate;
@@ -6891,7 +6891,7 @@ div .lp-sub-wrapper table {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../assets/DSC09978-e1710039218155-1024x1024.jpg') center/cover no-repeat fixed;
+  background: url('../assets/DSC09978-e1710039218155-1024x1024.webp') center/cover no-repeat fixed;
   overflow: hidden;
 }
 
@@ -8905,7 +8905,7 @@ section.ceo-section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('../assets/DSC09978-e1710039218155-1024x1024.jpg') center/cover no-repeat fixed;
+  background: url('../assets/DSC09978-e1710039218155-1024x1024.webp') center/cover no-repeat fixed;
   overflow: hidden;
 }
 
@@ -9437,7 +9437,7 @@ section.ceo-section {
 }
 
 .lp-page-price .global-sub-hero {
-  background-image: url('../assets/DSC03238-1024x683.jpg');
+  background-image: url('../assets/DSC03238-1024x683.webp');
 }
 
 .lp-price-content {

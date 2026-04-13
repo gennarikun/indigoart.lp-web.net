@@ -17,7 +17,7 @@ include_once($basePath . 'head-common.php');
 
 <div class="lp-sub-wrapper lp-page-about-class" id="main">
   <!-- ① FV: 共通パララックスヒーロー -->
-  <section class="global-sub-hero" style="background-image: url('../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_wine_dyed_vegetabl_d451c3df-bc21-4433-a8d0-ebf478a68a3b_1-e1732949047305-1024x682.png'); border-bottom: 4px solid #db7093;">
+  <section class="global-sub-hero" style="background-image: url('../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_wine_dyed_vegetabl_d451c3df-bc21-4433-a8d0-ebf478a68a3b_1-e1732949047305-1024x682.webp'); border-bottom: 4px solid #db7093;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">ABOUT CLASS</span>
       <h1 class="global-sub-hero-ja-main">染物体験の詳細</h1>
@@ -31,7 +31,7 @@ include_once($basePath . 'head-common.php');
 
   <!-- ③ 染料について -->
   <section class="lp-sub-section lp-sub-section--washi" id="anc_dye">
-    <img class="ac-parallax-bg" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.png" alt="" aria-hidden="true" />
+    <img class="ac-parallax-bg" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.webp" alt="" aria-hidden="true" />
     <div class="lp-sub-container">
       <h2 class="lp-sub-section-title lp-sub-fade-up">染料について</h2>
 
@@ -42,7 +42,7 @@ include_once($basePath . 'head-common.php');
       </div>
 
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="藍染体験　河口湖" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.png"/></div>
+        <div class="lp-sub-feature-img"><img alt="藍染体験　河口湖" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_Indigo_blue_T-shir_b431dab5-a78e-41d7-a5ec-1e556b5da26c_3-e1732948861853-1024x682.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">01</div>
           <h4 class="lp-sub-feature-title">藍</h4>
@@ -51,7 +51,7 @@ include_once($basePath . 'head-common.php');
       </div>
 
       <div class="lp-sub-feature-block lp-sub-fade-up">
-        <div class="lp-sub-feature-img"><img alt="墨染め" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_sumi_gray_T-shirt__c0e84dc7-6844-4180-8d85-9258885204b8_1-e1732948893411-1024x682.png"/></div>
+        <div class="lp-sub-feature-img"><img alt="墨染め" src="../assets/shunta0044_T-shirt_designed_tie_dye_dyeing_sumi_gray_T-shirt__c0e84dc7-6844-4180-8d85-9258885204b8_1-e1732948893411-1024x682.webp"/></div>
         <div class="lp-sub-feature-body">
           <div class="lp-sub-feature-num">02</div>
           <h4 class="lp-sub-feature-title">墨</h4>
@@ -63,7 +63,7 @@ include_once($basePath . 'head-common.php');
 
   <!-- ④ 染め方について（4つの絞り染め技法）-->
   <section class="lp-sub-section lp-sub-section--indigo" id="anc_technique">
-    <img class="ac-parallax-bg" src="../assets/shunta0044_T-shirt_designed_dyeing_class_tie_dye_dyeing_Indig_e66da3d3-8c6a-4ae9-b897-601e943160ba_1-e1733161598658.png" alt="" aria-hidden="true" />
+    <img class="ac-parallax-bg" src="../assets/shunta0044_T-shirt_designed_dyeing_class_tie_dye_dyeing_Indig_e66da3d3-8c6a-4ae9-b897-601e943160ba_1-e1733161598658.webp" alt="" aria-hidden="true" />
     <div class="lp-sub-container">
       <h2 class="lp-sub-section-title lp-sub-fade-up">染め方について</h2>
       <p class="lp-sub-section-subtitle lp-sub-fade-up">今回紹介するのは、4つの絞り染め技法です。絞り染めは、布を特定の方法で折りたたみ、縛り、絞ることで模様を作り出す技術です。それぞれの技法によって、全く異なる模様や表情を布に与えることができます。</p>
@@ -71,7 +71,7 @@ include_once($basePath . 'head-common.php');
       <div class="lp-sub-technique-grid">
         <div class="lp-sub-technique-card lp-sub-fade-up">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="筒巻絞り染め" src="../assets/1-2.png"/>
+            <img alt="筒巻絞り染め" src="../assets/1-2.webp"/>
           </div>
           <div class="lp-sub-technique-body">
             <span class="lp-sub-technique-num">01</span>
@@ -82,7 +82,7 @@ include_once($basePath . 'head-common.php');
 
         <div class="lp-sub-technique-card lp-sub-fade-up">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="渦巻絞り染め" src="../assets/2-2-1.png"/>
+            <img alt="渦巻絞り染め" src="../assets/2-2-1.webp"/>
           </div>
           <div class="lp-sub-technique-body">
             <span class="lp-sub-technique-num">02</span>
@@ -93,7 +93,7 @@ include_once($basePath . 'head-common.php');
 
         <div class="lp-sub-technique-card lp-sub-fade-up">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="叢雲絞り染め" src="../assets/3-2.png"/>
+            <img alt="叢雲絞り染め" src="../assets/3-2.webp"/>
           </div>
           <div class="lp-sub-technique-body">
             <span class="lp-sub-technique-num">03</span>
@@ -104,7 +104,7 @@ include_once($basePath . 'head-common.php');
 
         <div class="lp-sub-technique-card lp-sub-fade-up">
           <div class="lp-sub-technique-img-wrap">
-            <img alt="輪ゴム絞り染め" src="../assets/4-2.png"/>
+            <img alt="輪ゴム絞り染め" src="../assets/4-2.webp"/>
           </div>
           <div class="lp-sub-technique-body">
             <span class="lp-sub-technique-num">04</span>
@@ -136,22 +136,22 @@ include_once($basePath . 'head-common.php');
 
       <div class="lp-sub-gallery-grid">
         <div class="lp-sub-gallery-item lp-sub-fade-up">
-          <img alt="藍染体験教室　河口湖" src="../assets/IMG_0950-1024x767.jpg"/>
+          <img alt="藍染体験教室　河口湖" src="../assets/IMG_0950-1024x767.webp"/>
         </div>
         <div class="lp-sub-gallery-item lp-sub-fade-up">
-          <img alt="藍染" src="../assets/10e8a20c.jpg"/>
+          <img alt="藍染" src="../assets/10e8a20c.webp"/>
         </div>
         <div class="lp-sub-gallery-item lp-sub-fade-up">
-          <img alt="藍染作品" src="../assets/03f38c3d.jpg"/>
+          <img alt="藍染作品" src="../assets/03f38c3d.webp"/>
         </div>
         <div class="lp-sub-gallery-item lp-sub-fade-up">
-          <img alt="藍染作品" src="../assets/05070773.jpg"/>
+          <img alt="藍染作品" src="../assets/05070773.webp"/>
         </div>
         <div class="lp-sub-gallery-item lp-sub-fade-up">
-          <img alt="藍染作品" src="../assets/0a5cc54e.jpg"/>
+          <img alt="藍染作品" src="../assets/0a5cc54e.webp"/>
         </div>
         <div class="lp-sub-gallery-item lp-sub-fade-up">
-          <img alt="藍染作品" src="../assets/12cf2fdb.jpg"/>
+          <img alt="藍染作品" src="../assets/12cf2fdb.webp"/>
         </div>
       </div>
     </div>

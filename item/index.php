@@ -14,7 +14,7 @@ include_once($basePath . 'head-common.php');
 <?php include_once($basePath . 'header.php'); ?>
 
 <div class="lp-sub-wrapper lp-page-item">
-  <section class="global-sub-hero" style="background-image: url('../assets/DSC06111-1024x683.jpg'); border-bottom: 4px solid #113285;">
+  <section class="global-sub-hero" style="background-image: url('../assets/DSC06111-1024x683.webp'); border-bottom: 4px solid #113285;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">ITEMS</span>
       <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">商品・素材のご紹介</h1>
@@ -31,8 +31,8 @@ include_once($basePath . 'head-common.php');
       <!-- 薄手Tシャツ -->
       <div class="lp-item-card fade-in">
         <div class="lp-item-gallery">
-          <img src="../assets/5f0c8bf8.jpg" alt="薄手Tシャツ" loading="lazy">
-          <img src="../assets/b6297032.jpg" alt="薄手Tシャツ" loading="lazy">
+          <img src="../assets/5f0c8bf8.webp" alt="薄手Tシャツ" loading="lazy">
+          <img src="../assets/b6297032.webp" alt="薄手Tシャツ" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <h3 class="lp-item-title">薄手Tシャツ</h3>
@@ -64,8 +64,8 @@ include_once($basePath . 'head-common.php');
       <!-- 厚手Tシャツ -->
       <div class="lp-item-card fade-in">
         <div class="lp-item-gallery">
-          <img src="../assets/DSC06120-1024x683.jpg" alt="厚手Tシャツ" loading="lazy">
-          <img src="../assets/DSC06169-1024x683.jpg" alt="厚手Tシャツ" loading="lazy">
+          <img src="../assets/DSC06120-1024x683.webp" alt="厚手Tシャツ" loading="lazy">
+          <img src="../assets/DSC06169-1024x683.webp" alt="厚手Tシャツ" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <span class="lp-item-badge">スタッフオススメ！</span>
@@ -99,8 +99,8 @@ include_once($basePath . 'head-common.php');
       <!-- 手ぬぐい -->
       <div class="lp-item-card fade-in">
         <div class="lp-item-gallery">
-          <img src="../assets/DSC05263-1024x683.jpg" alt="手ぬぐい" loading="lazy">
-          <img src="../assets/DSC05343-1024x683.jpg" alt="手ぬぐい" loading="lazy">
+          <img src="../assets/DSC05263-1024x683.webp" alt="手ぬぐい" loading="lazy">
+          <img src="../assets/DSC05343-1024x683.webp" alt="手ぬぐい" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <h3 class="lp-item-title">手ぬぐい</h3>
@@ -118,8 +118,8 @@ include_once($basePath . 'head-common.php');
       <!-- ハンカチ -->
       <div class="lp-item-card fade-in">
         <div class="lp-item-gallery">
-          <img src="../assets/DSC05267-1024x683.jpg" alt="ハンカチ" loading="lazy">
-          <img src="../assets/DSC05357-1024x683.jpg" alt="ハンカチ" loading="lazy">
+          <img src="../assets/DSC05267-1024x683.webp" alt="ハンカチ" loading="lazy">
+          <img src="../assets/DSC05357-1024x683.webp" alt="ハンカチ" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <h3 class="lp-item-title">ハンカチ</h3>
@@ -133,8 +133,8 @@ include_once($basePath . 'head-common.php');
       <!-- エコバッグ -->
       <div class="lp-item-card fade-in">
         <div class="lp-item-gallery">
-          <img src="../assets/DSC05275-1024x683.jpg" alt="エコバッグ" loading="lazy">
-          <img src="../assets/DSC05338-1024x683.jpg" alt="エコバッグ" loading="lazy">
+          <img src="../assets/DSC05275-1024x683.webp" alt="エコバッグ" loading="lazy">
+          <img src="../assets/DSC05338-1024x683.webp" alt="エコバッグ" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <h3 class="lp-item-title">エコバッグ</h3>
@@ -148,8 +148,8 @@ include_once($basePath . 'head-common.php');
       <!-- コットンシルクストール大判 -->
       <div class="lp-item-card fade-in">
         <div class="lp-item-gallery">
-          <img src="../assets/DSC05276-1024x683.jpg" alt="コットンシルクストール大判" loading="lazy">
-          <img src="../assets/DSC05372-1024x683.jpg" alt="コットンシルクストール大判" loading="lazy">
+          <img src="../assets/DSC05276-1024x683.webp" alt="コットンシルクストール大判" loading="lazy">
+          <img src="../assets/DSC05372-1024x683.webp" alt="コットンシルクストール大判" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <h3 class="lp-item-title">コットンシルクストール大判</h3>
@@ -167,9 +167,9 @@ include_once($basePath . 'head-common.php');
       <!-- レーヨンストール -->
       <div class="lp-item-card fade-in" style="grid-column: 1 / -1; max-width: 800px; margin: 0 auto;">
         <div class="lp-item-gallery lp-item-gallery-large">
-          <img src="../assets/DSC05285-1024x683.jpg" alt="レーヨンストール" loading="lazy">
-          <img src="../assets/DSC05378-1024x683.jpg" alt="レーヨンストール" loading="lazy">
-          <img src="../assets/DSC05387-1024x683.jpg" alt="レーヨンストール" loading="lazy">
+          <img src="../assets/DSC05285-1024x683.webp" alt="レーヨンストール" loading="lazy">
+          <img src="../assets/DSC05378-1024x683.webp" alt="レーヨンストール" loading="lazy">
+          <img src="../assets/DSC05387-1024x683.webp" alt="レーヨンストール" loading="lazy">
         </div>
         <div class="lp-item-card-body">
           <h3 class="lp-item-title">レーヨンストール</h3>
