@@ -40,7 +40,7 @@
             <td>富士急行線河口湖駅（徒歩12分）</td>
           </tr>
         </table>
-        <iframe class="access-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d775.1549715324162!2d138.76800850374636!3d35.4925292582425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2e5dd60f9ad483e!2z5pyN5p-T5L2T6aiT5pWZ5a6k44OX44Op44Oz44OE44Kv44Op44OV44OI!5e0!3m2!1sja!2sjp!4v1670156959432!5m2!1sja!2sjp" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="access-map" title="染物体験教室 インディゴ高菜先生 所在地" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d775.1549715324162!2d138.76800850374636!3d35.4925292582425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc2e5dd60f9ad483e!2z5pyN5p-T5L2T6aiT5pWZ5a6k44OX44Op44Oz44OE44Kv44Op44OV44OI!5e0!3m2!1sja!2sjp!4v1670156959432!5m2!1sja!2sjp" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
   </div>

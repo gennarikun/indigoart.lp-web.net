@@ -6,12 +6,13 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="max-image-preview:large" name="robots"/>
 <!-- Google tag (gtag.js) -->
+<meta content="河口湖で藍染め・草木染め体験ならインディゴ高菜先生。初心者歓迎、手ぶらでOK。洋服の染め直しサービスも承ります。" name="description"/>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-775206818">
 </script>
 <style id="custom-background-css" type="text/css">
-		:root { --washi-texture: url('/assets/7966bae7.webp'); }
+		:root { --washi-texture: url('<?= $basePath ?>assets/7966bae7.webp'); }
 		body.custom-background {
-			background-image: url('/assets/7966bae7.webp');
+			background-image: url('<?= $basePath ?>assets/7966bae7.webp');
 			background-position: left top;
 			background-size: auto;
 			background-repeat: repeat;
@@ -23,6 +24,7 @@
 <link href="<?= $basePath ?>assets/33152662.webp" rel="icon" sizes="32x32"/>
 <link href="<?= $basePath ?>assets/065cc1bd.webp" rel="icon" sizes="192x192"/>
 <link href="<?= $basePath ?>assets/36b0842c.webp" rel="apple-touch-icon"/>
+<link href="<?= $basePath ?>assets/hero_loop_poster.webp" rel="preload" as="image" type="image/webp"/>
 <meta content="<?= $basePath ?>assets/d6b26641.png" name="msapplication-TileImage"/>
 <link href="<?= $basePath ?>css/style.css?v=<?= time() ?>" media="all" rel="stylesheet" type="text/css"/>
 <?php
