@@ -16,7 +16,7 @@ include $basePath . 'head-common.php';
   <section class="global-sub-hero" style="background-image: url('../assets/DSC01315-1024x683.webp'); border-bottom: 4px solid #339966;">
     <div class="global-sub-hero-inner">
       <span class="global-sub-hero-en-accent">CONTACT</span>
-      <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.1em;">ご予約・お問い合わせ</h1>
+      <h1 class="global-sub-hero-ja-main" style="letter-spacing: 0.02em; font-size: clamp(22px, 8vw, 42px);">ご予約・お問い合わせ</h1>
       <p style="color:rgba(255,255,255,0.8); letter-spacing:0.05em; font-size:clamp(14px,1.8vw,18px); margin-top:12px;">ご予約やご相談はこちら</p>
     </div>
   </section>
@@ -32,7 +32,7 @@ include $basePath . 'head-common.php';
     <div class="lp-contact-methods">
       <!-- LINE -->
       <div class="lp-contact-card line-card">
-        <h3><i class="fa-brands fa-line" style="color:#06C755;"></i> LINEで予約・お問い合わせ</h3>
+        <h3><i class="fa-brands fa-line" style="color:#06C755;"></i> LINEで予約</h3>
         <p class="subtitle">Reserve by LINE</p>
         <p>リンククリック後に表示される項目の回答をお送りください。24時間受け付けており返信は必ず致します。スムーズにご予約を希望されるお客様はぜひご利用ください。</p>
         <p class="en-text">Please send your inquiries after clicking the link; we accept them 24 hours a day and will always respond. We respond to inquiries via LINE from 9 AM to 9 PM.</p>
@@ -41,7 +41,7 @@ include $basePath . 'head-common.php';
 
       <!-- Phone -->
       <div class="lp-contact-card phone-card">
-        <h3><i class="fa-solid fa-phone" style="color:#333;"></i> 電話で予約・お問い合わせ</h3>
+        <h3><i class="fa-solid fa-phone" style="color:#333;"></i> 電話で予約</h3>
         <p class="subtitle">Reserve by Phone</p>
         <p class="highlight">お電話が繋がらない場合はLINEにてご連絡いただけるとスムーズです。</p>
         <a href="tel:050-6882-5580" class="phone-number">050-6882-5580</a>
@@ -60,7 +60,7 @@ include $basePath . 'head-common.php';
 
       <!-- Mail -->
       <div class="lp-contact-card mail-card">
-        <h3><i class="fa-solid fa-envelope" style="color:#007bff;"></i> メールで予約・お問い合わせ</h3>
+        <h3><i class="fa-solid fa-envelope" style="color:#007bff;"></i> メールで予約</h3>
         <p class="subtitle">Reserve by MAIL</p>
         <p>メールには、第一〜第二希望日時、ご希望体験コース、お客様の人数（年代別）、代表者様のお名前とご連絡先を記載の上送信してください。</p>
         <p class="en-text">In your email, please include: First/Second choice of date and time, Desired course, Number of participants, and Representative info.</p>
